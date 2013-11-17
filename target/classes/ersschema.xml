@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ersschema>
+
+	<ValueGenerator name="PNTLF_ID" type="postgresseq" seqname="patientloginfailureentity_seq" />  <!-- patient login failure -->
+	<ValueGenerator name="APPS_ID" type="postgresseq" seqname="appointmentslotentity_seq" />  <!-- appointment slot -->
+	<ValueGenerator name="PNTU_ID" type="postgresseq" seqname="hello_world_person_seq" />  <!-- TODO patient user -->
+	<ValueGenerator name="APPR_ID" type="postgresseq" seqname="requestentity_seq" />    <!-- Appointment Request -->
+	<ValueGenerator name="APPB_ID" type="postgresseq" seqname="appointmentbookingentity_seq" /> <!-- Appointment booking -->
+	<ValueGenerator name="SRV_ID" type="postgresseq" seqname="serviceentityold_seq" />  <!-- TODO Service entity OLD! -->
+	<ValueGenerator name="ADDR_ID" type="postgresseq" seqname="additionalrequirementrequestentity_seq" /> <!-- addtional requirements/attachements -->
+
+	<TableDef name="ers_patient_user">
+		<ColumnDef name="id" genType="PNTU_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="nhsnumber"/>
+		<ColumnDef name="password"/>
+	</TableDef>
+	
+
+	<TableDef name="ers_appointment_request">
+		<ColumnDef name="id" genType="APPR_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="requestpriority" default="ROUTINE" />
+		<ColumnDef name="requesttype" default="APPOINTMENT_REQUEST" />
+		<ColumnDef name="ubrn" default="ubrn" />
+		<ColumnDef name="appointmentrequeststate"/>
+		<ColumnDef name="contentsensitive" default="false" />
+		<ColumnDef name="lockexpirytime"/>
+		<ColumnDef name="namedclinicianid" default="CLIN1" />
+		<ColumnDef name="nhsnumber" default="NHS1" />
+		<ColumnDef name="referringclinicianid" default="CLIN1" />
+		<ColumnDef name="referringorgid" default="ORG1" />
+		<ColumnDef name="registeredgpid" default="CLIN1" />
+		<ColumnDef name="registeredorgid" default="ORG1" />
+	</TableDef>
+
+
+	<TableDef name="ers_appointment_slot">
+		<ColumnDef name="id" genType="APPS_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="date" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="appointmentbooking_id"/>
+		<ColumnDef name="service_id">
+			<XRefLookup toTable="ers_service" toCol="id" byRef="TAG" />
+		</ColumnDef>
+	</TableDef>
+
+	<TableDef name="ers_appointment_booking">
+		<ColumnDef name="id" genType="APPB_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="appointmentbookingstatus"/>
+		<ColumnDef name="appointmentrequest_id">
+			<XRefLookup toTable="ers_appointment_request" toCol="id" byRef="TAG" />
+		</ColumnDef>
+		<ColumnDef name="appointmentslot_id">
+			<XRefLookup toTable="ers_appointment_slot" toCol="id" byRef="TAG" />
+		</ColumnDef>
+
+	</TableDef>
+	
+	<TableDef name="ers_patient_login_failure">
+		<ColumnDef name="id" genType="PNTLF_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="failuretime"/>
+		<ColumnDef name="appointmentrequest_id">
+			<XRefLookup toTable="ers_appointment_request" toCol="id" byRef="TAG" />
+		</ColumnDef>
+	</TableDef>
+	
+	<TableDef name="ers_additional_requirement_request">
+		<ColumnDef name="id" genType="ADDR_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="additionalapprequirementtype"/>
+		<ColumnDef name="appoint_req_id">
+			<XRefLookup toTable="ers_appointment_request" toCol="id" byRef="TAG" />
+		</ColumnDef>
+	</TableDef>
+
+	<TableDef name="ers_attachment">
+		<ColumnDef name="id" genType="ADDR_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="attachmentdescription" default="Description" />
+		<ColumnDef name="filename" default="filename" />
+		<ColumnDef name="appoint_req_id">
+			<XRefLookup toTable="ers_appointment_request" toCol="id" byRef="TAG" />
+		</ColumnDef>
+	</TableDef>	
+	
+	<TableDef name="ers_clinical_information">
+		<ColumnDef name="id">
+			<XRefLookup toTable="ers_attachment" toCol="id" byRef="TAG" />
+		</ColumnDef>
+		<ColumnDef name="clinictype" default="CLINICTYPE1" />
+		<ColumnDef name="specialty" default="SPECIALITY1" />
+	</TableDef>
+
+
+	<TableDef name="ers_service">
+		<ColumnDef name="id" genType="SRV_ID"/>
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00"/>
+		<ColumnDef name="createdby" default="ers" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="updated"/>
+		<ColumnDef name="updatedby"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="name" default="Service1" />
+		<ColumnDef name="appointmenttype"/>
+		<ColumnDef name="directlybookable"/>
+	</TableDef>
+
+	
+	<TableDef name="ers_shortlist">
+		<ColumnDef name="appointment_request_id">
+			<XRefLookup toTable="ers_appointment_request" toCol="id" byRef="TAG" />
+		</ColumnDef>
+		<ColumnDef name="service_id">
+			<XRefLookup toTable="ers_service" toCol="id" byRef="TAG" />
+		</ColumnDef>
+
+	</TableDef>
+
+	
+</ersschema>

@@ -1,0 +1,25 @@
+<story path="patient_app/LoadBrowser.story" title="Story: base load browser">
+<scenario keyword="Scenario:" title="NHSERS-LoadBrowser">
+<meta>
+<property keyword="@" name="acceptanceCriteria" value="C1xxxxxxx"/>
+<property keyword="@" name="author" value="Mubsher Hussain"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="sprint" value="1"/>
+<property keyword="@" name="testphase" value="Core"/>
+</meta>
+<examples keyword="Examples:">
+<step>Given browser is open</step>
+<step>When I navigate to &lt;pageName&gt; page</step>
+<step>Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</step>
+<parameters>
+<names><name>pageName</name><name>pageTitle</name></names>
+<values><value>Login</value><value>e-Referral Service</value></values>
+</parameters>
+
+<example keyword="Example:">{pageName=Login, pageTitle=e-Referral Service}</example>
+<step outcome="successful">Given browser is open</step>
+<step outcome="successful">When I navigate to <parameter>Login</parameter> page</step>
+<step outcome="successful">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+</examples>
+</scenario>
+</story>

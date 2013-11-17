@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 113-011 -->
+	<ers_patient_user DDF_tag="PNTU113-011" created="LOCALTIMESTAMP" nhsnumber="1130000011" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-012 -->
+	<ers_patient_user DDF_tag="PNTU113-012" created="LOCALTIMESTAMP" nhsnumber="1130000012" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-013 -->
+	<ers_patient_user DDF_tag="PNTU113-013" created="LOCALTIMESTAMP" nhsnumber="1130000013" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-013 -->
+	<!-- ERS Data Set 113-014 -->
+	<ers_patient_user DDF_tag="PNTU113-014" created="LOCALTIMESTAMP" nhsnumber="1130000014" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-015 -->
+	<ers_patient_user DDF_tag="PNTU113-015" created="LOCALTIMESTAMP" nhsnumber="1130000015" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-016 -->
+	<ers_patient_user DDF_tag="PNTU113-016" created="LOCALTIMESTAMP" nhsnumber="1130000016" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_patient_user DDF_tag="PNTU113-081" created="LOCALTIMESTAMP" nhsnumber="1130000081" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-082 -->
+	<ers_patient_user DDF_tag="PNTU113-082" created="LOCALTIMESTAMP" nhsnumber="1130000082" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_patient_user DDF_tag="PNTU113-091" created="LOCALTIMESTAMP" nhsnumber="1130000091" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-092 -->
+	<ers_patient_user DDF_tag="PNTU113-092" created="LOCALTIMESTAMP" nhsnumber="1130000092" createdby="auto test" password="Password01" version="0.0"  />
+</TDITestFile0>

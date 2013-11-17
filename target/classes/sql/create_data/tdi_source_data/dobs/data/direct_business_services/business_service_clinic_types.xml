@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_F2F_SERVICE1}"  />
+	<!-- Service Data Set 2 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_F2F_SERVICE2}"  />
+	<!-- Service Data Set 3 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_F2F_SERVICE1}"  />
+	<!-- Service Data Set 4 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_F2F_SERVICE2}"  />
+	<!-- Service Data Set 5 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_TAS_SERVICE1}"  />
+	<!-- Service Data Set 6 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_TAS_SERVICE2}"  />
+	<!-- Service Data Set 7 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_TAS_SERVICE1}"  />
+	<!-- Service Data Set 8 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_TAS_SERVICE2}"  />
+	<!-- Service Data Set 9 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_F2F_SERVICE1}"  />
+	<!-- Service Data Set 10 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_F2F_SERVICE2}"  />
+	<!-- Service Data Set 11 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_F2F_SERVICE1}"  />
+	<!-- Service Data Set 12 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_F2F_SERVICE2}"  />
+	<!-- Service Data Set 13 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_TAS_SERVICE1}"  />
+	<!-- Service Data Set 14 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_TAS_SERVICE2}"  />
+	<!-- Service Data Set 15 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_TAS_SERVICE1}"  />
+	<!-- Service Data Set 16 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_TAS_SERVICE2}"  />
+	<!-- Service Data Set 17 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}"  />
+	<!-- Service Data Set 18 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}"  />
+	<!-- Service Data Set 19 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}"  />
+	<!-- Service Data Set 20 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_F2F_SPEC_SERVICE}"  />
+	<!-- Service Data Set 21 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_F2F_MAXLEN_SERVICE}"  />
+	<!-- Service Data Set 22 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_F2F_HYPHEN_SERVICE}"  />
+	<!-- Service Data Set 23 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_F2F_APOS_SERVICE}"  />
+	<!-- Service Data Set 24 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_F2F_SPEC_SERVICE}"  />
+	<!-- Service Data Set 25 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}"  />
+	<!-- Service Data Set 26 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_TAS_APOS_SERVICE}"  />
+	<!-- Service Data Set 27 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_TAS_SPEC_SERVICE}"  />
+	<!-- Service Data Set 28 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}"  />
+	<!-- Service Data Set 29 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}"  />
+	<!-- Service Data Set 30 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}"  />
+	<!-- Service Data Set 31 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  />
+	<!-- Service Data Set 32 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE1}"  />
+	<!-- Service Data Set 33 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_F2F_SPESERVICE}"  />
+	<!-- Service Data Set 34 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE}"  />
+	<!-- Service Data Set 35 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}"  />
+	<!-- Service Data Set 36 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_TAS_APOS_SERVICE}"  />
+	<!-- Service Data Set 37 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  />
+	<!-- Service Data Set 38 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INC_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  />
+	<!-- Service Data Set 39 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_NUM_EXTRA_REFERRALS}"  />
+	<!-- Service Data Set 40 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INCREMENT_BY_ONE}"  />
+	<!-- Service Data Set 41 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{V_REFERRAL_COUNTER}"  />
+	<!-- Service Data Set 42 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}"  />
+	<!-- Service Data Set 43 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}"  />
+	<!-- Service Data Set 44 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE}"  />
+	<!-- Service Data Set 45 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}"  />
+	<!-- Service Data Set 46 -->
+	<business_service_clinic_types clinic_types_id="DDF_tag:CLTY000-001" business_service_id="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}"  />
+</TDITestFile0>

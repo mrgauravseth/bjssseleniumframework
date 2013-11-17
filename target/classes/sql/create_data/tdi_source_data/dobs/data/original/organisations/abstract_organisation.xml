@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<abstract_organisation DDF_tag="ASOG000-001"  nacs_organisation_code="NACS_ORG_CODE" created_by="auto test"  country=" UK"  name="Org A (51)" created="LOCALTIMESTAMP"  business_id="R6001"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-002 -->
+	<abstract_organisation DDF_tag="ASOG000-002"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org B (52)" created=" 2013-10-08 14:15:26.458"  business_id="R6002"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-003 -->
+	<abstract_organisation DDF_tag="ASOG000-003"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org C (53)" created=" 2013-10-08 14:15:26.458"  business_id="R6003"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-004 -->
+	<abstract_organisation DDF_tag="ASOG000-004"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org D (54)" created=" 2013-10-08 14:15:26.458"  business_id="R6004"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-005 -->
+	<abstract_organisation DDF_tag="ASOG000-005"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org E (55)" created=" 2013-10-08 14:15:26.458"  business_id="R6005"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-006 -->
+	<abstract_organisation DDF_tag="ASOG000-006"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org F (56)" created=" 2013-10-08 14:15:26.458"  business_id="R6006"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-007 -->
+	<abstract_organisation DDF_tag="ASOG000-007"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org G (57)" created=" 2013-10-08 14:15:26.458"  business_id="R6007"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-008 -->
+	<abstract_organisation DDF_tag="ASOG000-008"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org H (58)" created=" 2013-10-08 14:15:26.458"  business_id="R6008"  open_date="TO_TIMESTAMP('17-Feb-2011 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+</TDITestFile0>

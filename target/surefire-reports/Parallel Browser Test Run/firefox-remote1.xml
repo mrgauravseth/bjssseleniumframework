@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.nhs.ers.techtest.TestNGStories" tests="1" failures="0" timestamp="15 Nov 2013 17:27:09 GMT" time="18.792" errors="0">
+  <testcase name="run" time="18.719" classname="uk.nhs.ers.techtest.TestNGStories"/>
+</testsuite>

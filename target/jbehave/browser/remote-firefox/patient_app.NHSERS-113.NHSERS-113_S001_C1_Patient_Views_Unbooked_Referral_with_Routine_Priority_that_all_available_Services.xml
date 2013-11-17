@@ -1,0 +1,139 @@
+<story path="patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story" title="Story: NHSERS-113 Patient Views Unbooked Referral">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">progress an Appointment Request that does not yet have an Appointment Booking</inOrderTo>
+  <asA keyword="As a">Patient User</asA>
+  <iWantTo keyword="I want to">view my Appointment Request</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services">
+<meta>
+<property keyword="@" name="acceptanceCriteria" value="C1xxxxxxx"/>
+<property keyword="@" name="author" value="Zak Timms"/>
+<property keyword="@" name="developedFromJIRA" value="113 22/10/13 5:01 PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="sprint" value="1"/>
+<property keyword="@" name="testphase" value="Core"/>
+</meta>
+<examples keyword="Examples:">
+<step>Given browser is open</step>
+<step>When I navigate to &lt;pageName&gt; page</step>
+<step>Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</step>
+<step>Given the current page has title of &quot;e-Referral Service&quot; on the Login page</step>
+<step>!-- Given I am on the Login page</step>
+<step>!-- Given a patilent user had a valid &lt;UBRN&gt;</step>
+<step>When I enter &quot;&lt;ubrn&gt;&quot; in the ubrn textboxes on the Login page</step>
+<step>!-- And a valid &lt;year of birth&gt;</step>
+<step>And I enter &quot;&lt;yob&gt;&quot; in the yobField textbox on the Login page</step>
+<step>!-- And a valid &lt;password&gt;</step>
+<step>And I enter &quot;&lt;password&gt;&quot; in the passwordField textbox on the Login page</step>
+<step>!-- Given is not locked out</step>
+<step>!-- When they submit their login details on the login page</step>
+<step>And I click the login button on the Login page</step>
+<step>!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request
+!--Then the patient user is able to successfully login to ERS</step>
+<step>Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</step>
+<step>!-- Pre-requisites</step>
+<step>!-- NHSERS-111_S001 PatientLoginSuccess
+
+GivenStories: patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story</step>
+<step>Given a patient user is logged in NHSERS-111_S001</step>
+<step>And there is unsaved data on the &lt;CurrentPage&gt; page</step>
+<step>!-- When they choose to &lt;logout&gt;</step>
+<step>When I click the &lt;logout&gt; button on the &lt;CurrentPage&gt; page</step>
+<step>!-- When they choose to &lt;logout&gt;</step>
+<step>!-- Then message is displayed stating &quot;Changes to your referral have not been saved. Do you want to continue without saving?&quot;</step>
+<step>Then the text &quot;any updates which has not be saved will be lost&quot; should be displayed on the &lt;CurrentPage&gt; page
+
+!--unused examples
+!--|Logout				|CurrentPage  		|pageName	|pageTitle|
+!--|Top right		    |View All referrals	|Login		|Choose and Book|
+!--|Bottom left		|View All referrals	|Login		|Choose and Book|</step>
+<parameters>
+<names><name>pageName</name><name>pageTitle</name><name>ubrn</name><name>yob</name><name>password</name><name>logout</name><name>CurrentPage</name></names>
+<values><value>Login</value><value>e-Referral Service</value><value>1110 0000 0001</value><value>1971</value><value>Password01</value><value>top right</value><value>view all referrals</value></values>
+<values><value>Login</value><value>e-Referral Service</value><value>1110 0000 0001</value><value>1971</value><value>Password01</value><value>bottom left</value><value>view all referrals</value></values>
+</parameters>
+
+<example keyword="Example:">{pageName=Login, pageTitle=e-Referral Service, ubrn=1110 0000 0001, yob=1971, password=Password01, logout=top right, CurrentPage=view all referrals}</example>
+<step outcome="successful">Given browser is open</step>
+<step outcome="successful">When I navigate to <parameter>Login</parameter> page</step>
+<step outcome="successful">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="successful">Given the current page has title of &quot;e-Referral Service&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given I am on the Login page</step>
+<step outcome="ignorable">!-- Given a patilent user had a valid &lt;UBRN&gt;</step>
+<step outcome="successful">When I enter &quot;<parameter>1110 0000 0001</parameter>&quot; in the ubrn textboxes on the Login page</step>
+<step outcome="ignorable">!-- And a valid &lt;year of birth&gt;</step>
+<step outcome="successful">And I enter &quot;<parameter>1971</parameter>&quot; in the <parameter>yobField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- And a valid &lt;password&gt;</step>
+<step outcome="successful">And I enter &quot;<parameter>Password01</parameter>&quot; in the <parameter>passwordField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given is not locked out</step>
+<step outcome="ignorable">!-- When they submit their login details on the login page</step>
+<step outcome="successful">And I click the <parameter>login</parameter> button on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request
+!--Then the patient user is able to successfully login to ERS</step>
+<step outcome="successful">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Pre-requisites</step>
+<step outcome="ignorable">!-- NHSERS-111_S001 PatientLoginSuccess
+
+GivenStories: patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story</step>
+<step outcome="successful">Given a patient user is logged in <parameter>NHSERS-111_S001</parameter></step>
+<step outcome="successful">And there is unsaved data on the <parameter>view all referrals</parameter> page</step>
+<step outcome="ignorable">!-- When they choose to &lt;logout&gt;</step>
+<step outcome="successful">When I click the <parameter>top right</parameter> button on the <parameter>view all referrals</parameter> page</step>
+<step outcome="ignorable">!-- When they choose to &lt;logout&gt;</step>
+<step outcome="ignorable">!-- Then message is displayed stating &quot;Changes to your referral have not been saved. Do you want to continue without saving?&quot;</step>
+<step outcome="pending" keyword="PENDING">Then the text &quot;any updates which has not be saved will be lost&quot; should be displayed on the &lt;CurrentPage&gt; page
+
+!--unused examples
+!--|Logout				|CurrentPage  		|pageName	|pageTitle|
+!--|Top right		    |View All referrals	|Login		|Choose and Book|
+!--|Bottom left		|View All referrals	|Login		|Choose and Book|</step>
+<pendingMethod>@Then(&quot;the text \&quot;any updates which has not be saved will be lost\&quot; should be displayed on the &lt;CurrentPage&gt; page\n\n!--unused examples\n!--|Logout\t\t\t\t|CurrentPage  \t\t|pageName\t|pageTitle|\n!--|Top right\t\t    |View All referrals\t|Login\t\t|Choose and Book|\n!--|Bottom left\t\t|View All referrals\t|Login\t\t|Choose and Book|&quot;)
+@Pending
+public void thenTheTextanyUpdatesWhichHasNotBeSavedWillBeLostShouldBeDisplayedOnTheCurrentPagePageunusedExamplesLogoutCurrentPagepageNamepageTitleTopRightViewAllReferralsLoginChooseAndBookBottomLeftViewAllReferralsLoginChooseAndBook() {
+  // PENDING
+}
+</pendingMethod>
+
+<example keyword="Example:">{pageName=Login, pageTitle=e-Referral Service, ubrn=1110 0000 0001, yob=1971, password=Password01, logout=bottom left, CurrentPage=view all referrals}</example>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given browser is open</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I navigate to <parameter>Login</parameter> page</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given the current page has title of &quot;e-Referral Service&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given I am on the Login page</step>
+<step outcome="ignorable">!-- Given a patilent user had a valid &lt;UBRN&gt;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I enter &quot;<parameter>1110 0000 0001</parameter>&quot; in the ubrn textboxes on the Login page</step>
+<step outcome="ignorable">!-- And a valid &lt;year of birth&gt;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And I enter &quot;<parameter>1971</parameter>&quot; in the <parameter>yobField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- And a valid &lt;password&gt;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And I enter &quot;<parameter>Password01</parameter>&quot; in the <parameter>passwordField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given is not locked out</step>
+<step outcome="ignorable">!-- When they submit their login details on the login page</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And I click the <parameter>login</parameter> button on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request
+!--Then the patient user is able to successfully login to ERS</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Pre-requisites</step>
+<step outcome="ignorable">!-- NHSERS-111_S001 PatientLoginSuccess
+
+GivenStories: patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given a patient user is logged in <parameter>NHSERS-111_S001</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And there is unsaved data on the <parameter>view all referrals</parameter> page</step>
+<step outcome="ignorable">!-- When they choose to &lt;logout&gt;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I click the <parameter>bottom left</parameter> button on the <parameter>view all referrals</parameter> page</step>
+<step outcome="ignorable">!-- When they choose to &lt;logout&gt;</step>
+<step outcome="ignorable">!-- Then message is displayed stating &quot;Changes to your referral have not been saved. Do you want to continue without saving?&quot;</step>
+<step outcome="pending" keyword="PENDING">Then the text &quot;any updates which has not be saved will be lost&quot; should be displayed on the &lt;CurrentPage&gt; page
+
+!--unused examples
+!--|Logout				|CurrentPage  		|pageName	|pageTitle|
+!--|Top right		    |View All referrals	|Login		|Choose and Book|
+!--|Bottom left		|View All referrals	|Login		|Choose and Book|</step>
+<pendingMethod>@Then(&quot;the text \&quot;any updates which has not be saved will be lost\&quot; should be displayed on the &lt;CurrentPage&gt; page\n\n!--unused examples\n!--|Logout\t\t\t\t|CurrentPage  \t\t|pageName\t|pageTitle|\n!--|Top right\t\t    |View All referrals\t|Login\t\t|Choose and Book|\n!--|Bottom left\t\t|View All referrals\t|Login\t\t|Choose and Book|&quot;)
+@Pending
+public void thenTheTextanyUpdatesWhichHasNotBeSavedWillBeLostShouldBeDisplayedOnTheCurrentPagePageunusedExamplesLogoutCurrentPagepageNamepageTitleTopRightViewAllReferralsLoginChooseAndBookBottomLeftViewAllReferralsLoginChooseAndBook() {
+  // PENDING
+}
+</pendingMethod>
+</examples>
+</scenario>
+</story>

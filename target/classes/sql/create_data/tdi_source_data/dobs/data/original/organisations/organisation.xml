@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<organisation id="DDF_tag:ASOG000-002"  />
+	<!-- Service Data Set 000-002 -->
+	<organisation id="DDF_tag:ASOG000-003" parent_id="DDF_tag:ASOG000-002"  />
+	<!-- Service Data Set 000-003 -->
+	<organisation id="DDF_tag:ASOG000-004" parent_id="DDF_tag:ASOG000-003"  />
+	<!-- Service Data Set 000-004 -->
+	<organisation id="DDF_tag:ASOG000-008" parent_id="DDF_tag:ASOG000-003"  />
+	<!-- Service Data Set 000-005 -->
+	<organisation id="DDF_tag:ASOG000-007" parent_id="DDF_tag:ASOG000-008"  />
+</TDITestFile0>

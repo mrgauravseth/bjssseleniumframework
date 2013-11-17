@@ -1,0 +1,18 @@
+<story path="gateways/NHSERS-1335/NHSERS-1335_S001.story" title="Story: NHSERS-1335 SDS API For calculating business function codes">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">use other ERS services that require an NHS person&apos;s business function codes</inOrderTo>
+  <asA keyword="As a">n ERS Service client</asA>
+  <iWantTo keyword="I want to">use the SDS API service to retrieve an NHS Person&apos;s business function codes from their job code</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="NHSERS-1335_S001 | Successful retrieval of function codes for an existing NHS person">
+<meta>
+<property keyword="@" name="Sprint" value="1"/>
+<property keyword="@" name="author" value="Ian Malone"/>
+<property keyword="@" name="developedFromJIRA" value="1335 01/10/13 PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="skip" value=""/>
+<property keyword="@" name="testphase" value="Core Regression"/>
+</meta>
+<filter>-skip -pending -manualonly -bug *</filter>
+</scenario>
+</story>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_patient_user DDF_tag="PNTU113-011" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000011"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-012" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000012"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-013" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000013"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-014" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000014"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-015" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000015"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-016" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000016"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-081" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000081"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-082" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000082"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-091" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000091"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-092" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000092"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-101" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000101"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-102" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000102"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-111" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000111"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-112" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000112"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-121" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000121"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU113-122" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1130000122"
+  password="Password01"/>
+  
+  </TDITestFile0>

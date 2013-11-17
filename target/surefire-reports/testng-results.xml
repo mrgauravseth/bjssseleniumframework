@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="0" started-at="2013-11-15T17:27:31Z" finished-at="2013-11-15T17:27:31Z">
+    <groups>
+    </groups>
+  </suite>
+  <suite name="Parallel Browser Test Run" duration-ms="40977" started-at="2013-11-15T17:26:50Z" finished-at="2013-11-15T17:27:31Z">
+    <groups>
+    </groups>
+    <test name="firefox-remote1" duration-ms="18792" started-at="2013-11-15T17:26:50Z" finished-at="2013-11-15T17:27:09Z">
+      <class name="uk.nhs.ers.techtest.TestNGStories">
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="run" duration-ms="18719" started-at="2013-11-15T17:26:50Z" finished-at="2013-11-15T17:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uk/nhs/ers/config/remote-firefox.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[86400]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="copyNavigatorResources()" name="copyNavigatorResources" is-config="true" duration-ms="44" started-at="2013-11-15T17:27:09Z" finished-at="2013-11-15T17:27:09Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="firefox-remote2" duration-ms="40977" started-at="2013-11-15T17:26:50Z" finished-at="2013-11-15T17:27:31Z">
+      <class name="uk.nhs.ers.techtest.TestNGStories">
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="run" duration-ms="40926" started-at="2013-11-15T17:26:50Z" finished-at="2013-11-15T17:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uk/nhs/ers/config/remote-firefox.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[86400]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="copyNavigatorResources()" name="copyNavigatorResources" is-config="true" duration-ms="27" started-at="2013-11-15T17:27:31Z" finished-at="2013-11-15T17:27:31Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

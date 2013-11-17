@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="placeholderConfigMM" class="uk.nhs.ers.techtest.util.SpringPropertiesUtil">
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<property name="locations">
+			<list>
+				<value>
+                    classpath:/uk/nhs/ers/properties/test.properties                
+				</value>
+			</list>
+		</property>
+	</bean>
+        
+	<bean id="webDriverProvider" class="org.jbehave.web.selenium.PerStoryWebDriverSteps">
+		<constructor-arg ref="driverProvider" />
+	</bean>
+
+	<bean id="lifecycleSteps" class="uk.nhs.ers.techtest.steps.LifecycleSteps">
+		<constructor-arg ref="driverProvider" />
+	</bean>
+
+	<bean id="journaledSteps" class="uk.nhs.ers.techtest.steps.JournaledStoriesSteps">
+		<constructor-arg ref="driverProvider" />
+	</bean>
+
+	<bean id="webDriverScreenshotOnFailure" class="uk.nhs.ers.techtest.util.TestNGScreenshotOnFailure">
+		<constructor-arg ref="driverProvider" />
+	</bean>	
+
+	<bean id="ERS112Steps" class="uk.nhs.ers.techtest.steps.ERS112Steps">
+		<constructor-arg ref="driverProvider" />
+	</bean>
+    
+    <bean id="GatewayHttpSteps" class="uk.nhs.ers.techtest.steps.GatewayHttpSteps" />
+    
+    <bean id="loginSteps" class="uk.nhs.ers.techtest.steps.LoginSteps">
+        <constructor-arg ref="driverProvider" />
+    </bean>
+
+    <bean id="reflectionSteps" class="uk.nhs.ers.techtest.steps.ReflectionSteps">
+            <constructor-arg ref="driverProvider" />    
+    </bean>
+
+    <bean id="activityLogDao" class="uk.nhs.ers.dao.ActivityLogDao" />
+    
+    <bean id="failedLoginDao" class="uk.nhs.ers.dao.FailedLoginDao" />
+    
+    <bean id="nonBrowserPage" class="uk.nhs.ers.techtest.pages.NonBrowserPage" />
+    
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="org.postgresql.Driver"></property>
+        <property name="url" value="jdbc:postgresql://172.22.35.181:5432/servicesdb"></property>
+        <property name="username" value="ers"></property>
+        <property name="password" value="ers"></property>
+    </bean>
+    
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <constructor-arg ref="dataSource"/>
+    </bean>    
+
+</beans>

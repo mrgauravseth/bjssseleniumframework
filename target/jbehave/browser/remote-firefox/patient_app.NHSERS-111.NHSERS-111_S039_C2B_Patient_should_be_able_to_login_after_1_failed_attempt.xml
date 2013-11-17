@@ -1,0 +1,117 @@
+<story path="patient_app/NHSERS-111/NHSERS-111_S039_C2B_Patient_should_be_able_to_login_after_1_failed_attempt.story" title="Story: NHSERS-111 Patient Login - Authentication">
+<meta>
+<property keyword="@" name="acceptanceCriteria" value="C2B"/>
+<property keyword="@" name="author" value="Tom Dickinson"/>
+<property keyword="@" name="developedFromJIRA" value="111 10/09/13 4.35PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="sprint" value="1"/>
+<property keyword="@" name="testphase" value="Core"/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">manage my Appointment Request(s)</inOrderTo>
+  <asA keyword="As a">Patient User</asA>
+  <iWantTo keyword="I want to">log into the e-RS</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="NHSERS-111_S039_C2B | Patient should be able to login after 1 failed attempt">
+<examples keyword="Examples:">
+<step>Given browser is open</step>
+<step>When I navigate to &lt;pageName&gt; page</step>
+<step>Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</step>
+<step>Given the current page has title of &quot;&lt;pageTitle&gt;&quot; on the Login page</step>
+<step>!-- Given a Patient User has a valid &lt;UBRN&gt;</step>
+<step>When I enter &quot;&lt;ubrn&gt;&quot; in the ubrn textboxes on the Login page</step>
+<step>!-- And a &lt;Year of Birth&gt;</step>
+<step>And I enter &quot;&lt;yearofbirth&gt;&quot; in the yobField textbox on the Login page</step>
+<step>!-- And an invalid &lt;Password&gt;</step>
+<step>And I enter &quot;&lt;password&gt;&quot; in the passwordField textbox on the Login page</step>
+<step>!-- When they submit their login details on the login page</step>
+<step>And I click the login button on the Login page</step>
+<step>!-- Then the  Patient User is unable to login</step>
+<step>!-- And the Login Page will be shown</step>
+<step>Then the Login Page will be shown</step>
+<step>!-- And &quot;Access to choose and book has been denied because the appointment reference number, year of birth or password are incorrect. Please check these</step>
+<step>!-- and try again. If you no longer have your password you should return to your GP practice to have it reissued. The receptionist or other practice staff will</step>
+<step>!-- be able to help you&quot; error message displayed 
+!--And the text &quot;Access to Choose and Book has been denied because the appointment Reference number, Year of birth or Password are incorrect. Please check these and try again&quot; should be displayed on the Login page
+!--And the text &quot;If you no longer have your password you should return to your GP practice to have it reissued. The receptionist or other practice staff will be able to help you.&quot; should be displayed on the Login page</step>
+<step>And the text &quot;Access to e-Referral Service has been denied because the appointment Reference number, Year of birth or Password are incorrect. Please check these and try again.&quot; should be displayed on the Login page</step>
+<step>And the text &quot;If you no longer have your password you should return to your GP practice to have it reissued. The receptionist or other practice staff will be able to help you.&quot; should be displayed on the Login page</step>
+<step>!-- And failed login attempts increases</step>
+<step>And the failed login count for ubrn &quot;&lt;ubrnno&gt;&quot; is 1</step>
+<step>!-- unused example table
+!--|Login|e-Referral Service|1130 0000 0016|1971|qwert|
+!--|Login|e-Referral Service|1130 0000 xxxx|1971|13245|
+!--|Login|e-Referral Service|1130 0000 xxxx|1971|1a2s3|
+!--|Login|e-Referral Service|1110 0000 0009|111000000009|1971|qwertyuiopasdfghjklmnbvcxzqwertyuiopasdfg|
+!--|Login|e-Referral Service|1110 0000 0011|111000000011|1971|13246578901234567890132465789012345678901|</step>
+<step>!-- Given a Patient User has 1 failed login attempt</step>
+<step>!-- When they submit their valid login details on the login page</step>
+<step>Given the failed login count for ubrn &quot;&lt;ubrnno&gt;&quot; is 1</step>
+<step>When I enter &quot;&lt;ubrn&gt;&quot; in the ubrn textboxes on the Login page</step>
+<step>And I enter &quot;&lt;yearofbirth&gt;&quot; in the yobField textbox on the Login page</step>
+<step>And I enter &quot;&lt;rightPass&gt;&quot; in the passwordField textbox on the Login page</step>
+<step>And I click the login button on the Login page</step>
+<step>Then the patient user is able to successfully login to ERS</step>
+<step>!-- And the Activity Log is updated with login</step>
+<step>!-- And Last Activity Date Time is updated</step>
+<step>!-- And &lt;SessionID&gt; is logged</step>
+<step>!-- And Activity &lt;Activity&gt; is logged</step>
+<step>!-- And Date &lt;Date&gt; is logged</step>
+<step>!-- And Time &lt;Time&gt; is logged</step>
+<step>!-- And UBRN &lt;UBRN&gt; is logged</step>
+<step>!-- And Reason Code &lt;Reason Code&gt; is logged</step>
+<step>!-- Needs clarification from Dev/BAs as to what will be logged</step>
+<step>!-- Format of Activity Log is YYYY-MM-DD HH:mm:ss,sss [ACTIVITY] SessionID =  XXXXXXXXXX  UBRN =  XXXXXXXXXXXXX  Reason Code =  xxxxxxxxxxxx</step>
+<step>!-- &lt;SessionID&gt; = XXXXXXXXXXX</step>
+<step>!-- &lt;Activity&gt; is LOGIN</step>
+<step>!-- &lt;Date&gt; format is YYYY-MM-DD</step>
+<step>!-- &lt;Time&gt; format is HH:mm:ss,sss 
+
+!--unused examples table
+!--|Login|e-Referral Service|1110 0000 0001|999|Password01|SessionIDx|ActivityX|DateX|TimeX|ReasonCodeX|
+!--|Login|e-Referral Service|1130 0000 0011|2014|Password01|SessionIDx|ActivityX|DateX|TimeX|ReasonCodeX|
+!--|Login|e-Referral Service|1130 0000 0012|19YY|Password01|SessionIDx|ActivityX|DateX|TimeX|ReasonCodeX|
+!--|Login|e-Referral Service|1130 0000 0013|YY85|Password01|SessionIDx|ActivityX|DateX|TimeX|ReasonCodeX|</step>
+<parameters>
+<names><name>pageName</name><name>pageTitle</name><name>ubrn</name><name>ubrnno</name><name>yearofbirth</name><name>password</name><name>rightPass</name></names>
+<values><value>Login</value><value>e-Referral Service</value><value>1110 0000 0017</value><value>111000000017</value><value>1971</value><value>wrongPass</value><value>Password01</value></values>
+</parameters>
+
+<example keyword="Example:">{pageName=Login, pageTitle=e-Referral Service, ubrn=1110 0000 0017, ubrnno=111000000017, yearofbirth=1971, password=wrongPass, rightPass=Password01}</example>
+<step outcome="successful">Given browser is open</step>
+<step outcome="successful">When I navigate to <parameter>Login</parameter> page</step>
+<step outcome="successful">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="successful">Given the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given a Patient User has a valid &lt;UBRN&gt;</step>
+<step outcome="successful">When I enter &quot;<parameter>1110 0000 0017</parameter>&quot; in the ubrn textboxes on the Login page</step>
+<step outcome="ignorable">!-- And a &lt;Year of Birth&gt;</step>
+<step outcome="successful">And I enter &quot;<parameter>1971</parameter>&quot; in the <parameter>yobField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- And an invalid &lt;Password&gt;</step>
+<step outcome="successful">And I enter &quot;<parameter>wrongPass</parameter>&quot; in the <parameter>passwordField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- When they submit their login details on the login page</step>
+<step outcome="successful">And I click the <parameter>login</parameter> button on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Then the  Patient User is unable to login</step>
+<step outcome="ignorable">!-- And the Login Page will be shown</step>
+<step outcome="successful">Then the Login Page will be shown</step>
+<step outcome="ignorable">!-- And &quot;Access to choose and book has been denied because the appointment reference number, year of birth or password are incorrect. Please check these</step>
+<step outcome="ignorable">!-- and try again. If you no longer have your password you should return to your GP practice to have it reissued. The receptionist or other practice staff will</step>
+<step outcome="ignorable">!-- be able to help you&quot; error message displayed 
+!--And the text &quot;Access to Choose and Book has been denied because the appointment Reference number, Year of birth or Password are incorrect. Please check these and try again&quot; should be displayed on the Login page
+!--And the text &quot;If you no longer have your password you should return to your GP practice to have it reissued. The receptionist or other practice staff will be able to help you.&quot; should be displayed on the Login page</step>
+<step outcome="successful">And the text &quot;Access to e-Referral Service has been denied because the appointment Reference number, Year of birth or Password are incorrect. Please check these and try again.&quot; should be displayed on the <parameter>Login</parameter> page</step>
+<step outcome="successful">And the text &quot;If you no longer have your password you should return to your GP practice to have it reissued. The receptionist or other practice staff will be able to help you.&quot; should be displayed on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- And failed login attempts increases</step>
+<step outcome="successful">And the failed login count for ubrn &quot;<parameter>111000000017</parameter>&quot; is <parameter>1</parameter></step>
+<step outcome="ignorable">!-- unused example table
+!--|Login|e-Referral Service|1130 0000 0016|1971|qwert|
+!--|Login|e-Referral Service|1130 0000 xxxx|1971|13245|
+!--|Login|e-Referral Service|1130 0000 xxxx|1971|1a2s3|
+!--|Login|e-Referral Service|1110 0000 0009|111000000009|1971|qwertyuiopasdfghjklmnbvcxzqwertyuiopasdfg|
+!--|Login|e-Referral Service|1110 0000 0011|111000000011|1971|13246578901234567890132465789012345678901|</step>
+<step outcome="ignorable">!-- Given a Patient User has 1 failed login attempt</step>
+<step outcome="ignorable">!-- When they submit their valid login details on the login page</step>
+<step outcome="successful">Given the failed login count for ubrn &quot;<parameter>111000000017</parameter>&quot; is <parameter>1</parameter></step>
+<step outcome="successful">When I enter &quot;<parameter>1110 0000 0017</parameter>&quot; in the ubrn textboxes on the Login page</step>
+<step outcome="successful">And I enter &quot;<parameter>1971</parameter>&quot; in the <parameter>yobField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="successful">And I enter &quot;<parameter>Password01</parameter>&quot; in the <parameter>passwordField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="successful">And I click the <parameter>login</parameter> button on the <parameter>Login</parameter> page</step>

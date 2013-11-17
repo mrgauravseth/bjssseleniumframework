@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_LOCATION" abstract_organisation_id="DDF_tag:ASOG000-001"  />
+	<!-- Service Data Set 000-002 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_PROVIDING_ORGANISATION" abstract_organisation_id="DDF_tag:ASOG000-002"  />
+	<!-- Service Data Set 000-003 -->
+	<abstract_organisation_organisation_roles organisation_roles="COMMISSIONING_ORGANISATION" abstract_organisation_id="DDF_tag:ASOG000-003"  />
+	<!-- Service Data Set 000-004 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_PROVIDING_ORGANISATION" abstract_organisation_id="DDF_tag:ASOG000-003"  />
+	<!-- Service Data Set 000-005 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_LOCATION" abstract_organisation_id="DDF_tag:ASOG000-004"  />
+	<!-- Service Data Set 000-006 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_LOCATION" abstract_organisation_id="DDF_tag:ASOG000-005"  />
+	<!-- Service Data Set 000-007 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_LOCATION" abstract_organisation_id="DDF_tag:ASOG000-006"  />
+	<!-- Service Data Set 000-008 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_LOCATION" abstract_organisation_id="DDF_tag:ASOG000-007"  />
+	<!-- Service Data Set 8 -->
+	<abstract_organisation_organisation_roles organisation_roles="SERVICE_PROVIDING_ORGANISATION" abstract_organisation_id="DDF_tag:ASOG000-008"  />
+</TDITestFile0>

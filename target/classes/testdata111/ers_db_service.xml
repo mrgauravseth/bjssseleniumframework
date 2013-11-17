@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_db_service DDF_tag="DBSVC1" id="DDF_tag:SVC1"/>
+  <ers_db_service DDF_tag="DBSVC2" id="DDF_tag:SVC2"/>
+  <ers_db_service DDF_tag="DBSVC3" id="DDF_tag:SVC3"/>
+  <ers_db_service DDF_tag="DBSVC4" id="DDF_tag:SVC4"/>
+  <ers_db_service DDF_tag="DBSVC5" id="DDF_tag:SVC5"/>
+  <ers_db_service DDF_tag="DBSVC6" id="DDF_tag:SVC6"/>
+
+  </TDITestFile0>

@@ -1,0 +1,1 @@
+update ers_appointment_slot slot set appointment_booking_id = (select book.id from ers_appointment_request req inner join ers_appointment_booking book on req.id = book.appointmentrequest_id where book.appointmentslot_id=slot.id);

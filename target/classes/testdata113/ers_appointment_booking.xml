@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_appointment_booking DDF_tag="APPB113-1" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="BOOKED"
+  appointmentslot_id="DDF_tag:APPS113-1"
+  appointmentrequest_id="DDF_tag:APPR113-1"/>
+
+  <ers_appointment_booking DDF_tag="APPB113-2" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="BOOKED"
+  appointmentslot_id="DDF_tag:APPS113-2"
+  appointmentrequest_id="DDF_tag:APPR113-2"/>
+
+  <ers_appointment_booking DDF_tag="APPB113-3" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="BOOKED"
+  appointmentslot_id="DDF_tag:APPS113-3"
+  appointmentrequest_id="DDF_tag:APPR113-3"/>
+
+
+  <ers_appointment_booking DDF_tag="APPB113-4" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="BOOKED"
+  appointmentslot_id="DDF_tag:APPS113-4"
+  appointmentrequest_id="DDF_tag:APPR113-4"/>
+
+  
+  <ers_appointment_booking DDF_tag="APPB113-5" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="BOOKED"
+  appointmentslot_id="DDF_tag:APPS113-5"
+  appointmentrequest_id="DDF_tag:APPR113-5"/>
+
+  </TDITestFile0>

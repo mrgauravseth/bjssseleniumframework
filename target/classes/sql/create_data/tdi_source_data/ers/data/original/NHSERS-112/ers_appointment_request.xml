@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 112-001 -->
+	<ers_appointment_request DDF_tag="APPR112-001" registeredorgid="ORG2" contentsensitive="false" ubrn="112000000001" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="1120000001" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0"  />
+	<!-- ERS Data Set 112-002 -->
+	<ers_appointment_request DDF_tag="APPR112-002" registeredorgid="ORG2" contentsensitive="false" ubrn="112000000002" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="1120000001" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0"  />
+</TDITestFile0>

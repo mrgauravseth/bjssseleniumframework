@@ -1,0 +1,21 @@
+<story path="patient_app/NHSERS-111/NHSERS-111_S036_Note2_patient_can_paste_an_alphanumeric_UBRN_into_first_UBRN_field_with_javascript_enabled.story" title="Story: NHSERS-111 Patient Login - Authentication">
+<meta>
+<property keyword="@" name="acceptanceCriteria" value="Note 2"/>
+<property keyword="@" name="author" value="Tom Dickinson"/>
+<property keyword="@" name="developedFromJIRA" value="111 10/09/13 4.35PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="sprint" value="1"/>
+<property keyword="@" name="testphase" value="Core"/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">manage my Appointment Request(s)</inOrderTo>
+  <asA keyword="As a">Patient User</asA>
+  <iWantTo keyword="I want to">log into the e-RS</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="NHSERS-111_S036_Note2 | patient can paste an alphanumeric UBRN into first UBRN field with javascript enabled">
+<meta>
+<property keyword="@" name="bug" value="1960"/>
+</meta>
+<filter>-skip -pending -manualonly -bug *</filter>
+</scenario>
+</story>

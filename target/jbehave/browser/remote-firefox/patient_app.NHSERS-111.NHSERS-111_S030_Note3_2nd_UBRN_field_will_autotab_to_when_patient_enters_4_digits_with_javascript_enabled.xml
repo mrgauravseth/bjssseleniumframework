@@ -1,0 +1,57 @@
+<story path="patient_app/NHSERS-111/NHSERS-111_S030_Note3_2nd_UBRN_field_will_autotab_to_when_patient_enters_4_digits_with_javascript_enabled.story" title="Story: NHSERS-111 Patient Login - Authentication">
+<meta>
+<property keyword="@" name="acceptanceCriteria" value="Note 3"/>
+<property keyword="@" name="author" value="Tom Dickinson"/>
+<property keyword="@" name="developedFromJIRA" value="111 10/09/13 4.35PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="sprint" value="1"/>
+<property keyword="@" name="testphase" value="Core"/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">manage my Appointment Request(s)</inOrderTo>
+  <asA keyword="As a">Patient User</asA>
+  <iWantTo keyword="I want to">log into the e-RS</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="NHSERS-111_S030_Note3 | 2nd UBRN field will autotab to when patient enters 4 digits with javascript enabled">
+<examples keyword="Examples:">
+<step>Given browser is open</step>
+<step>When I navigate to &lt;pageName&gt; page</step>
+<step>Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</step>
+<step>Given the current page has title of &quot;&lt;pageTitle&gt;&quot; on the Login page</step>
+<step>!-- Given a Patient User has &lt;UBRN&gt;</step>
+<step>!-- And has javascript enabled</step>
+<step>When I enter &quot;0000&quot; in the ubrnField1 textbox on the Login page</step>
+<step>!-- Then the culrsor will autotab to the next field</step>
+<step>Then the cursor will autotab to the ubrnField2 field on the Login page</step>
+<step>!-- Given a Patient User has &lt;UBRN&gt;</step>
+<step>!-- And has javascript enabled</step>
+<step>!-- When they enter the second 4 digits of their UBRN</step>
+<step>Given the cursor will autotab to the ubrnField2 field on the Login page</step>
+<step>When I enter &quot;0000&quot; in the ubrnField2 textbox on the Login page</step>
+<step>!-- Then the cursor will autotab to the 3rd UBRN field</step>
+<step>Then the cursor will autotab to the ubrnField3 field on the Login page</step>
+<parameters>
+<names><name>pageName</name><name>pageTitle</name></names>
+<values><value>Login</value><value>e-Referral Service</value></values>
+</parameters>
+
+<example keyword="Example:">{pageName=Login, pageTitle=e-Referral Service}</example>
+<step outcome="successful">Given browser is open</step>
+<step outcome="successful">When I navigate to <parameter>Login</parameter> page</step>
+<step outcome="successful">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="successful">Given the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given a Patient User has &lt;UBRN&gt;</step>
+<step outcome="ignorable">!-- And has javascript enabled</step>
+<step outcome="successful">When I enter &quot;0000&quot; in the <parameter>ubrnField1</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Then the culrsor will autotab to the next field</step>
+<step outcome="successful">Then the cursor will autotab to the <parameter>ubrnField2</parameter> field on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given a Patient User has &lt;UBRN&gt;</step>
+<step outcome="ignorable">!-- And has javascript enabled</step>
+<step outcome="ignorable">!-- When they enter the second 4 digits of their UBRN</step>
+<step outcome="successful">Given the cursor will autotab to the <parameter>ubrnField2</parameter> field on the <parameter>Login</parameter> page</step>
+<step outcome="successful">When I enter &quot;0000&quot; in the <parameter>ubrnField2</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Then the cursor will autotab to the 3rd UBRN field</step>
+<step outcome="successful">Then the cursor will autotab to the <parameter>ubrnField3</parameter> field on the <parameter>Login</parameter> page</step>
+</examples>
+</scenario>
+</story>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 226-001 -->
+	<ers_appointment_slot DDF_tag="APPS226-001" service_id="{C_DB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000001" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-002 -->
+	<ers_appointment_slot DDF_tag="APPS226-002" service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000002" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-003 -->
+	<ers_appointment_slot DDF_tag="APPS226-003" service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000003" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-004 -->
+	<ers_appointment_slot DDF_tag="APPS226-004" service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000004" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-005 -->
+	<ers_appointment_slot DDF_tag="APPS226-005" service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000005" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-006 -->
+	<ers_appointment_slot DDF_tag="APPS226-006" service_id="{C_DB_UNAVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000006" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-006 -->
+	<!-- ERS Data Set 226-008 -->
+	<ers_appointment_slot DDF_tag="APPS226-008" service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000008" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-008 -->
+	<!-- ERS Data Set 226-010 -->
+	<ers_appointment_slot DDF_tag="APPS226-010" service_id="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000010" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-010 -->
+	<!-- ERS Data Set 226-012 -->
+	<ers_appointment_slot DDF_tag="APPS226-012" service_id="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000012" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-012 -->
+	<!-- ERS Data Set 226-014 -->
+	<ers_appointment_slot DDF_tag="APPS226-014" service_id="{C_DB_UNAVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000014" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-014 -->
+	<!-- ERS Data Set 226-016 -->
+	<ers_appointment_slot DDF_tag="APPS226-016" service_id="{C_INDB_UNAVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000016" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-016 -->
+	<!-- ERS Data Set 226-016 -->
+	<!-- ERS Data Set 226-019 -->
+	<ers_appointment_slot DDF_tag="APPS226-019" service_id="{C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000019" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-019 -->
+	<!-- ERS Data Set 226-021 -->
+	<ers_appointment_slot DDF_tag="APPS226-021" service_id="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000021" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-021 -->
+	<!-- ERS Data Set 226-023 -->
+	<ers_appointment_slot DDF_tag="APPS226-023" service_id="{C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000023" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-023 -->
+	<!-- ERS Data Set 226-025 -->
+	<ers_appointment_slot DDF_tag="APPS226-025" service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000025" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-025 -->
+	<!-- ERS Data Set 226-025 -->
+	<!-- ERS Data Set 226-028 -->
+	<ers_appointment_slot DDF_tag="APPS226-028" service_id="{C_DB_UNAVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000028" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-028 -->
+	<!-- ERS Data Set 226-030 -->
+	<ers_appointment_slot DDF_tag="APPS226-030" service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000030" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-030 -->
+	<!-- ERS Data Set 226-030 -->
+	<!-- ERS Data Set 226-033 -->
+	<ers_appointment_slot DDF_tag="APPS226-033" service_id="{C_DB_UNAVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000033" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-033 -->
+	<!-- ERS Data Set 226-035 -->
+	<ers_appointment_slot DDF_tag="APPS226-035" service_id="{C_DB_UNAVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000035" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-036 -->
+	<ers_appointment_slot DDF_tag="APPS226-036" service_id="{C_DB_UNAVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000036" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-037 -->
+	<ers_appointment_slot DDF_tag="APPS226-037" service_id="{C_INDB_UNAVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000037" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-037 -->
+	<!-- ERS Data Set 226-037 -->
+	<!-- ERS Data Set 226-040 -->
+	<ers_appointment_slot DDF_tag="APPS226-040" service_id="{C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000040" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-040 -->
+	<!-- ERS Data Set 226-042 -->
+	<ers_appointment_slot DDF_tag="APPS226-042" service_id="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000042" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-042 -->
+	<!-- ERS Data Set 226-044 -->
+	<ers_appointment_slot DDF_tag="APPS226-044" service_id="{C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000044" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-044 -->
+	<!-- ERS Data Set 226-046 -->
+	<ers_appointment_slot DDF_tag="APPS226-046" service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000046" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-046 -->
+	<!-- ERS Data Set 226-048 -->
+	<ers_appointment_slot DDF_tag="APPS226-048" service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000048" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-048 -->
+	<!-- ERS Data Set 226-050 -->
+	<ers_appointment_slot DDF_tag="APPS226-050" service_id="{C_INDB_UNAVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000050" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-051 -->
+	<ers_appointment_slot DDF_tag="APPS226-051" service_id="{C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000051" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-052 -->
+	<ers_appointment_slot DDF_tag="APPS226-052" service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000052" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-053 -->
+	<ers_appointment_slot DDF_tag="APPS226-053" service_id="{C_INDB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000053" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-054 -->
+	<ers_appointment_slot DDF_tag="APPS226-054" service_id="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000054" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-055 -->
+	<ers_appointment_slot DDF_tag="APPS226-055" service_id="{C_INDB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000055" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-056 -->
+	<ers_appointment_slot DDF_tag="APPS226-056" service_id="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000056" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-057 -->
+	<ers_appointment_slot DDF_tag="APPS226-057" service_id="{C_INDB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000057" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-058 -->
+	<ers_appointment_slot DDF_tag="APPS226-058" service_id="{C_INDB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000058" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-058 -->
+	<!-- ERS Data Set 226-060 -->
+	<ers_appointment_slot DDF_tag="APPS226-060" service_id="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000060" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-060 -->
+	<!-- ERS Data Set 226-062 -->
+	<ers_appointment_slot DDF_tag="APPS226-062" service_id="{C_INDB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000062" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-062 -->
+	<!-- ERS Data Set 226-064 -->
+	<ers_appointment_slot DDF_tag="APPS226-064" service_id="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000064" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-064 -->
+	<!-- ERS Data Set 226-066 -->
+	<ers_appointment_slot DDF_tag="APPS226-066" service_id="{C_INDB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000066" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-066 -->
+	<!-- ERS Data Set 226-068 -->
+	<ers_appointment_slot DDF_tag="APPS226-068" service_id="{C_INDB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000068" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-069 -->
+	<ers_appointment_slot DDF_tag="APPS226-069" service_id="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000069" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-070 -->
+	<ers_appointment_slot DDF_tag="APPS226-070" service_id="{C_INDB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000070" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-071 -->
+	<ers_appointment_slot DDF_tag="APPS226-071" service_id="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000071" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-072 -->
+	<ers_appointment_slot DDF_tag="APPS226-072" service_id="{C_INDB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000072" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-073 -->
+	<ers_appointment_slot DDF_tag="APPS226-073" service_id="{C_DB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000073" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-074 -->
+	<ers_appointment_slot DDF_tag="APPS226-074" service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000074" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-075 -->
+	<ers_appointment_slot DDF_tag="APPS226-075" service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000075" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-076 -->
+	<ers_appointment_slot DDF_tag="APPS226-076" service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000076" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-077 -->
+	<ers_appointment_slot DDF_tag="APPS226-077" service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000077" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-078 -->
+	<ers_appointment_slot DDF_tag="APPS226-078" service_id="{C_DB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000078" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-078 -->
+	<!-- ERS Data Set 226-080 -->
+	<ers_appointment_slot DDF_tag="APPS226-080" service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000080" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-080 -->
+	<!-- ERS Data Set 226-082 -->
+	<ers_appointment_slot DDF_tag="APPS226-082" service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000082" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-082 -->
+	<!-- ERS Data Set 226-084 -->
+	<ers_appointment_slot DDF_tag="APPS226-084" service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000084" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-084 -->
+	<!-- ERS Data Set 226-086 -->
+	<ers_appointment_slot DDF_tag="APPS226-086" service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000086" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-086 -->
+	<!-- ERS Data Set 226-088 -->
+	<ers_appointment_slot DDF_tag="APPS226-088" service_id="{C_DB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000088" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-089 -->
+	<ers_appointment_slot DDF_tag="APPS226-089" service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000089" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-090 -->
+	<ers_appointment_slot DDF_tag="APPS226-090" service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000090" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-091 -->
+	<ers_appointment_slot DDF_tag="APPS226-091" service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000091" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-092 -->
+	<ers_appointment_slot DDF_tag="APPS226-092" service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000092" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-093 -->
+	<ers_appointment_slot DDF_tag="APPS226-093" service_id="{C_INDB_AVAIL_TAS_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000093" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-094 -->
+	<ers_appointment_slot DDF_tag="APPS226-094" service_id="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000094" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-095 -->
+	<ers_appointment_slot DDF_tag="APPS226-095" service_id="{C_INDB_AVAIL_TAS_SPEC_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000095" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-096 -->
+	<ers_appointment_slot DDF_tag="APPS226-096" service_id="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000096" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 226-097 -->
+	<ers_appointment_slot DDF_tag="APPS226-097" service_id="{C_INDB_AVAIL_TAS_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-922260000097" createdby="auto test" start_date="TO_TIMESTAMP('08-Aug-2016 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+</TDITestFile0>

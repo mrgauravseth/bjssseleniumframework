@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_appointment_request DDF_tag="APPR113-1" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  requestpriority="URGENT"
+  requesttype="APPOINTMENT_REQUEST"
+  ubrn="111000000001"
+  appointmentrequeststate="BOOKED"
+  contentsensitive="true"
+  namedclinicianid="CLIN3"
+  nhsnumber="1110000001" 
+  referringclinicianid="CLIN1"
+  referringorgid="ORG1"
+  registeredgpid="CLIN2"
+  registeredorgid="ORG2"/>
+
+  <ers_appointment_request DDF_tag="APPR113-2" created="LOCALTIMESTAMP" createdby="test" version="0"
+  requestpriority="URGENT"
+  requesttype="APPOINTMENT_REQUEST"
+  ubrn="111000000002"
+  appointmentrequeststate="BOOKED"
+  contentsensitive="true"
+  lockexpirytime="TO_TIMESTAMP('23-OCT-2014 12:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  namedclinicianid="CLIN3"
+  nhsnumber="1110000002" 
+  referringclinicianid="CLIN1"
+  referringorgid="ORG1"
+  registeredgpid="CLIN2"
+  registeredorgid="ORG2"/>
+
+  <ers_appointment_request DDF_tag="APPR113-3" created="LOCALTIMESTAMP" createdby="test" version="0"
+  requesttype="APPOINTMENT_REQUEST"
+  ubrn="111000000003"
+  appointmentrequeststate="BOOKED"
+  contentsensitive="true"
+  namedclinicianid="CLIN3"
+  nhsnumber="1110000003" 
+  referringclinicianid="CLIN1"
+  referringorgid="ORG1"
+  registeredgpid="CLIN2"
+  registeredorgid="ORG2"/>
+
+  <ers_appointment_request DDF_tag="APPR113-4" created="LOCALTIMESTAMP" createdby="test" version="0"
+  requesttype="ADVICE_AND_GUIDANCE"
+  ubrn="111000000004"
+  contentsensitive="true"
+  namedclinicianid="CLIN3"
+  nhsnumber="1110000004" 
+  referringclinicianid="CLIN1"
+  referringorgid="ORG1"
+  registeredgpid="CLIN2"
+  registeredorgid="ORG2"/>
+
+  <ers_appointment_request DDF_tag="APPR113-5" created="LOCALTIMESTAMP" createdby="test" version="0"
+  requesttype="APPOINTMENT_REQUEST"
+  ubrn="111000000005"
+  appointmentrequeststate="CANCELLED"
+  contentsensitive="true"
+  namedclinicianid="CLIN3"
+  nhsnumber="1110000005" 
+  referringclinicianid="CLIN1"
+  referringorgid="ORG1"
+  registeredgpid="CLIN2"
+  registeredorgid="ORG2"/>
+
+ 
+  <ers_appointment_request DDF_tag="APPR113-6" created="LOCALTIMESTAMP" createdby="test" version="0"
+  requesttype="APPOINTMENT_REQUEST"
+  ubrn="111000000006"
+  appointmentrequeststate="BOOKED"
+  contentsensitive="true"
+  namedclinicianid="CLIN3"
+  nhsnumber="1110000006" 
+  referringclinicianid="CLIN1"
+  referringorgid="ORG1"
+  registeredgpid="CLIN2"
+  registeredorgid="ORG2"/>
+  
+  </TDITestFile0>

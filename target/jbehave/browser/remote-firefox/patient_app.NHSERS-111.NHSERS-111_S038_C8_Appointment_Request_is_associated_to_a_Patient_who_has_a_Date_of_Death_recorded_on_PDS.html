@@ -1,0 +1,92 @@
+<div class="story">
+<h1>Story: NHSERS-111 Patient Login - Authentication</h1>
+<div class="path">patient_app/NHSERS-111/NHSERS-111_S038_C8_Appointment_Request_is_associated_to_a_Patient_who_has_a_Date_of_Death_recorded_on_PDS.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@acceptanceCriteria C8</div>
+<div class="property">@author Tom Dickinson</div>
+<div class="property">@developedFromJIRA 111 10/09/13 4.35PM</div>
+<div class="property">@lastReviewed </div>
+<div class="property">@sprint 1</div>
+<div class="property">@testphase Core</div>
+</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> manage my Appointment Request(s)</div>
+<div class="element asA"><span class="keyword asA">As a</span> Patient User</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> log into the e-RS</div>
+</div>
+<div class="scenario">
+<h2>Scenario: NHSERS-111_S038_C8 |Appointment Request is associated to a Patient who has a Date of Death recorded on PDS</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given browser is open</div>
+<div class="step">When I navigate to &lt;pageName&gt; page</div>
+<div class="step">Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</div>
+<div class="step">Given the current page has title of &quot;&lt;pageTitle&gt;&quot; on the Login page</div>
+<div class="step">!-- Given a patient user has &lt;UBRN&gt; which has a date of death recorded on PDS</div>
+<div class="step">When I enter &quot;&lt;ubrn&gt;&quot; in the ubrn textboxes on the Login page</div>
+<div class="step">And I enter &quot;&lt;yearofbirth&gt;&quot; in the yobField textbox on the Login page</div>
+<div class="step">And I enter &quot;&lt;password&gt;&quot; in the passwordField textbox on the Login page</div>
+<div class="step">!-- When they submit their valid login details on the login page</div>
+<div class="step">And I click the login button on the Login page</div>
+<div class="step">!-- Then the  Patient User is unable to login</div>
+<div class="step">Then the Login Page will be shown</div>
+<div class="step">!-- And error message &quot;You cannot make an appointment using this reference number. Please contact your GP practise for more information&quot; displayed</div>
+<div class="step">And the text &quot;You cannot make an appointment using this reference number. Please contact your GP practice for more information.&quot; should be displayed on the Login page</div>
+<div class="step">!-- And the Activity Log is updated with login</div>
+<div class="step">!-- And Last Activity Date Time is updated</div>
+<div class="step">!-- And &lt;SessionID&gt; is logged</div>
+<div class="step">!-- And Activity &lt;Activity&gt; is logged</div>
+<div class="step">!-- And Date &lt;Date&gt; is logged</div>
+<div class="step">!-- And Time &lt;Time&gt; is logged</div>
+<div class="step">!-- And UBRN &lt;UBRN&gt; is logged</div>
+<div class="step">!-- And Reason Code &lt;Reason Code&gt; is logged</div>
+<div class="step">!-- Needs clarification from Dev/BAs as to what will be logged</div>
+<div class="step">!-- Format of Activity Log is YYYY-MM-DD HH:mm:ss,sss [ACTIVITY] SessionID =  XXXXXXXXXX  UBRN =  XXXXXXXXXXXXX  Reason Code =  xxxxxxxxxxxx</div>
+<div class="step">!-- &lt;SessionID&gt; = XXXXXXXXXXX</div>
+<div class="step">!-- &lt;Activity&gt; is LOGIN</div>
+<div class="step">!-- &lt;Date&gt; format is YYYY-MM-DD</div>
+<div class="step">!-- &lt;Time&gt; format is HH:mm:ss,sss</div>
+<table>
+<thead>
+<tr>
+<th>pageName</th><th>pageTitle</th><th>ubrn</th><th>yearofbirth</th><th>password</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Login</td><td>e-Referral Service</td><td>1110 0000 0007</td><td>1971</td><td>Password07</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {pageName=Login, pageTitle=e-Referral Service, ubrn=1110 0000 0007, yearofbirth=1971, password=Password07}</h3>
+<div class="step successful">Given browser is open</div>
+<div class="step successful">When I navigate to <span class="step parameter">Login</span> page</div>
+<div class="step successful">Then the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page</div>
+<div class="step successful">Given the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Given a patient user has &lt;UBRN&gt; which has a date of death recorded on PDS</div>
+<div class="step successful">When I enter &quot;<span class="step parameter">1110 0000 0007</span>&quot; in the ubrn textboxes on the Login page</div>
+<div class="step successful">And I enter &quot;<span class="step parameter">1971</span>&quot; in the <span class="step parameter">yobField</span> textbox on the <span class="step parameter">Login</span> page</div>
+<div class="step successful">And I enter &quot;<span class="step parameter">Password07</span>&quot; in the <span class="step parameter">passwordField</span> textbox on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- When they submit their valid login details on the login page</div>
+<div class="step successful">And I click the <span class="step parameter">login</span> button on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Then the  Patient User is unable to login</div>
+<div class="step successful">Then the Login Page will be shown</div>
+<div class="step ignorable">!-- And error message &quot;You cannot make an appointment using this reference number. Please contact your GP practise for more information&quot; displayed</div>
+<div class="step successful">And the text &quot;You cannot make an appointment using this reference number. Please contact your GP practice for more information.&quot; should be displayed on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- And the Activity Log is updated with login</div>
+<div class="step ignorable">!-- And Last Activity Date Time is updated</div>
+<div class="step ignorable">!-- And &lt;SessionID&gt; is logged</div>
+<div class="step ignorable">!-- And Activity &lt;Activity&gt; is logged</div>
+<div class="step ignorable">!-- And Date &lt;Date&gt; is logged</div>
+<div class="step ignorable">!-- And Time &lt;Time&gt; is logged</div>
+<div class="step ignorable">!-- And UBRN &lt;UBRN&gt; is logged</div>
+<div class="step ignorable">!-- And Reason Code &lt;Reason Code&gt; is logged</div>
+<div class="step ignorable">!-- Needs clarification from Dev/BAs as to what will be logged</div>
+<div class="step ignorable">!-- Format of Activity Log is YYYY-MM-DD HH:mm:ss,sss [ACTIVITY] SessionID =  XXXXXXXXXX  UBRN =  XXXXXXXXXXXXX  Reason Code =  xxxxxxxxxxxx</div>
+<div class="step ignorable">!-- &lt;SessionID&gt; = XXXXXXXXXXX</div>
+<div class="step ignorable">!-- &lt;Activity&gt; is LOGIN</div>
+<div class="step ignorable">!-- &lt;Date&gt; format is YYYY-MM-DD</div>
+<div class="step ignorable">!-- &lt;Time&gt; format is HH:mm:ss,sss</div>
+</div>
+</div>
+</div>

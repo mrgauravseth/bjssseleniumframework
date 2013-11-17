@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>patient_app.LoadBrowser</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1>Story: base load browser</h1>
+<div class="path">patient_app/LoadBrowser.story</div>
+<div class="scenario">
+<h2>Scenario: NHSERS-LoadBrowser</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@acceptanceCriteria C1xxxxxxx</div>
+<div class="property">@author Mubsher Hussain</div>
+<div class="property">@lastReviewed </div>
+<div class="property">@sprint 1</div>
+<div class="property">@testphase Core</div>
+</div>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given browser is open</div>
+<div class="step">When I navigate to &lt;pageName&gt; page</div>
+<div class="step">Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</div>
+<table>
+<thead>
+<tr>
+<th>pageName</th><th>pageTitle</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Login</td><td>e-Referral Service</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {pageName=Login, pageTitle=e-Referral Service}</h3>
+<div class="step successful">Given browser is open</div>
+<div class="step successful">When I navigate to <span class="step parameter">Login</span> page</div>
+<div class="step successful">Then the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page</div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

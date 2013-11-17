@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE1}"  polling_days="MONDAY"  />
+	<!-- Service Data Set 2 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE2}"  polling_days="TUESDAY"  />
+	<!-- Service Data Set 3 -->
+	<!-- Service Data Set 4 -->
+	<!-- Service Data Set 5 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE1}"  polling_days="FRIDAY"  />
+	<!-- Service Data Set 6 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE2}"  polling_days="WEDNESDAY"  />
+	<!-- Service Data Set 7 -->
+	<!-- Service Data Set 8 -->
+	<!-- Service Data Set 9 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE1}"  polling_days="THURSDAY"  />
+	<!-- Service Data Set 10 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE2}"  polling_days="MONDAY"  />
+	<!-- Service Data Set 11 -->
+	<!-- Service Data Set 12 -->
+	<!-- Service Data Set 13 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE1}"  polling_days="TUESDAY"  />
+	<!-- Service Data Set 14 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE2}"  polling_days="WEDNESDAY"  />
+	<!-- Service Data Set 15 -->
+	<!-- Service Data Set 16 -->
+	<!-- Service Data Set 17 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}"  polling_days="THURSDAY"  />
+	<!-- Service Data Set 18 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}"  polling_days="FRIDAY"  />
+	<!-- Service Data Set 19 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}"  polling_days="MONDAY"  />
+	<!-- Service Data Set 20 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPEC_SERVICE}"  polling_days="TUESDAY"  />
+	<!-- Service Data Set 21 -->
+	<!-- Service Data Set 22 -->
+	<!-- Service Data Set 23 -->
+	<!-- Service Data Set 24 -->
+	<!-- Service Data Set 25 -->
+	<!-- Service Data Set 26 -->
+	<!-- Service Data Set 27 -->
+	<!-- Service Data Set 28 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}"  polling_days="FRIDAY"  />
+	<!-- Service Data Set 29 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}"  polling_days="MONDAY"  />
+	<!-- Service Data Set 30 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}"  polling_days="TUESDAY"  />
+	<!-- Service Data Set 31 -->
+	<!-- Service Data Set 32 -->
+	<!-- Service Data Set 33 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPESERVICE}"  polling_days="WEDNESDAY"  />
+	<!-- Service Data Set 34 -->
+	<!-- Service Data Set 35 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}"  polling_days="THURSDAY"  />
+	<!-- Service Data Set 36 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_APOS_SERVICE}"  polling_days="FRIDAY"  />
+	<!-- Service Data Set 37 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  polling_days="MONDAY"  />
+	<!-- Service Data Set 38 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_INC_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  polling_days="TUESDAY"  />
+	<!-- Service Data Set 39 -->
+	<!-- Service Data Set 40 -->
+	<!-- Service Data Set 41 -->
+	<!-- Service Data Set 42 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}"  polling_days="WEDNESDAY"  />
+	<!-- Service Data Set 43 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}"  polling_days="THURSDAY"  />
+	<!-- Service Data Set 44 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE}"  polling_days="FRIDAY"  />
+	<!-- Service Data Set 45 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}"  polling_days="MONDAY"  />
+	<!-- Service Data Set 46 -->
+	<directly_bookable_service_polling_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}"  polling_days="TUESDAY"  />
+</TDITestFile0>

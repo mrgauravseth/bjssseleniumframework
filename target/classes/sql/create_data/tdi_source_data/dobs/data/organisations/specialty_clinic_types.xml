@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<specialty_clinic_types specialty_id="DDF_tag:SPEC000-001" clinic_types_id="DDF_tag:CLTY000-001"  />
+</TDITestFile0>

@@ -1,0 +1,3610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<VarSet story="114"/>
+
+
+	<!--********************************************** Start 114-010 ****************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="010" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-010 ******************************************************************************-->
+
+	<!--********************************************** Start 114-011 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="011" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-011 ******************************************************************************-->
+	
+	<!--********************************************** Start 114-020 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="020" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-020 ******************************************************************************-->
+	
+	<!--********************************************** Start 114-021 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="021" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-021 ******************************************************************************-->
+
+	<!--********************************************** Start 114-022 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="022" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}" 
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-022 ******************************************************************************-->
+
+	<!--********************************************** Start 114-023 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="023" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianMaxFieldLength}"
+			referringorgid="{referringOrgMaxFieldLength}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}" 
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-023 ******************************************************************************-->
+	
+	<!--********************************************** Start 114-024 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="024" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}" 
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-024 ******************************************************************************-->
+
+	<!--********************************************** Start 114-025 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="025" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianHyphen}"
+			referringorgid="{referringOrgHyphen}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}" 
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-025 ******************************************************************************-->
+
+	<!--********************************************** Start 114-026 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="026" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianApos}"
+			referringorgid="{referringOrgApos}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}" 
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-026 ******************************************************************************-->
+
+	<!--********************************************** Start 114-027 ****************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="027" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianSpec}"
+			referringorgid="{referringOrgSpec}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}" 
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-027******************************************************************************-->
+
+	<!--********************************************** Start 114-030 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="030" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-030 ******************************************************************************-->
+
+	<!--********************************************** Start 114-031 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="031" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-031 ******************************************************************************-->
+
+	<!--********************************************** Start 114-032 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="032" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-032 ******************************************************************************-->
+
+	<!--********************************************** Start 114-033 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="033" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianMaxFieldLength}"
+			referringorgid="{referringOrgMaxFieldLength}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-033 ******************************************************************************-->
+	
+	<!--********************************************** Start 114-034 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="034" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-034 ******************************************************************************-->
+
+	<!--********************************************** Start 114-035 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="035" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianHyphen}"
+			referringorgid="{referringOrgHyphen}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-035 ******************************************************************************-->
+
+	<!--********************************************** Start 114-036 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="036" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianApos}"
+			referringorgid="{referringOrgApos}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-036 ******************************************************************************-->
+
+	<!--********************************************** Start 114-037 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="037" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinicianSpec}"
+			referringorgid="{referringOrgSpec}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-037 ******************************************************************************-->
+
+	<!--********************************************** Start 114-040 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="040" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-040 ******************************************************************************-->
+	
+	<!--********************************************** Start 114-041 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="041" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-041 ******************************************************************************-->
+
+	<!--********************************************** Start 114-042 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="042" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-042 ******************************************************************************-->
+
+	<!--********************************************** Start 114-050 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="050" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-050 ******************************************************************************-->
+
+	<!--********************************************** Start 114-051 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="051" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-051 ******************************************************************************-->
+
+	<!--********************************************** Start 114-052 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="052" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-052 ******************************************************************************-->
+
+	<!--********************************************** Start 114-053 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="053" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-053 ******************************************************************************-->
+
+	<!--********************************************** Start 114-054 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="054" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-054 ******************************************************************************-->
+
+	<!--********************************************** Start 114-055 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="055" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-055 ******************************************************************************-->
+
+	<!--********************************************** Start 114-056 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="056" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-056 ******************************************************************************-->
+
+	<!--********************************************** Start 114-057 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="057" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-057 ******************************************************************************-->
+	
+	<!--********************************************** Start 114-058 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="058" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-058 ******************************************************************************-->
+
+	<!--********************************************** Start 114-059 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="059" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-059 ******************************************************************************-->
+
+	<!--********************************************** Start 114-060 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="060" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-060 ******************************************************************************-->
+
+	<!--********************************************** Start 114-061 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="061" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-061 ******************************************************************************-->
+
+	<!--********************************************** Start 114-062 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="062" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-062 ******************************************************************************-->
+
+	<!--********************************************** Start 114-063 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="063" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-063 ******************************************************************************-->
+
+	<!--********************************************** Start 114-064 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="064" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-064 ******************************************************************************-->
+
+	<!--********************************************** Start 114-065 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="065" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-065 ******************************************************************************-->
+
+	<!--********************************************** Start 114-070 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="070" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-070 ******************************************************************************-->
+
+	<!--********************************************** Start 114-071 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="071" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-071 ******************************************************************************-->
+
+	<!--********************************************** Start 114-072 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="072" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-072 ******************************************************************************-->
+
+	<!--********************************************** Start 114-073 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="073" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-073 ******************************************************************************-->
+
+	<!--********************************************** Start 114-074 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="074" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-074 ******************************************************************************-->
+
+	<!--********************************************** Start 114-075 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="075" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-075 ******************************************************************************-->
+
+	<!--********************************************** Start 114-080 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="080" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-080 ******************************************************************************-->
+
+	<!--********************************************** Start 114-081 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="081" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-081 ******************************************************************************-->
+
+	<!--********************************************** Start 114-082 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="082" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-082 ******************************************************************************-->
+
+	<!--********************************************** Start 114-083 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="083" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-083 ******************************************************************************-->
+
+	<!--********************************************** Start 114-084 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="084" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-084 ******************************************************************************-->
+
+	<!--********************************************** Start 114-085 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="085" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-085 ******************************************************************************-->
+
+	<!--********************************************** Start 114-090 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="090" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-090 ******************************************************************************-->
+
+	<!--********************************************** Start 114-091 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="091" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-091 ******************************************************************************-->
+
+	<!--********************************************** Start 114-092 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="092" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-092 ******************************************************************************-->
+
+	<!--********************************************** Start 114-093 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="093" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-093 ******************************************************************************-->
+
+	<!--********************************************** Start 114-094 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="094" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-094 ******************************************************************************-->
+
+	<!--********************************************** Start 114-095 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="095" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-095 ******************************************************************************-->
+
+	<!--********************************************** Start 114-100 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="100" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_DEFERRED_TO_PROVIDER" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-100 ******************************************************************************-->
+
+	<!--********************************************** Start 114-101 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="101" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_DEFERRED_TO_PROVIDER" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-101 ******************************************************************************-->
+
+	<!--********************************************** Start 114-102 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="102" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_DEFERRED_TO_PROVIDER" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-102 ******************************************************************************-->
+
+	<!--********************************************** Start 114-110 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="110" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_DEFERRED_TO_PROVIDER" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-110 ******************************************************************************-->
+
+	<!--********************************************** Start 114-111 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="111" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_DEFERRED_TO_PROVIDER" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-111 ******************************************************************************-->
+
+	<!--********************************************** Start 114-112 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="112" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_DEFERRED_TO_PROVIDER" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-112 ******************************************************************************-->
+
+	<!--********************************************** Start 114-120 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="120" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-120 ******************************************************************************-->
+
+	<!--********************************************** Start 114-121 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="121" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-121 ******************************************************************************-->
+
+	<!--********************************************** Start 114-122 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="122" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-122 ******************************************************************************-->
+
+	<!--********************************************** Start 114-130 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="130" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-130 ******************************************************************************-->
+
+	<!--********************************************** Start 114-131 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="131" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-131 ******************************************************************************-->
+
+	<!--********************************************** Start 114-132 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="132" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-132 ******************************************************************************-->
+
+	<!--********************************************** Start 114-140 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="140" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-140 ******************************************************************************-->
+
+	<!--********************************************** Start 114-141 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="141" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-141 ******************************************************************************-->
+
+	<!--********************************************** Start 114-142 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="142" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-142 ******************************************************************************-->
+	
+	<!--********************************************** Start 114-150 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="150" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-150 ******************************************************************************-->
+
+	<!--********************************************** Start 114-151 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="151" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-151 ******************************************************************************-->
+
+	<!--********************************************** Start 114-152 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="152" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-152 ******************************************************************************-->
+
+	<!--********************************************** Start 114-160 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="160" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_REJECTED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-160 ******************************************************************************-->
+
+	<!--********************************************** Start 114-161 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="161" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_DEFERRED_TO_PROVIDER" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-161 ******************************************************************************-->
+
+	<!--********************************************** Start 114-162 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="162" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-162 ******************************************************************************-->
+
+	<!--********************************************** Start 114-163 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="163" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="UNBOOKED_PREVIOUSLY_BOOKED" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE2}" />
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{futureDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-163 ******************************************************************************-->
+
+	<!--********************************************** Start 114-170 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="170" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="ROUTINE"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{pastDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-170 ******************************************************************************-->
+
+	<!--********************************************** Start 114-171 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="171" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="URGENT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_DB_AVAIL_F2F_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{pastDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-171 ******************************************************************************-->
+
+	<!--********************************************** Start 114-172 ***************************************************************************-->
+	<!-- Set the driving details for this test -->
+	<VarSet testNo="172" />
+	<VarSet partTestNo="0000" />
+	<VarSet ubrn="{story}0{partTestNo}0{testNo}" /> 
+	<VarSet nhsNumber="{story}0000{testNo}" /> 
+
+	<ers_patient_user created="{created}" createdby="{createdBy}" version="{version}" nhsnumber="{nhsNumber}" password="{password}"/>
+
+	<VarSet APPRTag="APPR{story}-{testNo}" />
+	<VarSet APPSTag="APPS{story}-{testNo}" />
+	<VarSet APPBTag="APPB{story}-{testNo}" />
+
+	<!-- Set the appointment data -->
+	<VarSet requestPriority="TWO_WEEK_WAIT"/>
+	<VarSet requestType="APPOINTMENT_REQUEST" />
+	<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL" />
+	<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL" />
+	<VarSet serviceId="{C_INDB_AVAIL_TAS_SERVICE1}" />
+
+	<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			requestpriority="{requestPriority}" requesttype="{requestType}" ubrn="{ubrn}"
+			appointmentrequeststate="{appointmentRequestState}"
+			contentsensitive="{contentSensitive}"
+			namedclinicianid="{namedClinician}"
+			nhsnumber="{nhsNumber}" 
+			referringclinicianid="{referringClinician}"
+			referringorgid="{referringOrg}"
+			registeredgpid="{registeredGp}"
+			registeredorgid="{registeredOrg}"/>
+
+	<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" date="{pastDate}"
+			appointmentbooking_id="null"
+			service_id="DDF_tag:{serviceId}"/>
+
+	<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+			appointmentbookingstatus="{appointmentBookingStatus}"
+			appointmentslot_id="DDF_tag:{APPSTag}"
+			appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+	<!--********************************************** End 114-172 ******************************************************************************-->
+	
+	<!--********************************************** LOAD EXTRA REFERRALS FOR ALL TESTS *******************************************************-->
+	<VarDef name="testList114" values="010,011,020,021,022,023,024,025,026,027,030,031,032,033,034,035,036,037,040,041,042,050,051,052,053,054,055,056,057,058,059,060,061,062,063,064,065,070,071,072,073,074,075,080,081,082,083,084,085,090,091,092,093,094,095,100,101,102,110,111,112,120,121,122,130,131,132,140,141,142,150,151,152,160,161,162,163,170,171,172" const="Y"/>
+	
+	<ForEach byVar="currentTest" inVar="testList114">
+		<VarSet V_REFERRAL_COUNTER="0" />
+		<While cond="INT:V_REFERRAL_COUNTER&lt;INT:C_NUM_EXTRA_REFERRALS">
+
+			<!-- Increment the looping Referralcounter -->
+			<VarSet V_REFERRAL_COUNTER="{INT:V_REFERRAL_COUNTER+INT:C_INCREMENT_BY_ONE}" />
+
+			<VarSet nhsNumber="{story}0000{currentTest}" /> 
+			<VarSet partTestNo="{V_REFERRAL_COUNTER}000" />
+			<VarSet ubrn="{story}0{partTestNo}0{currentTest}" /> 
+
+			<VarSet APPRTag="APPR{story}-{V_REFERRAL_COUNTER}-{currentTest}" />
+			<VarSet APPSTag="APPS{story}-{V_REFERRAL_COUNTER}-{currentTest}" />
+			<VarSet APPBTag="APPB{story}-{V_REFERRAL_COUNTER}-{currentTest}" />
+
+			<!-- First appointment is booked, second is unbooked -->
+			<If cond="INT:V_REFERRAL_COUNTER=INT:C_NUM_EXTRA_REFERRALS">
+				<VarSet appointmentRequestState="UNBOOKED_NEVER_BOOKED"/>
+				<VarSet appointmentBookingStatus="CANCELLED"/>
+				<Else>
+					<VarSet appointmentRequestState="BOOKED_INITIAL_REFERRAL"/>
+					<VarSet appointmentBookingStatus="BOOKED_INITIAL_REFERRAL"/>
+				</Else>
+			</If>
+			<ers_appointment_request DDF_tag="{APPRTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+					requestpriority="ROUTINE"
+					requesttype="APPOINTMENT_REQUEST"
+					ubrn="{ubrn}"
+					appointmentrequeststate="{appointmentRequestState}"
+					contentsensitive="{contentSensitive}"
+					namedclinicianid="{namedClinician}"
+					nhsnumber="{nhsNumber}" 
+					referringclinicianid="{referringClinician}"
+					referringorgid="{referringOrg}"
+					registeredgpid="{registeredGp}"
+					registeredorgid="{registeredOrg}"/>
+
+			<ers_shortlist appointment_request_id="DDF_tag:{APPRTag}" service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+			<ers_appointment_slot DDF_tag="{APPSTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+					date="{futureDate}"
+					appointmentbooking_id="null"
+					service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+			<ers_appointment_booking DDF_tag="{APPBTag}" created="{created}" createdby="{createdBy}" version="{version}" 
+					appointmentbookingstatus="{appointmentBookingStatus}"
+					appointmentslot_id="DDF_tag:{APPSTag}"
+					appointmentrequest_id="DDF_tag:{APPRTag}"/>
+
+		</While>
+		<!-- End of C_NUM_EXTRA_REFERRALS loop-->
+	</ForEach>
+
+</TDITestFile0>

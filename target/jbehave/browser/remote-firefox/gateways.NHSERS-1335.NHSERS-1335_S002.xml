@@ -1,0 +1,13 @@
+<story path="gateways/NHSERS-1335/NHSERS-1335_S002.story" title="">
+<scenario keyword="Scenario:" title="NHSERS-1335_S002 | Failed retrieval of function codes for a non existing NHS person">
+<meta>
+<property keyword="@" name="Sprint" value="1"/>
+<property keyword="@" name="author" value="Ian Malone"/>
+<property keyword="@" name="developedFromJIRA" value="1335 01/10/13 PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="skip" value=""/>
+<property keyword="@" name="testphase" value="Core Regression"/>
+</meta>
+<filter>-skip -pending -manualonly -bug *</filter>
+</scenario>
+</story>

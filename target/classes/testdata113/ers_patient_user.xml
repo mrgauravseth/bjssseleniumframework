@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_patient_user DDF_tag="PNTU-1" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1110000001"
+  password="Password01"/>
+
+  <ers_patient_user DDF_tag="PNTU-2" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1110000002" 
+  password="Password02"/>
+
+  <ers_patient_user DDF_tag="PNTU-3" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1110000003" 
+  password="Password03"/>
+
+  <ers_patient_user DDF_tag="PNTU-4" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1110000004" 
+  password="Password04"/>
+
+  <ers_patient_user DDF_tag="PNTU-5" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1110000005" 
+  password="Password05"/>
+
+  <ers_patient_user DDF_tag="PNTU-6" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="1110000006" 
+  password="Password06"/>
+
+  </TDITestFile0>

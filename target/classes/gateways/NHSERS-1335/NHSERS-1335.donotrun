@@ -1,0 +1,163 @@
+Story: NHSERS-1335 SDS API For calculating business function codes
+
+Narrative:			
+In order to use other ERS services that require an NHS person's business function codes
+As an ERS Service client 
+I want to use the SDS API service to retrieve an NHS Person's business function codes from their job code
+			
+Scenario: NHSERS-1335_S001 | Successful retrieval of function codes for an existing NHS person
+Meta:
+@author Ian Malone 
+@Sprint 1
+@testphase Core Regression 
+@developedFromJIRA 1335 01/10/13 PM
+@lastReviewed 
+
+Given the SDS API service is running
+And NHS Person <Uid> has associated Business Function Codes <FunctionCodes>
+When the rest service <RestService> is called with the <Method> method on date <Date>. 
+Then the HTTP result is <HTTP Result>
+And the JSON result is <JSON Result>
+
+only","entry":[["uk.nhs.ers.dto.BusinessFunction",{"code":"B0004","name":"Register RA Agent"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0005","name":"Manage RA Activities"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0008","name":"Perform RA Activities"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0262","name":"View RA Information"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0263","name":"Unlock Smartcard"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0265","name":"Make RA Requests"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0266","name":"Manage RA Worklists"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0268","name":"Execute RA Reports"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0269","name":"Execute Advanced RA Reports"}],["uk.nhs.ers.dto.BusinessFunction",{"code":"B0274","name":"Perform RA Activities (Advanced)"}]]}}
+
+Examples:
+|Uid|Date|FunctionCodes|Method|RestService|HTTP Result|JSON Result|
+|11001|Date|"B0004","B0005","B0008","B0262","B0263"|GET|/ers-sds-gateway/nhsOrgPerson/@511740454547/businessFunctions|200|{
+    "List": {
+        "source": {
+            "type": "Professional",
+            "reference": "/nhsOrgPerson/@511740454547/businessFunctions"
+        },
+        "date": <Date>,
+        "ordered": true,
+        "mode": "readonly",
+        "entry": [
+			"uk.nhs.ers.dto.BusinessFunction"
+            {
+                "code": "B0004"
+				"name": "Register RA Agent"
+            },
+			"uk.nhs.ers.dto.BusinessFunction"
+            {
+                "code": "B0005"
+				"name": "Manage RA Activities"
+            },
+			"uk.nhs.ers.dto.BusinessFunction"
+            {
+                "code": "B0008"
+				"name": "Perform RA Activities"
+            },
+			"uk.nhs.ers.dto.BusinessFunction"
+            {
+                "code": "B0262"
+				"name": "View RA Information"
+            },
+			"uk.nhs.ers.dto.BusinessFunction"
+            {
+                "code": "B0263"
+				"name": "Unlock Smartcard"
+            }
+        ]
+    }
+}|
+|11002|Date|"B0265"|GET|/ers-sds-gateway/nhsOrgPerson/@11001/businessFunctions|200|{
+    "List": {
+        "source": {
+            "type": "Professional",
+            "reference": "/nhsOrgPerson/@11001/businessFunctions"
+        },
+        "date": <Date>,
+        "ordered": true,
+        "mode": "readonly",
+        "entry": [
+			"uk.nhs.ers.dto.BusinessFunction"
+            {
+                "code": "B0265"
+				"name": "Make RA Requests"
+            },
+        ]
+    }
+}|
+
+Scenario: NHSERS-1335_S002 | Failed retrieval of function codes for a non existing NHS person
+Meta:
+@author Ian Malone 
+@Sprint 1
+@testphase Core Regression 
+@developedFromJIRA 1335 01/10/13 PM
+@lastReviewed 
+
+Given the SDS API service is running
+And NHS Person <Uid> does not exist in the SDS
+When the rest service <RestService> is called with the <Method> method. 
+Then the HTTP result is <HTTP Result>
+And the JSON result is <JSON Result>
+
+Examples:
+Uid|Method|RestService|HTTP Result|JSON Result|
+|91002|GET|/ers-sds-gateway/nhsOrgPerson/@91002/businessFunctionCodes|404||
+
+
+Scenario: NHSERS-1335_S003 | Failed retrieval of function codes for an NHS person with no Business Functions
+Meta:
+@author Ian Malone 
+@Sprint 1
+@testphase Core Regression 
+@developedFromJIRA 1335 01/10/13 PM
+@lastReviewed 
+
+Given the SDS API service is running
+And NHS Person <Uid> has no Business Function Codes in the SDS
+When the rest service <RestService> is called with the <Method> method. 
+Then the HTTP result is <HTTP Result>
+And the JSON result is <JSON Result>
+
+Examples:
+Uid|Method|RestService|HTTP Result|JSON Result|
+|91003|GET|/ers-sds-gateway/nhsOrgPerson/@91003/businessFunctions|200|{
+    "List": {
+        "source": {
+            "type": "Professional",
+            "reference": "/nhsOrgPerson/@91003/businessFunctions"
+        },
+        "date": <Date>,
+        "ordered": true,
+        "mode": "readonly",
+        "entry": [
+        ]
+    }
+}|
+
+
+
+
+Scenario: NHSERS-1335_S004 | Failed retrieval of function codes when REST Api is incorrect
+Meta:
+@author Ian Malone 
+@Sprint 1
+@testphase Core Regression 
+@developedFromJIRA 1335 01/10/13 PM
+@lastReviewed 
+
+Given the SDS API service is running
+And NHS Person <Uid> has associated Business Function Codes <FunctionCodes>
+When the rest service <RestService> is called with the <Method> method. 
+Then the HTTP result is <HTTP Result>
+And the JSON result is <JSON Result>
+
+Examples:
+Uid|FunctionCodes|Method|RestService|HTTP Result|JSON Result|
+|--Incorrect URL
+|11001|"B0420","B0470","B0992","B1615","B0382","B0330","B0312","B0620"|GET|/ers-sds-gateway/nhsOrgPerson/@11001/businessFunction|404||
+
+
+|--Incorrect request methods
+|11001|"B0420","B0470","B0992","B1615","B0382","B0330","B0312","B0620"|PUT|/ers-sds-gateway/nhsOrgPerson/@11001/businessFunctions|405||
+|11001|"B0420","B0470","B0992","B1615","B0382","B0330","B0312","B0620"|POST|/ers-sds-gateway/nhsOrgPerson/@11001/businessFunctions|405||
+|11001|"B0420","B0470","B0992","B1615","B0382","B0330","B0312","B0620"|DELETE|/ers-sds-gateway/nhsOrgPerson/@11001/businessFunctions|405||
+|11001|"B0420","B0470","B0992","B1615","B0382","B0330","B0312","B0620"|INVALID|/ers-sds-gateway/nhsOrgPerson/@11001/businessFunctions|501||
+
+
+
+

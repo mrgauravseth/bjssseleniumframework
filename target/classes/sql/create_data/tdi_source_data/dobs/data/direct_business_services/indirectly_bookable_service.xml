@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<!-- Service Data Set 2 -->
+	<!-- Service Data Set 3 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_F2F_SERVICE1}"  />
+	<!-- Service Data Set 4 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_F2F_SERVICE2}"  />
+	<!-- Service Data Set 5 -->
+	<!-- Service Data Set 6 -->
+	<!-- Service Data Set 7 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_TAS_SERVICE1}"  />
+	<!-- Service Data Set 8 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_TAS_SERVICE2}"  />
+	<!-- Service Data Set 9 -->
+	<!-- Service Data Set 10 -->
+	<!-- Service Data Set 11 -->
+	<indirectly_bookable_service id="{C_INDB_UNAVAIL_F2F_SERVICE1}"  />
+	<!-- Service Data Set 12 -->
+	<indirectly_bookable_service id="{C_INDB_UNAVAIL_F2F_SERVICE2}"  />
+	<!-- Service Data Set 13 -->
+	<!-- Service Data Set 14 -->
+	<!-- Service Data Set 15 -->
+	<indirectly_bookable_service id="{C_INDB_UNAVAIL_TAS_SERVICE1}"  />
+	<!-- Service Data Set 16 -->
+	<indirectly_bookable_service id="{C_INDB_UNAVAIL_TAS_SERVICE2}"  />
+	<!-- Service Data Set 17 -->
+	<!-- Service Data Set 18 -->
+	<!-- Service Data Set 19 -->
+	<!-- Service Data Set 20 -->
+	<!-- Service Data Set 21 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_F2F_MAXLEN_SERVICE}"  />
+	<!-- Service Data Set 22 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_F2F_HYPHEN_SERVICE}"  />
+	<!-- Service Data Set 23 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_F2F_APOS_SERVICE}"  />
+	<!-- Service Data Set 24 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_F2F_SPEC_SERVICE}"  />
+	<!-- Service Data Set 25 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}"  />
+	<!-- Service Data Set 26 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_TAS_APOS_SERVICE}"  />
+	<!-- Service Data Set 27 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_TAS_SPEC_SERVICE}"  />
+	<!-- Service Data Set 28 -->
+	<!-- Service Data Set 29 -->
+	<!-- Service Data Set 30 -->
+	<!-- Service Data Set 31 -->
+	<indirectly_bookable_service id="{C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  />
+	<!-- Service Data Set 32 -->
+	<indirectly_bookable_service id="{C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE1}"  />
+	<!-- Service Data Set 33 -->
+	<!-- Service Data Set 34 -->
+	<indirectly_bookable_service id="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE}"  />
+	<!-- Service Data Set 35 -->
+	<!-- Service Data Set 36 -->
+	<!-- Service Data Set 37 -->
+	<!-- Service Data Set 38 -->
+	<!-- Service Data Set 39 -->
+	<indirectly_bookable_service id="{C_NUM_EXTRA_REFERRALS}"  />
+	<!-- Service Data Set 40 -->
+	<indirectly_bookable_service id="{C_INCREMENT_BY_ONE}"  />
+	<!-- Service Data Set 41 -->
+	<indirectly_bookable_service id="{V_REFERRAL_COUNTER}"  />
+</TDITestFile0>

@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>patient_app.NHSERS-113.NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1>Story: NHSERS-113 Patient Views Unbooked Referral</h1>
+<div class="path">patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> progress an Appointment Request that does not yet have an Appointment Booking</div>
+<div class="element asA"><span class="keyword asA">As a</span> Patient User</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> view my Appointment Request</div>
+</div>
+<div class="scenario">
+<h2>Scenario: NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@acceptanceCriteria C1xxxxxxx</div>
+<div class="property">@author Zak Timms</div>
+<div class="property">@developedFromJIRA 113 22/10/13 5:01 PM</div>
+<div class="property">@lastReviewed </div>
+<div class="property">@sprint 1</div>
+<div class="property">@testphase Core</div>
+</div>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given browser is open</div>
+<div class="step">When I navigate to &lt;pageName&gt; page</div>
+<div class="step">Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</div>
+<div class="step">Given the current page has title of &quot;e-Referral Service&quot; on the Login page</div>
+<div class="step">!-- Given I am on the Login page</div>
+<div class="step">!-- Given a patilent user had a valid &lt;UBRN&gt;</div>
+<div class="step">When I enter &quot;&lt;ubrn&gt;&quot; in the ubrn textboxes on the Login page</div>
+<div class="step">!-- And a valid &lt;year of birth&gt;</div>
+<div class="step">And I enter &quot;&lt;yob&gt;&quot; in the yobField textbox on the Login page</div>
+<div class="step">!-- And a valid &lt;password&gt;</div>
+<div class="step">And I enter &quot;&lt;password&gt;&quot; in the passwordField textbox on the Login page</div>
+<div class="step">!-- Given is not locked out</div>
+<div class="step">!-- When they submit their login details on the login page</div>
+<div class="step">And I click the login button on the Login page</div>
+<div class="step">!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request
+!--Then the patient user is able to successfully login to ERS</div>
+<div class="step">Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</div>
+<div class="step">!-- Pre-requisites</div>
+<div class="step">!-- NHSERS-111_S001 PatientLoginSuccess
+
+GivenStories: patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story</div>
+<div class="step">Given a patient user is logged in NHSERS-111_S001</div>
+<div class="step">And there is unsaved data on the &lt;CurrentPage&gt; page</div>
+<div class="step">!-- When they choose to &lt;logout&gt;</div>
+<div class="step">When I click the &lt;logout&gt; button on the &lt;CurrentPage&gt; page</div>
+<div class="step">!-- When they choose to &lt;logout&gt;</div>
+<div class="step">!-- Then message is displayed stating &quot;Changes to your referral have not been saved. Do you want to continue without saving?&quot;</div>
+<div class="step">Then the text &quot;any updates which has not be saved will be lost&quot; should be displayed on the &lt;CurrentPage&gt; page
+
+!--unused examples
+!--|Logout				|CurrentPage  		|pageName	|pageTitle|
+!--|Top right		    |View All referrals	|Login		|Choose and Book|
+!--|Bottom left		|View All referrals	|Login		|Choose and Book|</div>
+<table>
+<thead>
+<tr>
+<th>pageName</th><th>pageTitle</th><th>ubrn</th><th>yob</th><th>password</th><th>logout</th><th>CurrentPage</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Login</td><td>e-Referral Service</td><td>1110 0000 0001</td><td>1971</td><td>Password01</td><td>top right</td><td>view all referrals</td></tr>
+<tr>
+<td>Login</td><td>e-Referral Service</td><td>1110 0000 0001</td><td>1971</td><td>Password01</td><td>bottom left</td><td>view all referrals</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {pageName=Login, pageTitle=e-Referral Service, ubrn=1110 0000 0001, yob=1971, password=Password01, logout=top right, CurrentPage=view all referrals}</h3>
+<div class="step successful">Given browser is open</div>
+<div class="step successful">When I navigate to <span class="step parameter">Login</span> page</div>
+<div class="step successful">Then the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page</div>
+<div class="step successful">Given the current page has title of &quot;e-Referral Service&quot; on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Given I am on the Login page</div>
+<div class="step ignorable">!-- Given a patilent user had a valid &lt;UBRN&gt;</div>
+<div class="step successful">When I enter &quot;<span class="step parameter">1110 0000 0001</span>&quot; in the ubrn textboxes on the Login page</div>
+<div class="step ignorable">!-- And a valid &lt;year of birth&gt;</div>
+<div class="step successful">And I enter &quot;<span class="step parameter">1971</span>&quot; in the <span class="step parameter">yobField</span> textbox on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- And a valid &lt;password&gt;</div>
+<div class="step successful">And I enter &quot;<span class="step parameter">Password01</span>&quot; in the <span class="step parameter">passwordField</span> textbox on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Given is not locked out</div>
+<div class="step ignorable">!-- When they submit their login details on the login page</div>
+<div class="step successful">And I click the <span class="step parameter">login</span> button on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request
+!--Then the patient user is able to successfully login to ERS</div>
+<div class="step successful">Then the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Pre-requisites</div>
+<div class="step ignorable">!-- NHSERS-111_S001 PatientLoginSuccess
+
+GivenStories: patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story</div>
+<div class="step successful">Given a patient user is logged in <span class="step parameter">NHSERS-111_S001</span></div>
+<div class="step successful">And there is unsaved data on the <span class="step parameter">view all referrals</span> page</div>
+<div class="step ignorable">!-- When they choose to &lt;logout&gt;</div>
+<div class="step successful">When I click the <span class="step parameter">top right</span> button on the <span class="step parameter">view all referrals</span> page</div>
+<div class="step ignorable">!-- When they choose to &lt;logout&gt;</div>
+<div class="step ignorable">!-- Then message is displayed stating &quot;Changes to your referral have not been saved. Do you want to continue without saving?&quot;</div>
+<div class="step pending">Then the text &quot;any updates which has not be saved will be lost&quot; should be displayed on the &lt;CurrentPage&gt; page
+
+!--unused examples
+!--|Logout				|CurrentPage  		|pageName	|pageTitle|
+!--|Top right		    |View All referrals	|Login		|Choose and Book|
+!--|Bottom left		|View All referrals	|Login		|Choose and Book| <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Then(&quot;the text \&quot;any updates which has not be saved will be lost\&quot; should be displayed on the &lt;CurrentPage&gt; page\n\n!--unused examples\n!--|Logout\t\t\t\t|CurrentPage  \t\t|pageName\t|pageTitle|\n!--|Top right\t\t    |View All referrals\t|Login\t\t|Choose and Book|\n!--|Bottom left\t\t|View All referrals\t|Login\t\t|Choose and Book|&quot;)
+@Pending
+public void thenTheTextanyUpdatesWhichHasNotBeSavedWillBeLostShouldBeDisplayedOnTheCurrentPagePageunusedExamplesLogoutCurrentPagepageNamepageTitleTopRightViewAllReferralsLoginChooseAndBookBottomLeftViewAllReferralsLoginChooseAndBook() {
+  // PENDING
+}
+</pre></div>
+
+<h3 class="example">Example: {pageName=Login, pageTitle=e-Referral Service, ubrn=1110 0000 0001, yob=1971, password=Password01, logout=bottom left, CurrentPage=view all referrals}</h3>
+<div class="step notPerformed">Given browser is open <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When I navigate to <span class="step parameter">Login</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Given the current page has title of &quot;e-Referral Service&quot; on the <span class="step parameter">Login</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- Given I am on the Login page</div>
+<div class="step ignorable">!-- Given a patilent user had a valid &lt;UBRN&gt;</div>
+<div class="step notPerformed">When I enter &quot;<span class="step parameter">1110 0000 0001</span>&quot; in the ubrn textboxes on the Login page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- And a valid &lt;year of birth&gt;</div>
+<div class="step notPerformed">And I enter &quot;<span class="step parameter">1971</span>&quot; in the <span class="step parameter">yobField</span> textbox on the <span class="step parameter">Login</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- And a valid &lt;password&gt;</div>
+<div class="step notPerformed">And I enter &quot;<span class="step parameter">Password01</span>&quot; in the <span class="step parameter">passwordField</span> textbox on the <span class="step parameter">Login</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- Given is not locked out</div>
+<div class="step ignorable">!-- When they submit their login details on the login page</div>
+<div class="step notPerformed">And I click the <span class="step parameter">login</span> button on the <span class="step parameter">Login</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request
+!--Then the patient user is able to successfully login to ERS</div>
+<div class="step notPerformed">Then the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- Pre-requisites</div>
+<div class="step ignorable">!-- NHSERS-111_S001 PatientLoginSuccess
+
+GivenStories: patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story</div>
+<div class="step notPerformed">Given a patient user is logged in <span class="step parameter">NHSERS-111_S001</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And there is unsaved data on the <span class="step parameter">view all referrals</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- When they choose to &lt;logout&gt;</div>
+<div class="step notPerformed">When I click the <span class="step parameter">bottom left</span> button on the <span class="step parameter">view all referrals</span> page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- When they choose to &lt;logout&gt;</div>
+<div class="step ignorable">!-- Then message is displayed stating &quot;Changes to your referral have not been saved. Do you want to continue without saving?&quot;</div>
+<div class="step pending">Then the text &quot;any updates which has not be saved will be lost&quot; should be displayed on the &lt;CurrentPage&gt; page
+
+!--unused examples
+!--|Logout				|CurrentPage  		|pageName	|pageTitle|
+!--|Top right		    |View All referrals	|Login		|Choose and Book|
+!--|Bottom left		|View All referrals	|Login		|Choose and Book| <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Then(&quot;the text \&quot;any updates which has not be saved will be lost\&quot; should be displayed on the &lt;CurrentPage&gt; page\n\n!--unused examples\n!--|Logout\t\t\t\t|CurrentPage  \t\t|pageName\t|pageTitle|\n!--|Top right\t\t    |View All referrals\t|Login\t\t|Choose and Book|\n!--|Bottom left\t\t|View All referrals\t|Login\t\t|Choose and Book|&quot;)
+@Pending
+public void thenTheTextanyUpdatesWhichHasNotBeSavedWillBeLostShouldBeDisplayedOnTheCurrentPagePageunusedExamplesLogoutCurrentPagepageNamepageTitleTopRightViewAllReferralsLoginChooseAndBookBottomLeftViewAllReferralsLoginChooseAndBook() {
+  // PENDING
+}
+</pre></div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

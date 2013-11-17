@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<service_provider_workgroup DDF_tag="SPWG000-001"  version="0.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="workgroup 1" organisation_id="DDF_tag:ASOG000-003"  />
+</TDITestFile0>

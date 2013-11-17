@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+<ers_appointment_booking DDF_tag="APPB113-211" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-211"
+  appointmentrequest_id="DDF_tag:APPR113-211"/>
+
+  
+<ers_appointment_booking DDF_tag="APPB113-212" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-212"
+  appointmentrequest_id="DDF_tag:APPR113-212"/>
+
+  
+<ers_appointment_booking DDF_tag="APPB113-213" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-213"
+  appointmentrequest_id="DDF_tag:APPR113-213"/>
+
+
+<ers_appointment_booking DDF_tag="APPB113-214" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-214"
+  appointmentrequest_id="DDF_tag:APPR113-214"/>
+
+
+<ers_appointment_booking DDF_tag="APPB113-215" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-215"
+  appointmentrequest_id="DDF_tag:APPR113-215"/>
+
+
+<ers_appointment_booking DDF_tag="APPB113-216" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-216"
+  appointmentrequest_id="DDF_tag:APPR113-216"/>
+
+
+<ers_appointment_booking DDF_tag="APPB113-281" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-281"
+  appointmentrequest_id="DDF_tag:APPR113-281"/>
+  
+
+<ers_appointment_booking DDF_tag="APPB113-282" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-282"
+  appointmentrequest_id="DDF_tag:APPR113-282"/>
+
+
+<ers_appointment_booking DDF_tag="APPB113-291" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-291"
+  appointmentrequest_id="DDF_tag:APPR113-291"/>
+  
+
+
+<ers_appointment_booking DDF_tag="APPB113-292" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-292"
+  appointmentrequest_id="DDF_tag:APPR113-292"/>
+  
+<ers_appointment_booking DDF_tag="APPB113-301" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-301"
+  appointmentrequest_id="DDF_tag:APPR113-301"/>
+
+<ers_appointment_booking DDF_tag="APPB113-302" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-302"
+  appointmentrequest_id="DDF_tag:APPR113-291"/>
+
+
+<ers_appointment_booking DDF_tag="APPB113-311" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-311"
+  appointmentrequest_id="DDF_tag:APPR113-311"/>
+
+<ers_appointment_booking DDF_tag="APPB113-312" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-312"
+  appointmentrequest_id="DDF_tag:APPR113-312"/>
+
+<ers_appointment_booking DDF_tag="APPB113-321" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-321"
+  appointmentrequest_id="DDF_tag:APPR113-321"/>
+
+<ers_appointment_booking DDF_tag="APPB113-322" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  appointmentbookingstatus="CANCELLED"
+  appointmentslot_id="DDF_tag:APPS113-322"
+  appointmentrequest_id="DDF_tag:APPR113-322"/>
+  
+  </TDITestFile0>

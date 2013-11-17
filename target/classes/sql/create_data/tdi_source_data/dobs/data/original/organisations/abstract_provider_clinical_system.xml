@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<abstract_provider_clinical_system DDF_tag="APCS000-001"  version="0.0"  created="TO_TIMESTAMP('02-Nov-2013 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  created_by="auto test"  />
+	<!-- Service Data Set 000-002 -->
+	<abstract_provider_clinical_system DDF_tag="APCS000-002"  version="0.0"  created="TO_TIMESTAMP('02-Nov-2013 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  created_by="auto test"  />
+	<!-- Service Data Set 000-003 -->
+	<abstract_provider_clinical_system DDF_tag="APCS000-003"  version="0.0"  created="TO_TIMESTAMP('02-Nov-2013 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  created_by="auto test"  />
+</TDITestFile0>

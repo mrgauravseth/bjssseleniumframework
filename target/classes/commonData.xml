@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This data set is populated in SIT environment -->
+<commondata>
+
+	<Include filename="ersschema.xml"/>
+
+	<VarDef name="story"/>
+
+	<VarDef name="ubrn" />
+	<VarDef name="nhsNumber" />
+	<VarDef name="testNo" /> 
+	<VarDef name="partTestNo" /> 
+	<VarDef name="APPRTag" />
+	<VarDef name="APPSTag" />
+	<VarDef name="APPBTag" />
+	<VarDef name="tableId" />
+	<VarDef name="serviceId" />
+
+	<VarDef name="password" value="Password01"/>
+	<VarDef name="version" value="0"/>
+	<VarDef name="createdBy" value="test"/>
+	<VarDef name="created" value="LOCALTIMESTAMP"/>
+	<VarDef name="contentSensitive" value="false" />
+	<VarDef name="namedClinician" value="CLIN3" />
+	<VarDef name="referringClinician" value="CLIN1" />
+	<VarDef name="referringClinicianMaxFieldLength" value="CLIN12345678901234567890" />
+	<VarDef name="referringClinicianHyphen" value="CLIN-1" />
+	<VarDef name="referringClinicianApos" value="CLIN'1" />
+	<VarDef name="referringClinicianSpec" value="CLIN1£$^" />
+	<VarDef name="referringOrg" value="ORG1" />
+	<VarDef name="referringOrgMaxFieldLength" value="ORG112345678901234567890" />
+	<VarDef name="referringOrgHyphen" value="ORG-1" />
+	<VarDef name="referringOrgApos" value="ORG'1" />
+	<VarDef name="referringOrgSpec" value="ORG1^+_" />
+	<VarDef name="registeredGp" value="CLIN2" />
+	<VarDef name="registeredOrg" value="ORG2" />
+	<VarDef name="appointmentRequestState" value ="BOOKED_INITIAL_REFERRAL"/>
+	<VarDef name="appointmentBookingStatus" value ="BOOKED_INITIAL_REFERRAL"/>
+	<VarDef name="requestPriority" value ="ROUTINE"/>
+	<VarDef name="requestType" value ="APPOINTMENT_REQUEST"/>
+	<VarDef name="futureDate" value="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')" />
+	<VarDef name="pastDate" value="TO_TIMESTAMP('23-JUN-2013 11:00:00', 'dd-mon-yyyy HH24:mi:ss')" />
+
+	<VarDef name="C_NUM_EXTRA_REFERRALS" value="2" const="Y" />
+	<VarDef name="C_INCREMENT_BY_ONE" value="1" const="Y" />
+	<VarDef name="V_REFERRAL_COUNTER" value="0"/>
+
+	<VarDef name="C_DB_AVAIL_F2F_SERVICE1" value="DB_AVAIL_F2F_SERVICE1" const="Y" />
+	<VarDef name="C_DB_AVAIL_F2F_SERVICE2" value="DB_AVAIL_F2F_SERVICE2" const="Y" />
+	<VarDef name="C_INDB_AVAIL_F2F_SERVICE1" value="INDB_AVAIL_F2F_SERVICE1" const="Y" />
+	<VarDef name="C_INDB_AVAIL_F2F_SERVICE2" value="INDB_AVAIL_F2F_SERVICE2" const="Y" />
+	<VarDef name="C_DB_AVAIL_TAS_SERVICE1" value="DB_AVAIL_TAS_SERVICE1" const="Y" />
+	<VarDef name="C_DB_AVAIL_TAS_SERVICE2" value="DB_AVAIL_TAS_SERVICE2" const="Y" />
+	<VarDef name="C_INDB_AVAIL_TAS_SERVICE1" value="INDB_AVAIL_TAS_SERVICE1" const="Y" />
+	<VarDef name="C_INDB_AVAIL_TAS_SERVICE2" value="INDB_AVAIL_TAS_SERVICE2" const="Y" />
+
+	<VarDef name="C_DB_UNAVAIL_F2F_SERVICE1" value="DB_UNAVAIL_F2F_SERVICE1" const="Y" />
+	<VarDef name="C_DB_UNAVAIL_F2F_SERVICE2" value="DB_UNAVAIL_F2F_SERVICE2" const="Y" />
+	<VarDef name="C_INDB_UNAVAIL_F2F_SERVICE1" value="INDB_UNAVAIL_F2F_SERVICE1" const="Y" />
+	<VarDef name="C_INDB_UNAVAIL_F2F_SERVICE2" value="INDB_UNAVAIL_F2F_SERVICE2" const="Y" />
+	<VarDef name="C_DB_UNAVAIL_TAS_SERVICE1" value="DB_UNAVAIL_TAS_SERVICE1" const="Y" />
+	<VarDef name="C_DB_UNAVAIL_TAS_SERVICE2" value="DB_UNAVAIL_TAS_SERVICE2" const="Y" />
+	<VarDef name="C_INDB_UNAVAIL_TAS_SERVICE1" value="INDB_UNAVAIL_TAS_SERVICE1" const="Y" />
+	<VarDef name="C_INDB_UNAVAIL_TAS_SERVICE2" value="INDB_UNAVAIL_TAS_SERVICE2" const="Y" />
+
+	<VarDef name="C_DB_AVAIL_F2F_MAXLEN_SERVICE" value="DB_AVAIL_F2F_MAXLEN_SERVICE" const="Y" />
+	<VarDef name="C_DB_AVAIL_F2F_HYPHEN_SERVICE" value="DB_AVAIL_F2F_HYPHEN_SERVICE" const="Y" />
+	<VarDef name="C_DB_AVAIL_F2F_APOS_SERVICE" value="DB_AVAIL_F2F_APOS_SERVICE" const="Y" />
+	<VarDef name="C_DB_AVAIL_F2F_SPEC_SERVICE" value="DB_AVAIL_F2F_SPEC_SERVICE" const="Y" />
+	<VarDef name="C_INDB_AVAIL_F2F_MAXLEN_SERVICE" value="INDB_AVAIL_F2F_MAXLEN_SERVICE" const="Y" />
+	<VarDef name="C_INDB_AVAIL_F2F_HYPHEN_SERVICE" value="INDB_AVAIL_F2F_HYPHEN_SERVICE" const="Y" />
+	<VarDef name="C_INDB_AVAIL_F2F_APOS_SERVICE" value="INDB_AVAIL_F2F_APOS_SERVICE" const="Y" />
+	<VarDef name="C_INDB_AVAIL_F2F_SPEC_SERVICE" value="INDB_AVAIL_F2F_SPEC_SERVICE" const="Y" />
+    
+    <VarDef name="C_DB_AVAIL_TAS_MAXLEN_SERVICE" value="DB_AVAIL_TAS_MAXLEN_SERVICE" const="Y" />
+    <VarDef name="C_DB_AVAIL_TAS_HYPHEN_SERVICE" value="DB_AVAIL_TAS_HYPHEN_SERVICE" const="Y" />
+    <VarDef name="C_DB_AVAIL_TAS_APOS_SERVICE" value="DB_AVAIL_TAS_APOS_SERVICE" const="Y" />
+    <VarDef name="C_DB_AVAIL_TAS_SPEC_SERVICE" value="DB_AVAIL_TAS_SPEC_SERVICE" const="Y" />
+    <VarDef name="C_INDB_AVAIL_TAS_MAXLEN_SERVICE" value="INDB_AVAIL_TAS_MAXLEN_SERVICE" const="Y" />
+    <VarDef name="C_INDB_AVAIL_TAS_HYPHEN_SERVICE" value="INDB_AVAIL_TAS_HYPHEN_SERVICE" const="Y" />
+    <VarDef name="C_INDB_AVAIL_TAS_APOS_SERVICE" value="INDB_AVAIL_TAS_APOS_SERVICE" const="Y" />
+    <VarDef name="C_INDB_AVAIL_TAS_SPEC_SERVICE" value="INDB_AVAIL_TAS_SPEC_SERVICE" const="Y" />
+    
+    <VarDef name="C_DB_UNAVAIL_TAS_MAXLEN_SERVICE" value="DB_UNAVAIL_TAS_MAXLEN_SERVICE" const="Y" />
+    <VarDef name="C_DB_UNAVAIL_TAS_HYPHEN_SERVICE" value="DB_UNAVAIL_TAS_HYPHEN_SERVICE" const="Y" />
+    <VarDef name="C_DB_UNAVAIL_TAS_APOS_SERVICE" value="DB_UNAVAIL_TAS_APOS_SERVICE" const="Y" />
+    <VarDef name="C_DB_UNAVAIL_TAS_SPEC_SERVICE" value="DB_UNAVAIL_TAS_SPEC_SERVICE" const="Y" />
+    <VarDef name="C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE" value="INDB_UNAVAIL_TAS_MAXLEN_SERVICE" const="Y" />
+    <VarDef name="C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE" value="INDB_UNAVAIL_TAS_HYPHEN_SERVICE" const="Y" />
+    <VarDef name="C_INDB_UNAVAIL_TAS_APOS_SERVICE" value="INDB_UNAVAIL_TAS_APOS_SERVICE" const="Y" />
+    <VarDef name="C_INDB_UNAVAIL_TAS_SPEC_SERVICE" value="INDB_UNAVAIL_TAS_SPEC_SERVICE" const="Y" />
+    	
+	<ers_service DDF_tag="{C_DB_AVAIL_F2F_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_F2F_SERVICE1}" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_DB_AVAIL_F2F_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_F2F_SERVICE2}" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_INDB_AVAIL_F2F_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_F2F_SERVICE1}" appointmenttype="FIRST_OUTPATIENT" directlybookable="false"/>
+	<ers_service DDF_tag="{C_INDB_AVAIL_F2F_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_F2F_SERVICE2}" appointmenttype="FIRST_OUTPATIENT" directlybookable="false"/>
+	<ers_service DDF_tag="{C_DB_AVAIL_TAS_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_TAS_SERVICE1}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_DB_AVAIL_TAS_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_TAS_SERVICE2}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_INDB_AVAIL_TAS_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_TAS_SERVICE1}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+	<ers_service DDF_tag="{C_INDB_AVAIL_TAS_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_TAS_SERVICE2}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+
+	<ers_service DDF_tag="{C_DB_UNAVAIL_F2F_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_F2F_SERVICE1}" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_DB_UNAVAIL_F2F_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_F2F_SERVICE2}" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_INDB_UNAVAIL_F2F_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_F2F_SERVICE1}" appointmenttype="FIRST_OUTPATIENT" directlybookable="false"/>
+	<ers_service DDF_tag="{C_INDB_UNAVAIL_F2F_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_F2F_SERVICE2}" appointmenttype="FIRST_OUTPATIENT" directlybookable="false"/>
+	<ers_service DDF_tag="{C_DB_UNAVAIL_TAS_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_TAS_SERVICE1}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_DB_UNAVAIL_TAS_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_TAS_SERVICE2}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_INDB_UNAVAIL_TAS_SERVICE1}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_TAS_SERVICE1}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+	<ers_service DDF_tag="{C_INDB_UNAVAIL_TAS_SERVICE2}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_TAS_SERVICE2}" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+
+
+	<ers_service DDF_tag="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_F2F_MAXLEN_SERVICE} 12345678901234567890123456789012345678901234567890" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}-1" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_DB_AVAIL_F2F_APOS_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_F2F_APOS_SERVICE}'1" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_DB_AVAIL_F2F_SPEC_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_F2F_SPEC_SERVICE}?()%!11" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+
+	<ers_service DDF_tag="{C_INDB_AVAIL_F2F_MAXLEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_F2F_MAXLEN_SERVICE} 12345678901234567890123456789012345678901234567890" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_INDB_AVAIL_F2F_HYPHEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_F2F_HYPHEN_SERVICE}-1" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_INDB_AVAIL_F2F_APOS_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_F2F_APOS_SERVICE}'1" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+	<ers_service DDF_tag="{C_INDB_AVAIL_F2F_SPEC_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_F2F_SPEC_SERVICE}?()%!11" appointmenttype="FIRST_OUTPATIENT" directlybookable="true"/>
+
+    <ers_service DDF_tag="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_TAS_MAXLEN_SERVICE} 12345678901234567890123456789012345678901234567890" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+    <ers_service DDF_tag="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}-1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+    <ers_service DDF_tag="{C_DB_AVAIL_TAS_APOS_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_TAS_APOS_SERVICE}'1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+    <ers_service DDF_tag="{C_DB_AVAIL_TAS_SPEC_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_AVAIL_TAS_SPEC_SERVICE}?()%!11" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+
+    <ers_service DDF_tag="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_TAS_MAXLEN_SERVICE} 12345678901234567890123456789012345678901234567890" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+    <ers_service DDF_tag="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_TAS_HYPHEN_SERVICE}-1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+    <ers_service DDF_tag="{C_INDB_AVAIL_TAS_APOS_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_TAS_APOS_SERVICE}'1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+    <ers_service DDF_tag="{C_INDB_AVAIL_TAS_SPEC_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_AVAIL_TAS_SPEC_SERVICE}?()%!11" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+    
+    <ers_service DDF_tag="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE} 12345678901234567890123456789012345678901234567890" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+    <ers_service DDF_tag="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}-1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+    <ers_service DDF_tag="{C_DB_UNAVAIL_TAS_APOS_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_TAS_APOS_SERVICE}'1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+    <ers_service DDF_tag="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}?()%!11" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="true"/>
+
+    <ers_service DDF_tag="{C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE} 12345678901234567890123456789012345678901234567890" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+    <ers_service DDF_tag="{C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE}-1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+    <ers_service DDF_tag="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}'1" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+    <ers_service DDF_tag="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}" created="{created}" createdby="{createdBy}" version="{version}" name="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}?()%!11" appointmenttype="TELEPHONE_ASSESSMENT" directlybookable="false"/>
+
+
+</commondata>

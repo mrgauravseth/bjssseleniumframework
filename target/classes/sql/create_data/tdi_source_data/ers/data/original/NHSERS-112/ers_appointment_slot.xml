@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 112-001 -->
+	<ers_appointment_slot DDF_tag="APPS112-001" service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921120000001" createdby="test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 112-002 -->
+	<ers_appointment_slot DDF_tag="APPS112-002" service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_booking_id="null" end_date="TO_TIMESTAMP('14-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921120000001" createdby="test" start_date="TO_TIMESTAMP('14-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+</TDITestFile0>

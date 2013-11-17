@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 113-011 -->
+	<ers_appointment_booking DDF_tag="APPS113-011" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-011" appointmentslot_id="DDF_tag:APPS113-011" version="0"  />
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-1000-011 -->
+	<ers_appointment_booking DDF_tag="APPS113-1000-011" appointmentbookingstatus="BOOKED_INITIAL_REFERRAL" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-1000-011" appointmentslot_id="DDF_tag:APPS113-1000-011" version="0"  />
+	<!-- ERS Data Set 113-012 -->
+	<ers_appointment_booking DDF_tag="APPS113-012" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-012" appointmentslot_id="DDF_tag:APPS113-012" version="0"  />
+	<!-- ERS Data Set 113-013 -->
+	<ers_appointment_booking DDF_tag="APPS113-013" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-013" appointmentslot_id="DDF_tag:APPS113-013" version="0"  />
+	<!-- ERS Data Set 113-013 -->
+	<!-- ERS Data Set 113-014 -->
+	<ers_appointment_booking DDF_tag="APPS113-014" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-014" appointmentslot_id="DDF_tag:APPS113-014" version="0"  />
+	<!-- ERS Data Set 113-015 -->
+	<ers_appointment_booking DDF_tag="APPS113-015" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-015" appointmentslot_id="DDF_tag:APPS113-015" version="0"  />
+	<!-- ERS Data Set 113-016 -->
+	<ers_appointment_booking DDF_tag="APPS113-016" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-016" appointmentslot_id="DDF_tag:APPS113-016" version="0"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_appointment_booking DDF_tag="APPS113-081" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-081" appointmentslot_id="DDF_tag:APPS113-081" version="0"  />
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-082 -->
+	<ers_appointment_booking DDF_tag="APPS113-082" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-082" appointmentslot_id="DDF_tag:APPS113-082" version="0"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_appointment_booking DDF_tag="APPS113-091" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-091" appointmentslot_id="DDF_tag:APPS113-091" version="0"  />
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-092 -->
+	<ers_appointment_booking DDF_tag="APPS113-092" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-092" appointmentslot_id="DDF_tag:APPS113-092" version="0"  />
+	<!-- ERS Data Set 113-101 -->
+	<ers_appointment_booking DDF_tag="APPS113-101" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-101" appointmentslot_id="DDF_tag:APPS113-101" version="0"  />
+	<!-- ERS Data Set 113-101 -->
+	<!-- ERS Data Set 113-101 -->
+	<!-- ERS Data Set 113-102 -->
+	<ers_appointment_booking DDF_tag="APPS113-102" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-102" appointmentslot_id="DDF_tag:APPS113-102" version="0"  />
+	<!-- ERS Data Set 113-111 -->
+	<ers_appointment_booking DDF_tag="APPS113-111" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-111" appointmentslot_id="DDF_tag:APPS113-111" version="0"  />
+	<!-- ERS Data Set 113-111 -->
+	<!-- ERS Data Set 113-112 -->
+	<!-- ERS Data Set 113-112 -->
+	<ers_appointment_booking DDF_tag="APPS113-112" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-112" appointmentslot_id="DDF_tag:APPS113-112" version="0"  />
+	<!-- ERS Data Set 113-121 -->
+	<ers_appointment_booking DDF_tag="APPS113-121" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-121" appointmentslot_id="DDF_tag:APPS113-121" version="0"  />
+	<!-- ERS Data Set 113-121 -->
+	<!-- ERS Data Set 113-121 -->
+	<!-- ERS Data Set 113-122 -->
+	<ers_appointment_booking DDF_tag="APPS113-122" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-122" appointmentslot_id="DDF_tag:APPS113-122" version="0"  />
+	<!-- ERS Data Set 113-131 -->
+	<ers_appointment_booking DDF_tag="APPS113-131" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-131" appointmentslot_id="DDF_tag:APPS113-131" version="0"  />
+	<!-- ERS Data Set 113-131 -->
+	<!-- ERS Data Set 113-131 -->
+	<!-- ERS Data Set 113-132 -->
+	<ers_appointment_booking DDF_tag="APPS113-132" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-132" appointmentslot_id="DDF_tag:APPS113-132" version="0"  />
+	<!-- ERS Data Set 113-141 -->
+	<ers_appointment_booking DDF_tag="APPS113-141" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-141" appointmentslot_id="DDF_tag:APPS113-141" version="0"  />
+	<!-- ERS Data Set 113-141 -->
+	<!-- ERS Data Set 113-141 -->
+	<!-- ERS Data Set 113-142 -->
+	<ers_appointment_booking DDF_tag="APPS113-142" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-142" appointmentslot_id="DDF_tag:APPS113-142" version="0"  />
+	<!-- ERS Data Set 113-151 -->
+	<ers_appointment_booking DDF_tag="APPS113-151" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-151" appointmentslot_id="DDF_tag:APPS113-151" version="0"  />
+	<!-- ERS Data Set 113-151 -->
+	<!-- ERS Data Set 113-151 -->
+	<!-- ERS Data Set 113-152 -->
+	<ers_appointment_booking DDF_tag="APPS113-152" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-152" appointmentslot_id="DDF_tag:APPS113-152" version="0"  />
+	<!-- ERS Data Set 113-161 -->
+	<ers_appointment_booking DDF_tag="APPS113-161" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-161" appointmentslot_id="DDF_tag:APPS113-161" version="0"  />
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-171 -->
+	<ers_appointment_booking DDF_tag="APPS113-171" appointmentbookingstatus="CANCELLED" created="LOCALTIMESTAMP" createdby="auto test" appointmentrequest_id="DDF_tag:APPR113-171" appointmentslot_id="DDF_tag:APPS113-171" version="0"  />
+</TDITestFile0>

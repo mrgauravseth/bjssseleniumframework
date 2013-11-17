@@ -1,0 +1,297 @@
+{"xref": {
+  "whenMade": 1384536451286,
+  "createdBy": "JBehave",
+  "metaFilter": "+ acceptanceCriteria C1xxxxxxx",
+  "meta": [
+    "author=Tom Dickinson",
+    "lastReviewed=",
+    "testphase=Core",
+    "scenario=NHSERS-111_S001_C00_Happy_Path_Login",
+    "acceptanceCriteria=C1xxxxxxx",
+    "sprint=1",
+    "developedFromJIRA=111 10/09/13 4.35PM"
+  ],
+  "stories": [
+    {
+      "description": "Story: base load browser",
+      "narrative": "",
+      "name": "LoadBrowser.story",
+      "path": "patient_app/LoadBrowser.story",
+      "html": "patient_app.LoadBrowser.html",
+      "meta": "",
+      "scenarios": "Scenario:NHSERS-LoadBrowser\nGiven browser is open\nWhen I navigate to <pageName> page\nThen the current page has title of \"<pageTitle>\" on the <pageName> page\n\n\n",
+      "passed": true,
+      "started": 1384536411875,
+      "duration": 9486
+    },
+    {
+      "description": "Story: NHSERS-113 Patient Views Unbooked Referral",
+      "narrative": "In order to progress an Appointment Request that does not yet have an Appointment Booking\nAs a Patient User\nI want to view my Appointment Request\n",
+      "name": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+      "path": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+      "html": "patient_app.NHSERS-113.NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.html",
+      "meta": "",
+      "scenarios": "Scenario:NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services\nGiven browser is open\nWhen I navigate to <pageName> page\nThen the current page has title of \"<pageTitle>\" on the <pageName> page\nGiven the current page has title of \"e-Referral Service\" on the Login page\n!-- Given I am on the Login page\n!-- Given a patilent user had a valid <UBRN>\nWhen I enter \"<ubrn>\" in the ubrn textboxes on the Login page\n!-- And a valid <year of birth>\nAnd I enter \"<yob>\" in the yobField textbox on the Login page\n!-- And a valid <password>\nAnd I enter \"<password>\" in the passwordField textbox on the Login page\n!-- Given is not locked out\n!-- When they submit their login details on the login page\nAnd I click the login button on the Login page\n!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request\n!--Then the patient user is able to successfully login to ERS\nThen the current page has title of \"<pageTitle>\" on the <pageName> page\n!-- Pre-requisites\n!-- NHSERS-111_S001 PatientLoginSuccess\n\nGivenStories: patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story\nGiven a patient user is logged in NHSERS-111_S001\nAnd there is unsaved data on the <CurrentPage> page\n!-- When they choose to <logout>\nWhen I click the <logout> button on the <CurrentPage> page\n!-- When they choose to <logout>\n!-- Then message is displayed stating \"Changes to your referral have not been saved. Do you want to continue without saving?\"\nThen the text \"any updates which has not be saved will be lost\" should be displayed on the <CurrentPage> page\n\n!--unused examples\n!--|Logout\t\t\t\t|CurrentPage  \t\t|pageName\t|pageTitle|\n!--|Top right\t\t    |View All referrals\t|Login\t\t|Choose and Book|\n!--|Bottom left\t\t|View All referrals\t|Login\t\t|Choose and Book|\n\n\n",
+      "passed": true,
+      "started": 1384536412401,
+      "duration": 38453
+    },
+    {
+      "description": "Story: NHSERS-111 Patient Login - Authentication",
+      "narrative": "In order to manage my Appointment Request(s)\nAs a Patient User\nI want to log into the e-RS\n",
+      "name": "NHSERS-111_S001_C00_Happy_Path_Login.story",
+      "path": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+      "html": "patient_app.NHSERS-111.NHSERS-111_S001_C00_Happy_Path_Login.html",
+      "meta": "acceptanceCriteria=C1xxxxxxx\nauthor=Tom Dickinson\ndevelopedFromJIRA=111 10/09/13 4.35PM\nlastReviewed=\nscenario=NHSERS-111_S001_C00_Happy_Path_Login\nsprint=1\ntestphase=Core\n",
+      "scenarios": "Scenario:NHSERS-111_S001_C00_Happy_Path_Login\nGiven browser is open\nWhen I navigate to <pageName> page\nThen the current page has title of \"<pageTitle>\" on the <pageName> page\nGiven the current page has title of \"e-Referral Service\" on the Login page\n!-- Given I am on the Login page\n!-- Given a patilent user had a valid <UBRN>\nWhen I enter \"<ubrn>\" in the ubrn textboxes on the Login page\n!-- And a valid <year of birth>\nAnd I enter \"<yob>\" in the yobField textbox on the Login page\n!-- And a valid <password>\nAnd I enter \"<password>\" in the passwordField textbox on the Login page\n!-- Given is not locked out\n!-- When they submit their login details on the login page\nAnd I click the login button on the Login page\n!-- Then the patient user is able to successfully login to ERS displaying appropriate appointment request\n!--Then the patient user is able to successfully login to ERS\nThen the current page has title of \"<pageTitle>\" on the <pageName> page\n\n\n",
+      "passed": true,
+      "started": 1384536421385,
+      "duration": 6835
+    }
+  ],
+  "stepMatches": [
+    {
+      "type": "THEN",
+      "annotatedPattern": "the current page has title of \"$title\" on the $pageName page",
+      "resolvedPattern": "the\\s+current\\s+page\\s+has\\s+title\\s+of\\s+\"(.*)\"\\s+on\\s+the\\s+(.*)\\s+page",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Then the current page has title of \"<pageTitle>\" on the <pageName> page"
+        },
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "Then the current page has title of \"<pageTitle>\" on the <pageName> page"
+        },
+        {
+          "story": "patient_app/LoadBrowser.story",
+          "scenario": "NHSERS-LoadBrowser",
+          "step": "Then the current page has title of \"<pageTitle>\" on the <pageName> page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Then the current page has title of \"<pageTitle>\" on the <pageName> page"
+        },
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "Then the current page has title of \"<pageTitle>\" on the <pageName> page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Then the current page has title of \"<pageTitle>\" on the <pageName> page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Then the current page has title of \"<pageTitle>\" on the <pageName> page"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "the current page has title of \"$title\" on the $pageName page",
+      "resolvedPattern": "the\\s+current\\s+page\\s+has\\s+title\\s+of\\s+\"(.*)\"\\s+on\\s+the\\s+(.*)\\s+page",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "Given the current page has title of \"e-Referral Service\" on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Given the current page has title of \"e-Referral Service\" on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Given the current page has title of \"e-Referral Service\" on the Login page"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "there is unsaved data on the $CurrentPage page",
+      "resolvedPattern": "there\\s+is\\s+unsaved\\s+data\\s+on\\s+the\\s+(.*)\\s+page",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And there is unsaved data on the <CurrentPage> page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And there is unsaved data on the <CurrentPage> page"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "browser is open",
+      "resolvedPattern": "browser\\s+is\\s+open",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Given browser is open"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Given browser is open"
+        },
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "Given browser is open"
+        },
+        {
+          "story": "patient_app/LoadBrowser.story",
+          "scenario": "NHSERS-LoadBrowser",
+          "step": "Given browser is open"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "I enter \"$searchText\" in the $textBoxId textbox on the $pageName page",
+      "resolvedPattern": "I\\s+enter\\s+\"(.*)\"\\s+in\\s+the\\s+(.*)\\s+textbox\\s+on\\s+the\\s+(.*)\\s+page",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "And I enter \"<yob>\" in the yobField textbox on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And I enter \"<password>\" in the passwordField textbox on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And I enter \"<password>\" in the passwordField textbox on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "And I enter \"<password>\" in the passwordField textbox on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And I enter \"<yob>\" in the yobField textbox on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And I enter \"<yob>\" in the yobField textbox on the Login page"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "a patient user is logged in $scenario",
+      "resolvedPattern": "a\\s+patient\\s+user\\s+is\\s+logged\\s+in\\s+(.*)",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Given a patient user is logged in NHSERS-111_S001"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "Given a patient user is logged in NHSERS-111_S001"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "I navigate to $pageName page",
+      "resolvedPattern": "I\\s+navigate\\s+to\\s+(.*)\\s+page",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "When I navigate to <pageName> page"
+        },
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "When I navigate to <pageName> page"
+        },
+        {
+          "story": "patient_app/LoadBrowser.story",
+          "scenario": "NHSERS-LoadBrowser",
+          "step": "When I navigate to <pageName> page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "When I navigate to <pageName> page"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "I click the $buttonVarName button on the $pageName page",
+      "resolvedPattern": "I\\s+click\\s+the\\s+(.*)\\s+button\\s+on\\s+the\\s+(.*)\\s+page",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "When I click the <logout> button on the <CurrentPage> page"
+        },
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "And I click the login button on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And I click the login button on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "And I click the login button on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "When I click the <logout> button on the <CurrentPage> page"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "I enter \"$ubrn\" in the ubrn textboxes on the Login page",
+      "resolvedPattern": "I\\s+enter\\s+\"(.*)\"\\s+in\\s+the\\s+ubrn\\s+textboxes\\s+on\\s+the\\s+Login\\s+page",
+      "usages": [
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "When I enter \"<ubrn>\" in the ubrn textboxes on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-111/NHSERS-111_S001_C00_Happy_Path_Login.story",
+          "scenario": "NHSERS-111_S001_C00_Happy_Path_Login",
+          "step": "When I enter \"<ubrn>\" in the ubrn textboxes on the Login page"
+        },
+        {
+          "story": "patient_app/NHSERS-113/NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services.story",
+          "scenario": "NHSERS-113_S001_C1_Patient_Views_Unbooked_Referral_with_Routine_Priority_that_all_available_Services",
+          "step": "When I enter \"<ubrn>\" in the ubrn textboxes on the Login page"
+        }
+      ]
+    }
+  ]
+}}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<specialty DDF_tag="SPEC000-001"  version="1.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="2WW"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="9001.0"  effective_start_date="LOCALTIMESTAMP"  />
+	<!-- Service Data Set 000-002 -->
+	<specialty DDF_tag="SPEC000-002"  version="1.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Allergy"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="9001.0"  effective_start_date="LOCALTIMESTAMP"  />
+	<!-- Service Data Set 000-003 -->
+	<specialty DDF_tag="SPEC000-003"  version="1.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Cardiology"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="9001.0"  effective_start_date="LOCALTIMESTAMP"  />
+</TDITestFile0>

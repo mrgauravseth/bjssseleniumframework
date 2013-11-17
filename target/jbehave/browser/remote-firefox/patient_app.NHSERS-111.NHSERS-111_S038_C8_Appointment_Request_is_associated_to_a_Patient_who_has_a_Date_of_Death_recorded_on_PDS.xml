@@ -1,0 +1,81 @@
+<story path="patient_app/NHSERS-111/NHSERS-111_S038_C8_Appointment_Request_is_associated_to_a_Patient_who_has_a_Date_of_Death_recorded_on_PDS.story" title="Story: NHSERS-111 Patient Login - Authentication">
+<meta>
+<property keyword="@" name="acceptanceCriteria" value="C8"/>
+<property keyword="@" name="author" value="Tom Dickinson"/>
+<property keyword="@" name="developedFromJIRA" value="111 10/09/13 4.35PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="sprint" value="1"/>
+<property keyword="@" name="testphase" value="Core"/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">manage my Appointment Request(s)</inOrderTo>
+  <asA keyword="As a">Patient User</asA>
+  <iWantTo keyword="I want to">log into the e-RS</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="NHSERS-111_S038_C8 |Appointment Request is associated to a Patient who has a Date of Death recorded on PDS">
+<examples keyword="Examples:">
+<step>Given browser is open</step>
+<step>When I navigate to &lt;pageName&gt; page</step>
+<step>Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</step>
+<step>Given the current page has title of &quot;&lt;pageTitle&gt;&quot; on the Login page</step>
+<step>!-- Given a patient user has &lt;UBRN&gt; which has a date of death recorded on PDS</step>
+<step>When I enter &quot;&lt;ubrn&gt;&quot; in the ubrn textboxes on the Login page</step>
+<step>And I enter &quot;&lt;yearofbirth&gt;&quot; in the yobField textbox on the Login page</step>
+<step>And I enter &quot;&lt;password&gt;&quot; in the passwordField textbox on the Login page</step>
+<step>!-- When they submit their valid login details on the login page</step>
+<step>And I click the login button on the Login page</step>
+<step>!-- Then the  Patient User is unable to login</step>
+<step>Then the Login Page will be shown</step>
+<step>!-- And error message &quot;You cannot make an appointment using this reference number. Please contact your GP practise for more information&quot; displayed</step>
+<step>And the text &quot;You cannot make an appointment using this reference number. Please contact your GP practice for more information.&quot; should be displayed on the Login page</step>
+<step>!-- And the Activity Log is updated with login</step>
+<step>!-- And Last Activity Date Time is updated</step>
+<step>!-- And &lt;SessionID&gt; is logged</step>
+<step>!-- And Activity &lt;Activity&gt; is logged</step>
+<step>!-- And Date &lt;Date&gt; is logged</step>
+<step>!-- And Time &lt;Time&gt; is logged</step>
+<step>!-- And UBRN &lt;UBRN&gt; is logged</step>
+<step>!-- And Reason Code &lt;Reason Code&gt; is logged</step>
+<step>!-- Needs clarification from Dev/BAs as to what will be logged</step>
+<step>!-- Format of Activity Log is YYYY-MM-DD HH:mm:ss,sss [ACTIVITY] SessionID =  XXXXXXXXXX  UBRN =  XXXXXXXXXXXXX  Reason Code =  xxxxxxxxxxxx</step>
+<step>!-- &lt;SessionID&gt; = XXXXXXXXXXX</step>
+<step>!-- &lt;Activity&gt; is LOGIN</step>
+<step>!-- &lt;Date&gt; format is YYYY-MM-DD</step>
+<step>!-- &lt;Time&gt; format is HH:mm:ss,sss</step>
+<parameters>
+<names><name>pageName</name><name>pageTitle</name><name>ubrn</name><name>yearofbirth</name><name>password</name></names>
+<values><value>Login</value><value>e-Referral Service</value><value>1110 0000 0007</value><value>1971</value><value>Password07</value></values>
+</parameters>
+
+<example keyword="Example:">{pageName=Login, pageTitle=e-Referral Service, ubrn=1110 0000 0007, yearofbirth=1971, password=Password07}</example>
+<step outcome="successful">Given browser is open</step>
+<step outcome="successful">When I navigate to <parameter>Login</parameter> page</step>
+<step outcome="successful">Then the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="successful">Given the current page has title of &quot;<parameter>e-Referral Service</parameter>&quot; on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Given a patient user has &lt;UBRN&gt; which has a date of death recorded on PDS</step>
+<step outcome="successful">When I enter &quot;<parameter>1110 0000 0007</parameter>&quot; in the ubrn textboxes on the Login page</step>
+<step outcome="successful">And I enter &quot;<parameter>1971</parameter>&quot; in the <parameter>yobField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="successful">And I enter &quot;<parameter>Password07</parameter>&quot; in the <parameter>passwordField</parameter> textbox on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- When they submit their valid login details on the login page</step>
+<step outcome="successful">And I click the <parameter>login</parameter> button on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- Then the  Patient User is unable to login</step>
+<step outcome="successful">Then the Login Page will be shown</step>
+<step outcome="ignorable">!-- And error message &quot;You cannot make an appointment using this reference number. Please contact your GP practise for more information&quot; displayed</step>
+<step outcome="successful">And the text &quot;You cannot make an appointment using this reference number. Please contact your GP practice for more information.&quot; should be displayed on the <parameter>Login</parameter> page</step>
+<step outcome="ignorable">!-- And the Activity Log is updated with login</step>
+<step outcome="ignorable">!-- And Last Activity Date Time is updated</step>
+<step outcome="ignorable">!-- And &lt;SessionID&gt; is logged</step>
+<step outcome="ignorable">!-- And Activity &lt;Activity&gt; is logged</step>
+<step outcome="ignorable">!-- And Date &lt;Date&gt; is logged</step>
+<step outcome="ignorable">!-- And Time &lt;Time&gt; is logged</step>
+<step outcome="ignorable">!-- And UBRN &lt;UBRN&gt; is logged</step>
+<step outcome="ignorable">!-- And Reason Code &lt;Reason Code&gt; is logged</step>
+<step outcome="ignorable">!-- Needs clarification from Dev/BAs as to what will be logged</step>
+<step outcome="ignorable">!-- Format of Activity Log is YYYY-MM-DD HH:mm:ss,sss [ACTIVITY] SessionID =  XXXXXXXXXX  UBRN =  XXXXXXXXXXXXX  Reason Code =  xxxxxxxxxxxx</step>
+<step outcome="ignorable">!-- &lt;SessionID&gt; = XXXXXXXXXXX</step>
+<step outcome="ignorable">!-- &lt;Activity&gt; is LOGIN</step>
+<step outcome="ignorable">!-- &lt;Date&gt; format is YYYY-MM-DD</step>
+<step outcome="ignorable">!-- &lt;Time&gt; format is HH:mm:ss,sss</step>
+</examples>
+</scenario>
+</story>

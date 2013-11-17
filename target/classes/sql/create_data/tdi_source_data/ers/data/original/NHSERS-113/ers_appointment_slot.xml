@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 113-011 -->
+	<ers_appointment_slot DDF_tag="APPS113-011" service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000011" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-012 -->
+	<ers_appointment_slot DDF_tag="APPS113-012" service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000012" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-013 -->
+	<ers_appointment_slot DDF_tag="APPS113-013" service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000013" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-013 -->
+	<!-- ERS Data Set 113-014 -->
+	<ers_appointment_slot DDF_tag="APPS113-014" service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000014" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-015 -->
+	<ers_appointment_slot DDF_tag="APPS113-015" service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000015" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-016 -->
+	<ers_appointment_slot DDF_tag="APPS113-016" service_id="{C_DB_AVAIL_F2F_SPESERVICE}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000016" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_appointment_slot DDF_tag="APPS113-081" service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000081" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-082 -->
+	<ers_appointment_slot DDF_tag="APPS113-082" service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000082" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_appointment_slot DDF_tag="APPS113-091" service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_booking_id="null" end_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" clinic_id="{CLINIC_ID}" pas_asid="{PAS_ASID}" created="LOCALTIMESTAMP" usrn="0b2251d2-45fa-452a-a483-921130000091" createdby="auto test" start_date="TO_TIMESTAMP('13-Nov-2014 11:38:18', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+</TDITestFile0>

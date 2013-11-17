@@ -1,0 +1,68 @@
+<div class="story">
+<h1>Story: NHSERS-111 Patient Login - Authentication</h1>
+<div class="path">patient_app/NHSERS-111/NHSERS-111_S030_Note3_2nd_UBRN_field_will_autotab_to_when_patient_enters_4_digits_with_javascript_enabled.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@acceptanceCriteria Note 3</div>
+<div class="property">@author Tom Dickinson</div>
+<div class="property">@developedFromJIRA 111 10/09/13 4.35PM</div>
+<div class="property">@lastReviewed </div>
+<div class="property">@sprint 1</div>
+<div class="property">@testphase Core</div>
+</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> manage my Appointment Request(s)</div>
+<div class="element asA"><span class="keyword asA">As a</span> Patient User</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> log into the e-RS</div>
+</div>
+<div class="scenario">
+<h2>Scenario: NHSERS-111_S030_Note3 | 2nd UBRN field will autotab to when patient enters 4 digits with javascript enabled</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given browser is open</div>
+<div class="step">When I navigate to &lt;pageName&gt; page</div>
+<div class="step">Then the current page has title of &quot;&lt;pageTitle&gt;&quot; on the &lt;pageName&gt; page</div>
+<div class="step">Given the current page has title of &quot;&lt;pageTitle&gt;&quot; on the Login page</div>
+<div class="step">!-- Given a Patient User has &lt;UBRN&gt;</div>
+<div class="step">!-- And has javascript enabled</div>
+<div class="step">When I enter &quot;0000&quot; in the ubrnField1 textbox on the Login page</div>
+<div class="step">!-- Then the culrsor will autotab to the next field</div>
+<div class="step">Then the cursor will autotab to the ubrnField2 field on the Login page</div>
+<div class="step">!-- Given a Patient User has &lt;UBRN&gt;</div>
+<div class="step">!-- And has javascript enabled</div>
+<div class="step">!-- When they enter the second 4 digits of their UBRN</div>
+<div class="step">Given the cursor will autotab to the ubrnField2 field on the Login page</div>
+<div class="step">When I enter &quot;0000&quot; in the ubrnField2 textbox on the Login page</div>
+<div class="step">!-- Then the cursor will autotab to the 3rd UBRN field</div>
+<div class="step">Then the cursor will autotab to the ubrnField3 field on the Login page</div>
+<table>
+<thead>
+<tr>
+<th>pageName</th><th>pageTitle</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Login</td><td>e-Referral Service</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {pageName=Login, pageTitle=e-Referral Service}</h3>
+<div class="step successful">Given browser is open</div>
+<div class="step successful">When I navigate to <span class="step parameter">Login</span> page</div>
+<div class="step successful">Then the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page</div>
+<div class="step successful">Given the current page has title of &quot;<span class="step parameter">e-Referral Service</span>&quot; on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Given a Patient User has &lt;UBRN&gt;</div>
+<div class="step ignorable">!-- And has javascript enabled</div>
+<div class="step successful">When I enter &quot;0000&quot; in the <span class="step parameter">ubrnField1</span> textbox on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Then the culrsor will autotab to the next field</div>
+<div class="step successful">Then the cursor will autotab to the <span class="step parameter">ubrnField2</span> field on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Given a Patient User has &lt;UBRN&gt;</div>
+<div class="step ignorable">!-- And has javascript enabled</div>
+<div class="step ignorable">!-- When they enter the second 4 digits of their UBRN</div>
+<div class="step successful">Given the cursor will autotab to the <span class="step parameter">ubrnField2</span> field on the <span class="step parameter">Login</span> page</div>
+<div class="step successful">When I enter &quot;0000&quot; in the <span class="step parameter">ubrnField2</span> textbox on the <span class="step parameter">Login</span> page</div>
+<div class="step ignorable">!-- Then the cursor will autotab to the 3rd UBRN field</div>
+<div class="step successful">Then the cursor will autotab to the <span class="step parameter">ubrnField3</span> field on the <span class="step parameter">Login</span> page</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,13 @@
+<story path="gateways/NHSERS-304/NHSERS-304_S002.story" title="">
+<scenario keyword="Scenario:" title="NHSERS-304_S002 | PDS Query - Failed Patient Data Retrieval when patient requested does not exist in PDS">
+<meta>
+<property keyword="@" name="Sprint" value="1"/>
+<property keyword="@" name="author" value="Ian Malone"/>
+<property keyword="@" name="developedFromJIRA" value="304 26/09/13 PM"/>
+<property keyword="@" name="lastReviewed" value=""/>
+<property keyword="@" name="skip" value=""/>
+<property keyword="@" name="testphase" value="Core Regression"/>
+</meta>
+<filter>-skip -pending -manualonly -bug *</filter>
+</scenario>
+</story>

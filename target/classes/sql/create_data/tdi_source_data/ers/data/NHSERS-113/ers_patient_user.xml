@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 113-011 -->
+	<ers_patient_user DDF_tag="PNTU113-011" created="LOCALTIMESTAMP" nhsnumber="1130000011" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-1000-011 -->
+	<!-- ERS Data Set 113-012 -->
+	<ers_patient_user DDF_tag="PNTU113-012" created="LOCALTIMESTAMP" nhsnumber="1130000012" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-013 -->
+	<ers_patient_user DDF_tag="PNTU113-013" created="LOCALTIMESTAMP" nhsnumber="1130000013" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-013 -->
+	<!-- ERS Data Set 113-014 -->
+	<ers_patient_user DDF_tag="PNTU113-014" created="LOCALTIMESTAMP" nhsnumber="1130000014" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-015 -->
+	<ers_patient_user DDF_tag="PNTU113-015" created="LOCALTIMESTAMP" nhsnumber="1130000015" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-016 -->
+	<ers_patient_user DDF_tag="PNTU113-016" created="LOCALTIMESTAMP" nhsnumber="1130000016" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_patient_user DDF_tag="PNTU113-081" created="LOCALTIMESTAMP" nhsnumber="1130000081" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-082 -->
+	<ers_patient_user DDF_tag="PNTU113-082" created="LOCALTIMESTAMP" nhsnumber="1130000082" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_patient_user DDF_tag="PNTU113-091" created="LOCALTIMESTAMP" nhsnumber="1130000091" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-092 -->
+	<ers_patient_user DDF_tag="PNTU113-092" created="LOCALTIMESTAMP" nhsnumber="1130000092" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-101 -->
+	<ers_patient_user DDF_tag="PNTU113-101" created="LOCALTIMESTAMP" nhsnumber="1130000101" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-101 -->
+	<!-- ERS Data Set 113-101 -->
+	<!-- ERS Data Set 113-102 -->
+	<ers_patient_user DDF_tag="PNTU113-102" created="LOCALTIMESTAMP" nhsnumber="11300000102" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-111 -->
+	<ers_patient_user DDF_tag="PNTU113-111" created="LOCALTIMESTAMP" nhsnumber="11300000111" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-111 -->
+	<!-- ERS Data Set 113-112 -->
+	<!-- ERS Data Set 113-112 -->
+	<ers_patient_user DDF_tag="PNTU113-112" created="LOCALTIMESTAMP" nhsnumber="11300000112" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-121 -->
+	<ers_patient_user DDF_tag="PNTU113-121" created="LOCALTIMESTAMP" nhsnumber="11300000121" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-121 -->
+	<!-- ERS Data Set 113-121 -->
+	<!-- ERS Data Set 113-122 -->
+	<ers_patient_user DDF_tag="PNTU113-122" created="LOCALTIMESTAMP" nhsnumber="11300000122" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-131 -->
+	<ers_patient_user DDF_tag="PNTU113-131" created="LOCALTIMESTAMP" nhsnumber="11300000131" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-131 -->
+	<!-- ERS Data Set 113-131 -->
+	<!-- ERS Data Set 113-132 -->
+	<ers_patient_user DDF_tag="PNTU113-132" created="LOCALTIMESTAMP" nhsnumber="11300000132" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-141 -->
+	<ers_patient_user DDF_tag="PNTU113-141" created="LOCALTIMESTAMP" nhsnumber="11300000141" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-141 -->
+	<!-- ERS Data Set 113-141 -->
+	<!-- ERS Data Set 113-142 -->
+	<ers_patient_user DDF_tag="PNTU113-142" created="LOCALTIMESTAMP" nhsnumber="11300000142" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-151 -->
+	<ers_patient_user DDF_tag="PNTU113-151" created="LOCALTIMESTAMP" nhsnumber="11300000151" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-151 -->
+	<!-- ERS Data Set 113-151 -->
+	<!-- ERS Data Set 113-152 -->
+	<ers_patient_user DDF_tag="PNTU113-152" created="LOCALTIMESTAMP" nhsnumber="11300000152" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-161 -->
+	<ers_patient_user DDF_tag="PNTU113-161" created="LOCALTIMESTAMP" nhsnumber="11300000161" createdby="auto test" password="Password01" version="0.0"  />
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-171 -->
+	<ers_patient_user DDF_tag="PNTU113-171" created="LOCALTIMESTAMP" nhsnumber="11300000171" createdby="auto test" password="Password01" version="0.0"  />
+</TDITestFile0>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<specialty DDF_tag="SPEC000-001"  version="1.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Specialty 1"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 17:39:39', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="9001.0"  effective_start_date="LOCALTIMESTAMP"  />
+</TDITestFile0>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_patient_user DDF_tag="PNTU419-001" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  nhsnumber="4190000001"
+  password="Password01"/>
+
+
+  
+  </TDITestFile0>

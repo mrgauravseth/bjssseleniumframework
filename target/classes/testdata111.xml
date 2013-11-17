@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<testdata>
+
+	<Include filename="testdata111/ers_appointment_request.xml" />
+	<Include filename="testdata111/ers_patient_user.xml" />
+	<Include filename="testdata111/ers_patient_login_failure.xml" />
+	<Include filename="testdata111/ers_additional_requirement_request.xml" />
+
+	<!-- attachments are not currently supported   
+	<Include filename="testdata111/ers_attachment.xml" />
+	<Include filename="testdata111/ers_clinical_information.xml" />
+	-->
+
+	<Include filename="testdata111/ers_shortlist.xml" />
+	<Include filename="testdata111/ers_transport_request.xml" />
+ 	<Include filename="testdata111/ers_appointment_slot.xml" /> 
+ 	<Include filename="testdata111/ers_appointment_booking.xml" /> 
+
+	</testdata>

@@ -1,0 +1,12 @@
+delete from ers_transport_request;
+update ers_appointment_slot set appointment_booking_id = null;
+delete from ers_appointment_booking;
+delete from ers_appointment_slot;
+delete from ers_additional_requirement_request;
+delete from ers_clinical_information;
+delete from ers_attachment;
+delete from ers_shortlist;
+delete from ers_patient_login_failure;
+delete from ers_appointment_request;
+delete from ers_patient_user;
+delete from description;

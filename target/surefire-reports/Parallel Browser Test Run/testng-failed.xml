@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Parallel Browser Test Run]" parallel="tests">
+  <parameter name="totalSets" value="2"/>
+  <parameter name="setNum" value="2"/>
+  <parameter name="threadCount" value="1"/>
+  <parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml"/>
+  <test name="firefox-remote1(failed)" parallel="tests" preserve-order="false">
+    <parameter name="totalSets" value="2"/>
+    <parameter name="setNum" value="1"/>
+    <parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml"/>
+    <parameter name="threadCount" value="1"/>
+    <classes>
+      <class name="uk.nhs.ers.techtest.TestNGStories">
+        <methods>
+          <include name="run" invocation-numbers="0"/>
+          <include name="copyNavigatorResources"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="firefox-remote2(failed)" parallel="tests" preserve-order="false">
+    <parameter name="totalSets" value="2"/>
+    <parameter name="setNum" value="2"/>
+    <parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml"/>
+    <parameter name="threadCount" value="1"/>
+    <classes>
+      <class name="uk.nhs.ers.techtest.TestNGStories">
+        <methods>
+          <include name="run" invocation-numbers="0"/>
+          <include name="copyNavigatorResources"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
