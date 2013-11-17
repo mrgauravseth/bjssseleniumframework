@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_appointment_request DDF_tag="APPR419-001" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  requestpriority="URGENT"
+  requesttype="APPOINTMENT_REQUEST"
+  ubrn="419000000001"
+  appointmentrequeststate="BOOKED_INITIAL_REFERRAL"
+  contentsensitive="true"
+  namedclinicianid="CLIN3"
+  nhsnumber="4190000001" 
+  referringclinicianid="CLIN1"
+  referringorgid="ORG1"
+  registeredgpid="CLIN2"
+  registeredorgid="ORG2"/>
+
+ 
+  </TDITestFile0>

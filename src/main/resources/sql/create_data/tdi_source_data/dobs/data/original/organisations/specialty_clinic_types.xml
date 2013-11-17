@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<specialty_clinic_types specialty_id="DDF_tag:SPEC000-001" clinic_types_id="DDF_tag:CLTY000-001"  />
+	<!-- Service Data Set 000-002 -->
+	<specialty_clinic_types specialty_id="DDF_tag:SPEC000-001" clinic_types_id="DDF_tag:CLTY000-002"  />
+	<!-- Service Data Set 000-003 -->
+	<specialty_clinic_types specialty_id="DDF_tag:SPEC000-001" clinic_types_id="DDF_tag:CLTY000-003"  />
+	<!-- Service Data Set 000-004 -->
+	<specialty_clinic_types specialty_id="DDF_tag:SPEC000-002" clinic_types_id="DDF_tag:CLTY000-004"  />
+	<!-- Service Data Set 000-005 -->
+	<specialty_clinic_types specialty_id="DDF_tag:SPEC000-003" clinic_types_id="DDF_tag:CLTY000-005"  />
+</TDITestFile0>

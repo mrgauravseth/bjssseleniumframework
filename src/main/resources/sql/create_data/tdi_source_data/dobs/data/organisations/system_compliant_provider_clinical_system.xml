@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<system_compliant_provider_clinical_system provider_system_endpoint="endpoint-1" id="DDF_tag:APCS000-001"  />
+	<!-- Service Data Set 000-002 -->
+	<system_compliant_provider_clinical_system provider_system_endpoint="endpoint-2" id="DDF_tag:APCS000-002"  />
+</TDITestFile0>

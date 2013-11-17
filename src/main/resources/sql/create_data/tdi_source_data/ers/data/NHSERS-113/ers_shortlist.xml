@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 113-011 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-011"  />
+	<!-- ERS Data Set 113-011 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-011"  />
+	<!-- ERS Data Set 113-011 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-011"  />
+	<!-- ERS Data Set 113-1000-011 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-1000-011"  />
+	<!-- ERS Data Set 113-012 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-012"  />
+	<!-- ERS Data Set 113-013 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}" appointment_request_id="DDF_tag:APPR113-013"  />
+	<!-- ERS Data Set 113-013 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_MAXLEN_SERVICE}" appointment_request_id="DDF_tag:APPR113-013"  />
+	<!-- ERS Data Set 113-014 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}" appointment_request_id="DDF_tag:APPR113-014"  />
+	<!-- ERS Data Set 113-015 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}" appointment_request_id="DDF_tag:APPR113-015"  />
+	<!-- ERS Data Set 113-016 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SPESERVICE}" appointment_request_id="DDF_tag:APPR113-016"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-081"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-081"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-081"  />
+	<!-- ERS Data Set 113-082 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-082"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-091"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-091"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-091"  />
+	<!-- ERS Data Set 113-092 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-092"  />
+	<!-- ERS Data Set 113-101 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-101"  />
+	<!-- ERS Data Set 113-101 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-101"  />
+	<!-- ERS Data Set 113-101 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-101"  />
+	<!-- ERS Data Set 113-102 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-102"  />
+	<!-- ERS Data Set 113-111 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-111"  />
+	<!-- ERS Data Set 113-111 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-111"  />
+	<!-- ERS Data Set 113-112 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-112"  />
+	<!-- ERS Data Set 113-112 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-112"  />
+	<!-- ERS Data Set 113-121 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-121"  />
+	<!-- ERS Data Set 113-121 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-121"  />
+	<!-- ERS Data Set 113-121 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-121"  />
+	<!-- ERS Data Set 113-122 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-122"  />
+	<!-- ERS Data Set 113-131 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-131"  />
+	<!-- ERS Data Set 113-131 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-131"  />
+	<!-- ERS Data Set 113-131 -->
+	<ers_shortlist service_id="{C_INDB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-131"  />
+	<!-- ERS Data Set 113-132 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-132"  />
+	<!-- ERS Data Set 113-141 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-141"  />
+	<!-- ERS Data Set 113-141 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-141"  />
+	<!-- ERS Data Set 113-141 -->
+	<ers_shortlist service_id="{C_INDB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-141"  />
+	<!-- ERS Data Set 113-142 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-142"  />
+	<!-- ERS Data Set 113-151 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-151"  />
+	<!-- ERS Data Set 113-151 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-151"  />
+	<!-- ERS Data Set 113-151 -->
+	<ers_shortlist service_id="{C_INDB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-151"  />
+	<!-- ERS Data Set 113-152 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-152"  />
+	<!-- ERS Data Set 113-161 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-161"  />
+	<!-- ERS Data Set 113-161 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR113-161"  />
+	<!-- ERS Data Set 113-161 -->
+	<ers_shortlist service_id="{C_INDB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-161"  />
+	<!-- ERS Data Set 113-161 -->
+	<ers_shortlist service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-161"  />
+	<!-- ERS Data Set 113-171 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR113-171"  />
+</TDITestFile0>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<organisation_site  transport="false" advocacy="false"  interpreter="false" id="DDF_tag:ASOG000-001"  />
+	<!-- Service Data Set 000-002 -->
+	<!-- Service Data Set 000-003 -->
+	<!-- Service Data Set 000-004 -->
+	<!-- Service Data Set 000-005 -->
+	<organisation_site  transport="false" advocacy="false"  interpreter="false" id="DDF_tag:ASOG000-005"  />
+	<!-- Service Data Set 000-006 -->
+	<organisation_site  transport="false" advocacy="false"  interpreter="false" id="DDF_tag:ASOG000-006"  />
+</TDITestFile0>

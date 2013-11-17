@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE1}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 000-001 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE1}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 000-001 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE1}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 000-001 -->
+	<!-- Service Data Set 000-001 -->
+	<!-- Service Data Set 2 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE2}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 2 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE2}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 2 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SERVICE2}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 2 -->
+	<!-- Service Data Set 2 -->
+	<!-- Service Data Set 5 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE1}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 5 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE1}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 5 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE1}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 5 -->
+	<!-- Service Data Set 5 -->
+	<!-- Service Data Set 6 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE2}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 6 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE2}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 6 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SERVICE2}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 6 -->
+	<!-- Service Data Set 6 -->
+	<!-- Service Data Set 9 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE1}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 9 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE1}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 9 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE1}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 9 -->
+	<!-- Service Data Set 9 -->
+	<!-- Service Data Set 10 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE2}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 10 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE2}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 10 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_F2F_SERVICE2}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 10 -->
+	<!-- Service Data Set 10 -->
+	<!-- Service Data Set 13 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE1}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 13 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE1}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 13 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE1}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 13 -->
+	<!-- Service Data Set 13 -->
+	<!-- Service Data Set 14 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE2}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 14 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE2}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 14 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SERVICE2}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 14 -->
+	<!-- Service Data Set 14 -->
+	<!-- Service Data Set 17 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 17 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 17 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 17 -->
+	<!-- Service Data Set 17 -->
+	<!-- Service Data Set 18 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 18 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 18 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 18 -->
+	<!-- Service Data Set 18 -->
+	<!-- Service Data Set 19 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 19 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 19 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 19 -->
+	<!-- Service Data Set 19 -->
+	<!-- Service Data Set 20 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPEC_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 20 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPEC_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 20 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPEC_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 20 -->
+	<!-- Service Data Set 20 -->
+	<!-- Service Data Set 28 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 28 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 28 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_MAXLEN_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 28 -->
+	<!-- Service Data Set 28 -->
+	<!-- Service Data Set 29 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 29 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 29 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_HYPHEN_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 29 -->
+	<!-- Service Data Set 29 -->
+	<!-- Service Data Set 30 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 30 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 30 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 30 -->
+	<!-- Service Data Set 30 -->
+	<!-- Service Data Set 33 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPESERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 33 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPESERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 33 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_F2F_SPESERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 33 -->
+	<!-- Service Data Set 33 -->
+	<!-- Service Data Set 35 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 35 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 35 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_AVAIL_TAS_APOS_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 35 -->
+	<!-- Service Data Set 35 -->
+	<!-- Service Data Set 36 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_APOS_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 36 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_APOS_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 36 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_APOS_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 36 -->
+	<!-- Service Data Set 36 -->
+	<!-- Service Data Set 37 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 37 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 37 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 37 -->
+	<!-- Service Data Set 37 -->
+	<!-- Service Data Set 38 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INC_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 38 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INC_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 38 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INC_DB_UNAVAIL_TAS_MAXLEN_SERVICE1}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 38 -->
+	<!-- Service Data Set 38 -->
+	<!-- Service Data Set 42 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 42 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 42 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_APOS_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 42 -->
+	<!-- Service Data Set 42 -->
+	<!-- Service Data Set 43 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 43 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 43 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_INDB_UNAVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 43 -->
+	<!-- Service Data Set 43 -->
+	<!-- Service Data Set 44 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 44 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 44 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_MAXLEN_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 44 -->
+	<!-- Service Data Set 44 -->
+	<!-- Service Data Set 45 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set 45 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set 45 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_SPEC_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+	<!-- Service Data Set 45 -->
+	<!-- Service Data Set 45 -->
+	<!-- Service Data Set 46 -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}"  slot_protection_days="2"  request_priority="URGENT"  />
+	<!-- Service Data Set  -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}"  slot_protection_days="5"  request_priority="ROUTINE"  />
+	<!-- Service Data Set  -->
+	<directly_bookable_service_slot_protection_days directly_bookable_service_id="{C_DB_UNAVAIL_TAS_HYPHEN_SERVICE}"  slot_protection_days="1"  request_priority="TWO_WEEK_WAIT"  />
+</TDITestFile0>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_clinical_information id="DDF_tag:ATT111-001" clinictype="testclinictype" specialty="testspecialty" />
+  <ers_clinical_information id="DDF_tag:ATT111-002" clinictype="testclinictype" specialty="testspecialty" />
+  <ers_clinical_information id="DDF_tag:ATT111-003" clinictype="testclinictype" specialty="testspecialty" />
+  <ers_clinical_information id="DDF_tag:ATT111-004" clinictype="testclinictype" specialty="testspecialty" />
+  <ers_clinical_information id="DDF_tag:ATT111-005" clinictype="testclinictype" specialty="testspecialty" />
+  <ers_clinical_information id="DDF_tag:ATT111-006" clinictype="testclinictype" specialty="testspecialty" />
+  <ers_clinical_information id="DDF_tag:ATT111-007" clinictype="testclinictype" specialty="testspecialty" />
+  
+  
+</TDITestFile0>

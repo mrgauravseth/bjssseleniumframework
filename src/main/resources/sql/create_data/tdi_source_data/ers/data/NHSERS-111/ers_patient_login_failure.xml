@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 111-001 -->
+	<!-- ERS Data Set 111-002 -->
+	<ers_patient_login_failure DDF_tag="PNTF2-111-0021" failuretime="TO_TIMESTAMP('09-Nov-2013 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" createdby="test" appointmentrequest_id="DDF_tag:APPR111-002" version="0"  />
+	<!-- ERS Data Set 111-002 -->
+	<ers_patient_login_failure DDF_tag="PNTF2-111-0022" failuretime="TO_TIMESTAMP('10-Nov-2013 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" createdby="test" appointmentrequest_id="DDF_tag:APPR111-002" version="0"  />
+	<!-- ERS Data Set 111-002 -->
+	<ers_patient_login_failure DDF_tag="PNTF2-111-0023" failuretime="TO_TIMESTAMP('11-Nov-2013 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" createdby="test" appointmentrequest_id="DDF_tag:APPR111-002" version="0"  />
+</TDITestFile0>

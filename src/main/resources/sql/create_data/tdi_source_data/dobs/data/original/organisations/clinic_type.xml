@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<clinic_type DDF_tag="CLTY000-001"  version="0.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Clinic type 1"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="2001.0"  effective_start_date="LOCALTIMESTAMP"  />
+	<!-- Service Data Set 000-002 -->
+	<clinic_type DDF_tag="CLTY000-002"  version="0.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Clinic type 2"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="2001.0"  effective_start_date="LOCALTIMESTAMP"  />
+	<!-- Service Data Set 000-003 -->
+	<clinic_type DDF_tag="CLTY000-003"  version="0.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Clinic type 3"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="2001.0"  effective_start_date="LOCALTIMESTAMP"  />
+	<!-- Service Data Set 000-004 -->
+	<clinic_type DDF_tag="CLTY000-004"  version="0.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Clinic type 4"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="2001.0"  effective_start_date="LOCALTIMESTAMP"  />
+	<!-- Service Data Set 000-005 -->
+	<clinic_type DDF_tag="CLTY000-005"  version="0.0"  created="LOCALTIMESTAMP"  created_by="auto test"  name="Clinic type 5"  effective_end_date="TO_TIMESTAMP('07-Aug-2016 08:26:45', 'dd-Mon-yyyy HH24:mi:ss')"  business_id="2001.0"  effective_start_date="LOCALTIMESTAMP"  />
+</TDITestFile0>

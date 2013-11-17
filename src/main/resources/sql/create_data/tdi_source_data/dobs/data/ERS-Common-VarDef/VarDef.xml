@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- VarDef SET 1 -->
+	<VarDef name="story"  />
+	<!-- VarDef SET 2 -->
+	<VarDef name="ubrn"  />
+	<!-- VarDef SET 3 -->
+	<VarDef name="nhsNumber"  />
+	<!-- VarDef SET 4 -->
+	<VarDef name="testNo"  />
+	<!-- VarDef SET 5 -->
+	<VarDef name="partTestNo"  />
+	<!-- VarDef SET 6 -->
+	<VarDef name="APPRTag"  />
+	<!-- VarDef SET 7 -->
+	<VarDef name="APPSTag"  />
+	<!-- VarDef SET 8 -->
+	<VarDef name="APPBTag"  />
+	<!-- VarDef SET 9 -->
+	<VarDef name="tableId"  />
+	<!-- VarDef SET 10 -->
+	<VarDef name="serviceId"  />
+	<!-- VarDef SET 11 -->
+	<VarDef name="password" value="Password01"  />
+	<!-- VarDef SET 12 -->
+	<VarDef name="version" value="0"  />
+	<!-- VarDef SET 13 -->
+	<VarDef name="createdBy" value="test"  />
+	<!-- VarDef SET 14 -->
+	<VarDef name="created" value="LOCALTIMESTAMP"  />
+	<!-- VarDef SET 15 -->
+	<VarDef name="contentSensitive" value="false"  />
+	<!-- VarDef SET 16 -->
+	<VarDef name="namedClinician" value="CLIN3"  />
+	<!-- VarDef SET 17 -->
+	<VarDef name="referringClinician" value="CLIN1"  />
+	<!-- VarDef SET 18 -->
+	<VarDef name="referringClinicianMaxFieldLength" value="CLIN12345678901234567890"  />
+	<!-- VarDef SET 19 -->
+	<VarDef name="referringClinicianHyphen" value="CLIN-1"  />
+	<!-- VarDef SET 20 -->
+	<VarDef name="referringClinicianApos" value="CLIN'1"  />
+	<!-- VarDef SET 21 -->
+	<VarDef name="referringClinicianSpec" value="CLIN1£$^"  />
+	<!-- VarDef SET 22 -->
+	<VarDef name="referringOrg" value="ORG1"  />
+	<!-- VarDef SET 23 -->
+	<VarDef name="referringOrgMaxFieldLength" value="ORG112345678901234567890"  />
+	<!-- VarDef SET 24 -->
+	<VarDef name="referringOrgHyphen" value="ORG-1"  />
+	<!-- VarDef SET 25 -->
+	<VarDef name="referringOrgApos" value="ORG'1"  />
+	<!-- VarDef SET 26 -->
+	<VarDef name="referringOrgSpec" value="ORG1^+_"  />
+	<!-- VarDef SET 27 -->
+	<VarDef name="registeredGp" value="CLIN2"  />
+	<!-- VarDef SET 28 -->
+	<VarDef name="registeredOrg" value="ORG2"  />
+	<!-- VarDef SET 29 -->
+	<VarDef name="appointmentRequestState" value="BOOKED_INITIAL_REFERRAL"  />
+	<!-- VarDef SET 30 -->
+	<VarDef name="appointmentBookingStatus" value="BOOKED_INITIAL_REFERRAL"  />
+	<!-- VarDef SET 31 -->
+	<VarDef name="requestPriority" value="ROUTINE"  />
+	<!-- VarDef SET 32 -->
+	<VarDef name="requestType" value="APPOINTMENT_REQUEST"  />
+	<!-- VarDef SET 33 -->
+	<VarDef name="futureDate" value="TO_TIMESTAMP('12-Nov-2014 17:39:39', 'dd-Mon-yyyy HH24:mi:ss')"  />
+	<!-- VarDef SET 34 -->
+	<VarDef name="pastDate" value="TO_TIMESTAMP('12-Nov-2012 17:39:39', 'dd-Mon-yyyy HH24:mi:ss')"  />
+	<!-- VarDef SET 35 -->
+	<VarDef const="Y" name="C_NUM_EXTRA_REFERRALS" value="2"  />
+	<!-- VarDef SET 36 -->
+	<VarDef const="Y" name="C_INCREMENT_BY_ONE" value="1"  />
+	<!-- VarDef SET 37 -->
+	<VarDef name="V_REFERRAL_COUNTER" value="0"  />
+	<!-- VarDef SET 38 -->
+	<VarDef const="Y" name="C_DB_AVAIL_F2F_SERVICE1" value="38.0"  />
+	<!-- VarDef SET 39 -->
+	<VarDef const="Y" name="C_DB_AVAIL_F2F_SERVICE2" value="39.0"  />
+	<!-- VarDef SET 40 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_F2F_SERVICE1" value="40.0"  />
+	<!-- VarDef SET 41 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_F2F_SERVICE2" value="41.0"  />
+	<!-- VarDef SET 42 -->
+	<VarDef const="Y" name="C_DB_AVAIL_TAS_SERVICE1" value="42.0"  />
+	<!-- VarDef SET 43 -->
+	<VarDef const="Y" name="C_DB_AVAIL_TAS_SERVICE2" value="43.0"  />
+	<!-- VarDef SET 44 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_TAS_SERVICE1" value="44.0"  />
+	<!-- VarDef SET 45 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_TAS_SERVICE2" value="45.0"  />
+	<!-- VarDef SET 46 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_F2F_SERVICE1" value="46.0"  />
+	<!-- VarDef SET 47 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_F2F_SERVICE2" value="47.0"  />
+	<!-- VarDef SET 48 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_F2F_SERVICE1" value="48.0"  />
+	<!-- VarDef SET 49 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_F2F_SERVICE2" value="49.0"  />
+	<!-- VarDef SET 50 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_TAS_SERVICE1" value="50.0"  />
+	<!-- VarDef SET 51 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_TAS_SERVICE2" value="51.0"  />
+	<!-- VarDef SET 52 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_TAS_SERVICE1" value="52.0"  />
+	<!-- VarDef SET 53 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_TAS_SERVICE2" value="53.0"  />
+	<!-- VarDef SET 54 -->
+	<VarDef const="Y" name="C_DB_AVAIL_F2F_MAXLEN_SERVICE" value="54.0"  />
+	<!-- VarDef SET 55 -->
+	<VarDef const="Y" name="C_DB_AVAIL_F2F_HYPHEN_SERVICE" value="55.0"  />
+	<!-- VarDef SET 56 -->
+	<VarDef const="Y" name="C_DB_AVAIL_F2F_APOS_SERVICE" value="56.0"  />
+	<!-- VarDef SET 57 -->
+	<VarDef const="Y" name="C_DB_AVAIL_F2F_SPEC_SERVICE" value="57.0"  />
+	<!-- VarDef SET 58 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_F2F_MAXLEN_SERVICE" value="58.0"  />
+	<!-- VarDef SET 59 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_F2F_HYPHEN_SERVICE" value="59.0"  />
+	<!-- VarDef SET 60 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_F2F_APOS_SERVICE" value="60.0"  />
+	<!-- VarDef SET 61 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_F2F_SPEC_SERVICE" value="61.0"  />
+	<!-- VarDef SET 62 -->
+	<VarDef const="Y" name="C_DB_AVAIL_F2F_SPESERVICE" value="62.0"  />
+	<!-- VarDef SET 63 -->
+	<VarDef const="Y" name="C_DB_AVAIL_TAS_MAXLEN_SERVICE" value="63.0"  />
+	<!-- VarDef SET 64 -->
+	<VarDef const="Y" name="C_DB_AVAIL_TAS_SPEC_SERVICE" value="64.0"  />
+	<!-- VarDef SET 65 -->
+	<VarDef const="Y" name="C_DB_AVAIL_TAS_HYPHEN_SERVICE" value="65.0"  />
+	<!-- VarDef SET 66 -->
+	<VarDef const="Y" name="C_DB_AVAIL_TAS_APOS_SERVICE" value="66.0"  />
+	<!-- VarDef SET 67 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_TAS_MAXLEN_SERVICE" value="67.0"  />
+	<!-- VarDef SET 68 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_TAS_SPEC_SERVICE" value="68.0"  />
+	<!-- VarDef SET 69 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_TAS_HYPHEN_SERVICE" value="69.0"  />
+	<!-- VarDef SET 70 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_TAS_APOS_SERVICE" value="70.0"  />
+	<!-- VarDef SET 78 -->
+	<VarDef const="Y" name="C_DB_UNAVAIL_TAS_MAXLEN_SERVICE1" value="78.0"  />
+	<!-- VarDef SET 79 -->
+	<VarDef const="Y" name="C_INC_DB_UNAVAIL_TAS_MAXLEN_SERVICE1" value="79.0"  />
+	<!-- VarDef SET 80 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_TAS_APOS_SERVICE" value="80.0"  />
+	<!-- VarDef SET 81 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_TAS_HYPHEN_SERVICE" value="81.0"  />
+	<!-- VarDef SET 82 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_TAS_MAXLEN_SERVICE" value="82.0"  />
+	<!-- VarDef SET 84 -->
+	<VarDef const="Y" name="C_INDB_AVAIL_TAS_SPEC_SERVICE" value="84.0"  />
+	<!-- VarDef SET 85 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_TAS_APOS_SERVICE" value="85.0"  />
+	<!-- VarDef SET 87 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_TAS_HYPHEN_SERVICE1" value="87.0"  />
+	<!-- VarDef SET 89 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_TAS_MAXLEN_SERVICE1" value="89.0"  />
+	<!-- VarDef SET 90 -->
+	<VarDef const="Y" name="C_INDB_UNAVAIL_TAS_SPEC_SERVICE" value="90.0"  />
+</TDITestFile0>

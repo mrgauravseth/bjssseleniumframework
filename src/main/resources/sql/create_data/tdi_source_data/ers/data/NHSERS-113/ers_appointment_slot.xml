@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 113-011 -->
+	<ers_appointment_slot DDF_tag="APPS113-011" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-011 -->
+	<!-- ERS Data Set 113-1000-011 -->
+	<ers_appointment_slot DDF_tag="APPS113-1000-011" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-012 -->
+	<ers_appointment_slot DDF_tag="APPS113-012" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-013 -->
+	<ers_appointment_slot DDF_tag="APPS113-013" service_id="{C_DB_AVAIL_F2F_MAXLEN_SERVICE}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-013 -->
+	<!-- ERS Data Set 113-014 -->
+	<ers_appointment_slot DDF_tag="APPS113-014" service_id="{C_DB_AVAIL_F2F_HYPHEN_SERVICE}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-015 -->
+	<ers_appointment_slot DDF_tag="APPS113-015" service_id="{C_DB_AVAIL_F2F_APOS_SERVICE}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-016 -->
+	<ers_appointment_slot DDF_tag="APPS113-016" service_id="{C_DB_AVAIL_F2F_SPESERVICE}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-081 -->
+	<ers_appointment_slot DDF_tag="APPS113-081" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-081 -->
+	<!-- ERS Data Set 113-082 -->
+	<ers_appointment_slot DDF_tag="APPS113-082" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-091 -->
+	<ers_appointment_slot DDF_tag="APPS113-091" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-091 -->
+	<!-- ERS Data Set 113-092 -->
+	<ers_appointment_slot DDF_tag="APPS113-092" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-101 -->
+	<ers_appointment_slot DDF_tag="APPS113-101" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-101 -->
+	<!-- ERS Data Set 113-101 -->
+	<!-- ERS Data Set 113-102 -->
+	<ers_appointment_slot DDF_tag="APPS113-102" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-111 -->
+	<ers_appointment_slot DDF_tag="APPS113-111" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-111 -->
+	<!-- ERS Data Set 113-112 -->
+	<!-- ERS Data Set 113-112 -->
+	<ers_appointment_slot DDF_tag="APPS113-112" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-121 -->
+	<ers_appointment_slot DDF_tag="APPS113-121" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-121 -->
+	<!-- ERS Data Set 113-121 -->
+	<!-- ERS Data Set 113-122 -->
+	<ers_appointment_slot DDF_tag="APPS113-122" service_id="{C_DB_AVAIL_F2F_SERVICE2}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-131 -->
+	<ers_appointment_slot DDF_tag="APPS113-131" service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-131 -->
+	<!-- ERS Data Set 113-131 -->
+	<!-- ERS Data Set 113-132 -->
+	<ers_appointment_slot DDF_tag="APPS113-132" service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-141 -->
+	<ers_appointment_slot DDF_tag="APPS113-141" service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-141 -->
+	<!-- ERS Data Set 113-141 -->
+	<!-- ERS Data Set 113-142 -->
+	<ers_appointment_slot DDF_tag="APPS113-142" service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-151 -->
+	<ers_appointment_slot DDF_tag="APPS113-151" service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-151 -->
+	<!-- ERS Data Set 113-151 -->
+	<!-- ERS Data Set 113-152 -->
+	<ers_appointment_slot DDF_tag="APPS113-152" service_id="{C_DB_UNAVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-161 -->
+	<ers_appointment_slot DDF_tag="APPS113-161" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-161 -->
+	<!-- ERS Data Set 113-171 -->
+	<ers_appointment_slot DDF_tag="APPS113-171" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('12-Nov-2014 17:28:15', 'dd-Mon-yyyy HH24:mi:ss')" version="0"  />
+</TDITestFile0>

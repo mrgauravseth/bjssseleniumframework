@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 226-001 -->
+	<ers_appointment_request DDF_tag="APPR226-001" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000001" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000001" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-002 -->
+	<ers_appointment_request DDF_tag="APPR226-002" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000002" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000002" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-003 -->
+	<ers_appointment_request DDF_tag="APPR226-003" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000003" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000003" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-004 -->
+	<ers_appointment_request DDF_tag="APPR226-004" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000004" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000004" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-005 -->
+	<ers_appointment_request DDF_tag="APPR226-005" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000005" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000005" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-006 -->
+	<ers_appointment_request DDF_tag="APPR226-006" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000006" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000006" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-006 -->
+	<!-- ERS Data Set 226-008 -->
+	<ers_appointment_request DDF_tag="APPR226-008" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000008" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000008" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-008 -->
+	<!-- ERS Data Set 226-010 -->
+	<ers_appointment_request DDF_tag="APPR226-010" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000010" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000010" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-010 -->
+	<!-- ERS Data Set 226-012 -->
+	<ers_appointment_request DDF_tag="APPR226-012" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000012" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000012" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-012 -->
+	<!-- ERS Data Set 226-014 -->
+	<ers_appointment_request DDF_tag="APPR226-014" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000014" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000014" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-014 -->
+	<!-- ERS Data Set 226-016 -->
+	<ers_appointment_request DDF_tag="APPR226-016" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000016" created="LOCALTIMESTAMP" namedclinicianid="021600556514" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000016" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-016 -->
+	<!-- ERS Data Set 226-016 -->
+	<!-- ERS Data Set 226-019 -->
+	<ers_appointment_request DDF_tag="APPR226-019" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000019" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000019" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-019 -->
+	<!-- ERS Data Set 226-021 -->
+	<ers_appointment_request DDF_tag="APPR226-021" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000021" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000021" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-021 -->
+	<!-- ERS Data Set 226-023 -->
+	<ers_appointment_request DDF_tag="APPR226-023" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000023" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000023" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-023 -->
+	<!-- ERS Data Set 226-025 -->
+	<ers_appointment_request DDF_tag="APPR226-025" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000025" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000025" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-025 -->
+	<!-- ERS Data Set 226-025 -->
+	<!-- ERS Data Set 226-028 -->
+	<ers_appointment_request DDF_tag="APPR226-028" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000028" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000028" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-028 -->
+	<!-- ERS Data Set 226-030 -->
+	<ers_appointment_request DDF_tag="APPR226-030" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000030" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000030" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-030 -->
+	<!-- ERS Data Set 226-030 -->
+	<!-- ERS Data Set 226-033 -->
+	<ers_appointment_request DDF_tag="APPR226-033" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000033" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000033" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-033 -->
+	<!-- ERS Data Set 226-035 -->
+	<ers_appointment_request DDF_tag="APPR226-035" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000035" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000035" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-036 -->
+	<ers_appointment_request DDF_tag="APPR226-036" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000036" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000036" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-037 -->
+	<ers_appointment_request DDF_tag="APPR226-037" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000037" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000037" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-037 -->
+	<!-- ERS Data Set 226-037 -->
+	<!-- ERS Data Set 226-040 -->
+	<ers_appointment_request DDF_tag="APPR226-040" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000040" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000040" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-040 -->
+	<!-- ERS Data Set 226-042 -->
+	<ers_appointment_request DDF_tag="APPR226-042" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000042" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000042" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-042 -->
+	<!-- ERS Data Set 226-044 -->
+	<ers_appointment_request DDF_tag="APPR226-044" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000044" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000044" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-044 -->
+	<!-- ERS Data Set 226-046 -->
+	<ers_appointment_request DDF_tag="APPR226-046" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000046" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000046" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-046 -->
+	<!-- ERS Data Set 226-048 -->
+	<ers_appointment_request DDF_tag="APPR226-048" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000048" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000048" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-048 -->
+	<!-- ERS Data Set 226-050 -->
+	<ers_appointment_request DDF_tag="APPR226-050" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000050" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000050" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-051 -->
+	<ers_appointment_request DDF_tag="APPR226-051" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000051" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000051" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-052 -->
+	<ers_appointment_request DDF_tag="APPR226-052" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000052" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000052" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-053 -->
+	<ers_appointment_request DDF_tag="APPR226-053" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000053" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000053" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-054 -->
+	<ers_appointment_request DDF_tag="APPR226-054" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000054" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000054" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-055 -->
+	<ers_appointment_request DDF_tag="APPR226-055" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000055" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000055" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-056 -->
+	<ers_appointment_request DDF_tag="APPR226-056" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000056" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000056" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-057 -->
+	<ers_appointment_request DDF_tag="APPR226-057" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000057" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000057" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-058 -->
+	<ers_appointment_request DDF_tag="APPR226-058" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000058" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000058" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-058 -->
+	<!-- ERS Data Set 226-060 -->
+	<ers_appointment_request DDF_tag="APPR226-060" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000060" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000060" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-060 -->
+	<!-- ERS Data Set 226-062 -->
+	<ers_appointment_request DDF_tag="APPR226-062" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000062" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000062" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-062 -->
+	<!-- ERS Data Set 226-064 -->
+	<ers_appointment_request DDF_tag="APPR226-064" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000064" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000064" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-064 -->
+	<!-- ERS Data Set 226-066 -->
+	<ers_appointment_request DDF_tag="APPR226-066" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000066" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000066" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-066 -->
+	<!-- ERS Data Set 226-068 -->
+	<ers_appointment_request DDF_tag="APPR226-068" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000068" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000068" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-069 -->
+	<ers_appointment_request DDF_tag="APPR226-069" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000069" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000069" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-070 -->
+	<ers_appointment_request DDF_tag="APPR226-070" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000070" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000070" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-071 -->
+	<ers_appointment_request DDF_tag="APPR226-071" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000071" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000071" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-072 -->
+	<ers_appointment_request DDF_tag="APPR226-072" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000072" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000072" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-073 -->
+	<ers_appointment_request DDF_tag="APPR226-073" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000073" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000073" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-074 -->
+	<ers_appointment_request DDF_tag="APPR226-074" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000074" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000074" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-075 -->
+	<ers_appointment_request DDF_tag="APPR226-075" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000075" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000075" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-076 -->
+	<ers_appointment_request DDF_tag="APPR226-076" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000076" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000076" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-077 -->
+	<ers_appointment_request DDF_tag="APPR226-077" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000077" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000077" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-078 -->
+	<ers_appointment_request DDF_tag="APPR226-078" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000078" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000078" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-078 -->
+	<!-- ERS Data Set 226-080 -->
+	<ers_appointment_request DDF_tag="APPR226-080" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000080" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000080" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-080 -->
+	<!-- ERS Data Set 226-082 -->
+	<ers_appointment_request DDF_tag="APPR226-082" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000082" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000082" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-082 -->
+	<!-- ERS Data Set 226-084 -->
+	<ers_appointment_request DDF_tag="APPR226-084" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000084" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000084" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-084 -->
+	<!-- ERS Data Set 226-086 -->
+	<ers_appointment_request DDF_tag="APPR226-086" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000086" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000086" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-086 -->
+	<!-- ERS Data Set 226-088 -->
+	<ers_appointment_request DDF_tag="APPR226-088" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000088" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000088" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-089 -->
+	<ers_appointment_request DDF_tag="APPR226-089" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000089" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000089" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-090 -->
+	<ers_appointment_request DDF_tag="APPR226-090" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000090" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000090" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-091 -->
+	<ers_appointment_request DDF_tag="APPR226-091" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000091" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000091" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-092 -->
+	<ers_appointment_request DDF_tag="APPR226-092" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000092" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000092" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+	<!-- ERS Data Set 226-093 -->
+	<ers_appointment_request DDF_tag="APPR226-093" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000093" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000093" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN1" version="0.0"  />
+	<!-- ERS Data Set 226-094 -->
+	<ers_appointment_request DDF_tag="APPR226-094" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000094" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="URGENT" registeredgpid="CLIN2" nhsnumber="2260000094" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN12345678901234567890" version="0.0"  />
+	<!-- ERS Data Set 226-095 -->
+	<ers_appointment_request DDF_tag="APPR226-095" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000095" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000095" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN!&quot;£$%1" version="0.0"  />
+	<!-- ERS Data Set 226-096 -->
+	<ers_appointment_request DDF_tag="APPR226-096" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000096" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="ROUTINE" registeredgpid="CLIN2" nhsnumber="2260000096" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN-1" version="0.0"  />
+	<!-- ERS Data Set 226-097 -->
+	<ers_appointment_request DDF_tag="APPR226-097" registeredorgid="ORG2" contentsensitive="false" ubrn="226000000097" created="LOCALTIMESTAMP" namedclinicianid="CLIN3" requestpriority="TWO_WEEK_WAIT" registeredgpid="CLIN2" nhsnumber="2260000097" appointmentrequeststate="BOOKED_INITIAL_REFERRAL" createdby="auto test" referringorgid="ORG1" requesttype="APPOINTMENT_REQUEST" referringclinicianid="CLIN'1" version="0.0"  />
+</TDITestFile0>

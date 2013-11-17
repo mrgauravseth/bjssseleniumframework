@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<organisation_provider_clinical_systems organisation_id="DDF_tag:ASOG000-002" provider_clinical_systems_id="DDF_tag:APCS000-001"  />
+	<!-- Service Data Set 000-002 -->
+	<organisation_provider_clinical_systems organisation_id="DDF_tag:ASOG000-002" provider_clinical_systems_id="DDF_tag:APCS000-002"  />
+	<!-- Service Data Set 000-003 -->
+	<organisation_provider_clinical_systems organisation_id="DDF_tag:ASOG000-002" provider_clinical_systems_id="DDF_tag:APCS000-003"  />
+</TDITestFile0>

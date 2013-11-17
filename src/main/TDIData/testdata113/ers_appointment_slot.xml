@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_appointment_slot DDF_tag="APPS113-1" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  directlybookableservice_id="DDF_tag:DBSVC1"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  directlybookableservice_id="DDF_tag:DBSVC1"/>
+
+  
+  <ers_appointment_slot DDF_tag="APPS113-3" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2013 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  directlybookableservice_id="DDF_tag:DBSVC1"/>
+
+
+  <ers_appointment_slot DDF_tag="APPS113-4" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  directlybookableservice_id="DDF_tag:DBSVC1"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-5" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  directlybookableservice_id="DDF_tag:DBSVC1"/>
+
+  </TDITestFile0>

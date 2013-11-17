@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- Service Data Set 000-001 -->
+	<abstract_organisation DDF_tag="ASOG000-001"  nacs_organisation_code="NACS_ORG_CODE" created_by="auto test"  country=" UK"  name="Org Z (50)" created="LOCALTIMESTAMP"  business_id="5000.0"  open_date="TO_TIMESTAMP('17-Feb-2011 17:39:39', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-002 -->
+	<abstract_organisation DDF_tag="ASOG000-002"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org Z (51)" created=" 2013-10-08 14:15:26.458"  business_id="5001.0"  open_date="TO_TIMESTAMP('17-Feb-2011 17:39:39', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+	<!-- Service Data Set 000-003 -->
+	<abstract_organisation DDF_tag="ASOG000-003"  nacs_organisation_code=" NACS_ORG_CODE" created_by="auto test"  country=" UK"  name=" Org Z (52)" created=" 2013-10-08 14:15:26.458"  business_id="R69"  open_date="TO_TIMESTAMP('17-Feb-2011 17:39:39', 'dd-Mon-yyyy HH24:mi:ss')"  postcode=" LS1 TUV" organisation_type="NHS TRUST" version="0.0"  />
+</TDITestFile0>

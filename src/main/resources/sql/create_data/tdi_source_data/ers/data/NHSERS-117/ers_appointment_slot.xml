@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 117-031 -->
+	<ers_appointment_slot DDF_tag="APPS117-031" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-032 -->
+	<ers_appointment_slot DDF_tag="APPS117-032" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-041 -->
+	<ers_appointment_slot DDF_tag="APPS117-041" service_id="{C_DB_AVAIL_TAS_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-042 -->
+	<ers_appointment_slot DDF_tag="APPS117-042" service_id="{C_DB_AVAIL_TAS_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-051 -->
+	<ers_appointment_slot DDF_tag="APPS117-051" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-052 -->
+	<ers_appointment_slot DDF_tag="APPS117-052" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-061 -->
+	<ers_appointment_slot DDF_tag="APPS117-061" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-062 -->
+	<ers_appointment_slot DDF_tag="APPS117-062" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-071 -->
+	<ers_appointment_slot DDF_tag="APPS117-071" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-072 -->
+	<ers_appointment_slot DDF_tag="APPS117-072" service_id="{C_DB_AVAIL_F2F_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-081 -->
+	<ers_appointment_slot DDF_tag="APPS117-081" service_id="{C_DB_AVAIL_TAS_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-082 -->
+	<ers_appointment_slot DDF_tag="APPS117-082" service_id="{C_DB_AVAIL_TAS_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-091 -->
+	<ers_appointment_slot DDF_tag="APPS117-091" service_id="{C_DB_AVAIL_TAS_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+	<!-- ERS Data Set 117-092 -->
+	<ers_appointment_slot DDF_tag="APPS117-092" service_id="{C_DB_AVAIL_TAS_SERVICE1}" startdate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" created="LOCALTIMESTAMP" appointmentbooking_id="null" createdby="auto test" enddate="TO_TIMESTAMP('07-Aug-2016 17:28:16', 'dd-Mon-yyyy HH24:mi:ss')" version="0.0"  />
+</TDITestFile0>

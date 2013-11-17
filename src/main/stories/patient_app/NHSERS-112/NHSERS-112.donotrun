@@ -1,0 +1,425 @@
+Story: NHSE-RS-112 Patient Logout - Patient Initiated  
+
+Meta:
+@todo
+
+Narrative:	
+In order to finish my interactions with the system
+As a Patient User 
+I want to log out of e-RS 
+
+
+Scenario: NHSERS-112_S001_C1 | Patient Chooses to Log Out while updating referral	
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1
+@pending
+
+!--Pre-requisites
+!--NHSERS-111_S001_C1 | Patient Logs in with valid Details
+
+!-- GivenStories: /home/ers/git/dev/ers-test/src/main/stories/web_app/NHSERS-112Given.story
+GivenStories: patient_app/NHSERS-112/NHSERS-112Given.story
+
+Given a patient user is logged in NHSERS-111_S001
+!-- Given I am on the <CurrentPage> page
+!--When I click the <ReferralButton> button on the <CurrentPage> page
+And there is unsaved data on the <CurrentPage> page
+!-- When they choose to <logout >	
+When I click the <Logout> button on the <CurrentPage> page
+!-- When they choose to <logout >	
+!-- Then message is displayed stating "Changes to your referral have not been saved. Do you want to continue without saving?"
+!-- Then the text "<failedMessage>" should be displayed on the manchester university page
+!-- Then the text "Changes to your referral have not been saved. Do you want to continue without saving?" should be displayed on the <CurrentPage page>
+Then the text "any updates which has not be saved will be lost" should be displayed on the <CurrentPage> page
+
+Examples:
+|Logout			|CurrentPage  | pageName|pageTitle|
+|-- Top right		|Booking referral  |Login|e-Referral Service|
+|-- Bottom left		|Booking referral |Login|e-Referral Service|
+|-- Top right		|Rebooking referral  |Login|e-Referral Service|
+|-- Bottom left		|Rebooking referral |Login|e-Referral Service| 
+|-- Top right		|Cancelling referral  |Login|e-Referral Service|
+|-- Bottom left		|Cancelling referral |Login|e-Referral Service|
+|-- Top right		|Deferring referral  |Login|e-Referral Service|
+|--Bottom left		|Deferring referral |Login|e-Referral Service|
+|--**  added by TG .....25/9/13 **
+|Top right		    |View All referrals|Login|e-Referral Service|
+|Bottom left		|View All referrals|Login|e-Referral Service|
+
+Scenario: NHSERS-112_S002_C1 | Patient confirms Log Out	while updating a referral
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1
+
+
+
+!--Pre-requisites
+!--NHSERS-112_S001_C1 | Patient Chooses to Log Out while updating referral
+
+!-- Given Story: NHSERS-112.Story
+GivenStories: patient_app/NHSERS-112/NHSERS-112_S001_C1_Patient_Chooses_to_Log_Out_while_updating_referral.story
+
+
+Given a patient user has selected to logout while updating a referral
+!-- When they confirm they want to continue without saving the changes to the referral
+When I click the Yes button button on the View All referrals page
+Then the patient is navigated to the login page
+!-- ### Following step does not work!!!
+!-- Then the text "You have logged out of Choose and Book" should be displayed on the Login page
+
+Examples:
+|Logout			|CurrentPage  | pageName|pageTitle|
+|-- Top right		|Booking referral  |Login|e-Referral Service|
+|-- Bottom left		|Booking referral |Login|e-Referral Service|
+|-- Top right		|Rebooking referral  |Login|e-Referral Service|
+|-- Bottom left		|Rebooking referral |Login|e-Referral Service| 
+|-- Top right		|Cancelling referral  |Login|e-Referral Service|
+|-- Bottom left		|Cancelling referral |Login|e-Referral Service|
+|-- Top right		|Deferring referral  |Login|e-Referral Service|
+|--Bottom left		|Deferring referral |Login|e-Referral Service|
+|--**  added by TG .....25/9/13 **
+|Top right		    |View All referrals|Login|e-Referral Service|
+|Bottom left		|View All referrals|Login|e-Referral Service|
+
+Scenario: NHSERS-112_S003_C1 | Patient Chooses to Log Out at the end of a process	
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1
+
+
+ 
+!--Pre-requisites
+!--NHSERS-111_S001_C1 | Patient Logs in with valid Details
+
+GivenStories: patient_app/NHSERS-112/NHSERS-112Given.story
+	
+Given a patient user is logged in NHSERS-112_S003
+!-- When I click the <ReferralButton> button on the <CurrentPage> page
+And they are at the end of the process on <CurrentPage>
+!-- And there is no unsaved data
+And there is no unsaved data on the <CurrentPage> page
+!-- When they choose to <logout >
+When I click the <Logout> button on the <CurrentPage> page
+!-- Then message is displayed stating "Are you sure you want to exit Choose and Book?"
+Then the text "Are you sure you want to log out now?" should be displayed on the <CurrentPage> page
+
+Examples:
+|Logout			|CurrentPage |   pageName|pageTitle|
+|-- Top right		|Booking Confirmation       |Login|e-Referral Service|
+|-- Bottom left		|Booking Confirmation       |Login|e-Referral Service|
+|-- Top right		|Cancel Appointment Summary |Login|e-Referral Service|
+|-- Bottom left		|Cancel Appointment Summary |Login|e-Referral Service|
+|-- Top right		|Cancel Referral            |Login|e-Referral Service|
+|-- Bottom left		|Cancel Referral            |Login|e-Referral Service|
+|-- Top right		|Deferred to Provider        |Login|e-Referral Service|
+|-- Bottom left		|Deferred to Provider        |Login|e-Referral Service|
+|   Top right		|View all Referrals |Login|e-Referral Service|
+|   Bottom left		|View all Referrals |Login|e-Referral Service|
+|-- Top right		|Booking or Rebook Failure |Login|e-Referral Service|
+|-- Bottom left		|Booking or Rebook Failure |Login|e-Referral Service|
+|-- Top right		|Cancel Appointment Failure |Login|e-Referral Service|
+|-- Bottom left		|Cancel Appointment Failure |Login|e-Referral Service|
+
+
+Scenario: NHSERS-112_S004_C1 | Patient Chooses to Log Out confirmation message
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1
+
+
+!--Pre-requisites
+!--NHSERS-111_S001_C1 | Patient Logs in with valid Details
+!--NHSERS-112_S003_C1 | Patient Chooses to Log Out at the end of a process
+
+!-- Given Story: NHSERS-111.Story, NHSERS-112.Story
+GivenStories: patient_app/NHSERS-112/NHSERS-112_S003_C1_Patient_Chooses_to_Log_Out_at_the_end_of_a_process.story
+
+Given a patient user is logged in NHSERS-112_S004_C1
+And they have selected log out
+!-- And they have no unsaved data
+when there is no unsaved data on the View All referrals page
+!-- When they confirm they want to log out
+When I click the Yes Button button on the View All referrals page
+Then the patient user is logged out
+And the login page will be shown
+!-- And message "You have logged out of Choose and Book" is displayed
+!-- Then the text "You have logged out of Choose and Book" should be displayed on the Login page
+Examples:
+|Logout			|CurrentPage |   pageName|pageTitle|
+|-- Top right		|Booking Confirmation       |Login|e-Referral Service|
+|-- Bottom left		|Booking Confirmation       |Login|e-Referral Service|
+|-- Top right		|Cancel Appointment Summary |Login|e-Referral Service|
+|-- Bottom left		|Cancel Appointment Summary |Login|e-Referral Service|
+|-- Top right		|Cancel Referral            |Login|e-Referral Service|
+|-- Bottom left		|Cancel Referral            |Login|e-Referral Service|
+|-- Top right		|Deferred to Provider        |Login|e-Referral Service|
+|-- Bottom left		|Deferred to Provider        |Login|e-Referral Service|
+|   Top right		|View all Referrals |Login|e-Referral Service|
+|   Bottom left		|View all Referrals |Login|e-Referral Service|
+|-- Top right		|Booking or Rebook Failure |Login|e-Referral Service|
+|-- Bottom left		|Booking or Rebook Failure |Login|e-Referral Service|
+|-- Top right		|Cancel Appointment Failure |Login|e-Referral Service|
+|-- Bottom left		|Cancel Appointment Failure |Login|e-Referral Service|
+
+
+Scenario: NHSERS-112_S005_C1 | Patient Chooses not to Log Out on confirmation message
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1
+
+ 
+
+!--Pre-requisites
+!--NHSERS-111_S001_C1 | Patient Logs in with valid Details
+!--NHSERS-112_S003_C1 | Patient Chooses to Log Out at the end of a process
+
+!-- Given Story: NHSERS-111.Story, NHSERS-112.Story
+!-- GivenStories: web_app/NHSERS-112Given.story, 
+GivenStories: patient_app/NHSERS-112/NHSERS-112_S003_C1_Patient_Chooses_to_Log_Out_at_the_end_of_a_process.story
+
+Given a patient user is logged in NHSERS-112_S005
+And they have selected log out
+!-- And they have no unsaved data
+And there is no unsaved data on the <CurrentPage> page
+!-- When they confirm  they don't want to log out
+When I click the No Button button on the <CurrentPage> page
+Then the patient is returned to <CurrentPage>
+
+Examples:
+|Logout				|CurrentPage 				|pageName|pageTitle|
+|-- Top right		|Booking Confirmation       |Login	|Choose and Book|
+|-- Bottom left		|Booking Confirmation       |Login|e-Referral Service|
+|-- Top right		|Cancel Appointment Summary |Login|e-Referral Service|
+|-- Bottom left		|Cancel Appointment Summary |Login|e-Referral Service|
+|-- Top right		|Cancel Referral            |Login|e-Referral Service|
+|-- Bottom left		|Cancel Referral            |Login|e-Referral Service|
+|-- Top right		|Deferred to Provider        |Login|e-Referral Service|
+|-- Bottom left		|Deferred to Provider        |Login|e-Referral Service|
+|   Top right		|View all Referrals 		|Login|e-Referral Service|
+|   Bottom left		|View all Referrals 		|Login|e-Referral Service|
+|-- Top right		|Booking or Rebook Failure |Login|e-Referral Service|
+|-- Bottom left		|Booking or Rebook Failure |Login|e-Referral Service|
+|-- Top right		|Cancel Appointment Failure |Login|e-Referral Service|
+|-- Bottom left		|Cancel Appointment Failure |Login|e-Referral Service|
+
+Scenario: NHSERS-112_S006_C1 | Patient Chooses to Log Out - unsaved changes are discarded
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1
+
+ 
+
+!--Pre-requisites
+!--NHSERS-112_S002_C1 | Patient confirms Log Out while updating a referral
+!--NHSERS-111_S001_C1 | Patient Logs in with valid Details
+
+!-- Given Story: NHSERS-112.Story, 
+!-- NHSERS-111.Story
+GivenStories: patient_app/NHSERS-112/NHSERS-112_S002_C1_Patient_confirms_Log_Out_while_updating_a_referral.story,
+patient_app/NHSERS-112/NHSERS-112Given.story
+ 
+
+Given a patient user has logged out while updating a referral
+And has chosen not to save changes
+When they log back in
+And access the page <CurrentPage>
+!-- Then changes made prior to logging out have not been saved 
+Then changes made prior to logging out have not been saved for the <CurrentPage>
+
+Examples:
+|Logout			|CurrentPage  | pageName|pageTitle|
+|-- Top right		|Booking referral  |Login|e-Referral Service|
+|-- Bottom left		|Booking referral |Login|e-Referral Service|
+|-- Top right		|Rebooking referral  |Login|e-Referral Service|
+|-- Bottom left		|Rebooking referral |Login|e-Referral Service| 
+|-- Top right		|Cancelling referral  |Login|e-Referral Service|
+|-- Bottom left		|Cancelling referral |Login|e-Referral Service|
+|-- Top right		|Deferring referral  |Login|e-Referral Service|
+|--Bottom left		|Deferring referral |Login|e-Referral Service|
+|--**  added by TG .....25/9/13 **
+|Top right		    |View All referrals|Login|e-Referral Service|
+|Bottom left		|View All referrals|Login|e-Referral Service|
+
+
+Scenario: NHSERS-112_S007_C1c | Patient with javascript disabled can change their mind after clicking logout and will lose any unsaved changes
+Meta:
+@author Tom Dickinson
+@sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1c
+@skip
+
+!--Pre-requisites
+!--Given Story: NHSE-RS-111_S001_C1 | Patient Logs in with valid Details	
+
+Given Story: NHSE-RS-111.Story
+	
+Given a patient user is logged in
+And have javascript disabled	
+And there is unsaved data on the <CurrentPage>
+When they choose to <logout>
+And confirm they don't want to log out
+Then the patient user is navigated back to <CurrentPage>	
+And all previously unsaved data will be lost
+		
+Examples:
+|Logout			|CurrentPage | pageName|pageTitle|
+|Top right		|Booking referral  |Login|e-Referral Service|
+|Bottom left		|Booking referral |Login|e-Referral Service|
+|Top right		|Rebooking referral |Login|e-Referral Service|
+|Bottom left		|Rebooking referral |Login|e-Referral Service|
+|Top right		|Cancelling referral |Login|e-Referral Service|
+|Bottom left		|Cancelling referral  |Login|e-Referral Service|
+|Top right		|Deferring referral  |Login|e-Referral Service|
+|Bottom left		|Deferring referral |Login|e-Referral Service| 
+
+
+Scenario: NHSERS-112_S008_C3 | Patient with javascript enabled can change their mind after clicking logout without losing any unsaved changes
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C3
+
+
+
+!--Pre-requisites
+!--NHSERS-111_S001_C1 | Patient Logs in with valid Details
+
+!-- GivenStory - NHSERS-111.Story
+GivenStories: patient_app/NHSERS-112/NHSERS-112Given.story
+
+!-- Given a patient user is logged in
+Given a patient user is logged in NHSERS-112_S008
+And have javascript enabled
+!-- I click the <ReferralButton> button on the <CurrentPage> page
+!-- And there is unsaved data on the <CurrentPage>
+And there is unsaved data on the <CurrentPage> page
+!-- When they choose to <logout>
+When I click the <Logout> button on the <CurrentPage> page
+!-- And confirm they don't want to log out
+And I click the No Button button on the <CurrentPage> page
+Then the patient user is navigated back to <CurrentPage>
+!-- Then the patient is returned to <CurrentPage>
+And all previously unsaved data will be retained on the <CurrentPage> page
+
+Examples:
+|Logout			|CurrentPage |    pageName|pageTitle|
+|-- Top right		|Booking referral  |Login|e-Referral Service|
+|-- Bottom left		|Booking referral |Login|e-Referral Service|
+|-- Top right		|Rebooking referral |Login|e-Referral Service|
+|-- Bottom left		|Rebooking referral |Login|e-Referral Service|
+|-- Top right		|Cancelling referral |Login|e-Referral Service|
+|-- Bottom left		|Cancelling referral |Login|e-Referral Service|
+|-- Top right		|Deferring referral  |Login|e-Referral Service|
+|-- Bottom left		|Deferring referral  |Login|e-Referral Service|
+|--**  added by TG .....01/10/13 **
+|   Top right		|View All referrals|Login|e-Referral Service|
+|   Bottom left		|View All referrals|Login|e-Referral Service|
+
+
+Scenario: NHSERS-112_S009_C1e | Patient unable to force browse back into active session after logging out
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1e
+@skip
+
+!--Pre-requisites
+!--NHSERS-112_S002_C1 | Patient confirms Log Out while updating a referral	
+
+Given Scenario NHSE-RS-112.Story
+
+!-- added this given
+Given a patient user session url
+Given a patient user has selected logout
+And are on the login page displaying the logged out confirmation page
+When they try to access a URL within Choose and Book that is only visible to logged in user ERS	
+Then they will not be able to access any previously secured page	
+
+
+Scenario: NHSERS-112_S0010_C1f  | Patient Chooses to Log Out - activity log updated
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C1f
+@skip
+!-- skipped as per original requirements
+!--Pre-requisites
+!--NHSERS-112_S002_C1 | Patient confirms Log Out while updating a referral
+
+Given Story: NHSERS-112.Story
+
+Given the patient User has clicked the Log Out button 
+When the patient User is directed back to the login page
+Then the activity Log will be updated with details regarding the Log Out operation
+And <SessionID> is logged
+And Activity <Activity> is logged 
+And Date <Date> is logged
+And Time <Time> is logged
+!-- Needs clarification from Dev/BAs as to what will be logged
+!-- Format of Activity Log is YYYY-MM-DD HH:mm:ss,SSS [ACTIVITY] SessionID = "XXXXXXXXXX" UBRN = "XXXXXXXXXXXXX" Reason Code = "xxxxxxxxxxxx"
+!-- <SessionID> = XXXXXXXXXXX
+!-- <Activity> is LOGOUT
+!-- <Date> format is YYYY-MM-DD
+!-- <Time> format is HH:mm:ss,SSS
+
+Examples:
+|SessionID	|Activity	|Date		|Time  	|	pageName|pageTitle|		
+|SessionID x	|LOGOUT 	|Date x		|Time x	|Login|e-Referral Service|	
+	
+Scenario: NHSERS-112_S011_C2 | Patient can logout of active session by closing their browser
+Meta:
+@author Tom Dickinson
+@Sprint 1
+@testphase Core 
+@developedFromJIRA 112 20/08/13 4.35PM
+@lastReviewed 29/08/13 9.16AM
+@AcceptanceCriteria C2
+@skip
+
+
+!--Pre-requisites
+!--NHSERS-111_S001_C1 | Patient Logs in with valid Details	
+
+Given a patient user is logged in NHSERS-112_S011
+When they choose to close their browser on the Referral Details page
+Then their session will be ended
+Examples:
+pageName|pageTitle|
+|Login|e-Referral Service|

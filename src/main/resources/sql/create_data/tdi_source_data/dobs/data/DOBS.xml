@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+	<Include filename="dobsschema.xml" />
+	<Include filename="original//ERS-Common-VarDef/VarDef.xml" />
+	<Include filename="original//organisations/abstract_organisation.xml" />
+	<Include filename="original//organisations/organisation.xml" />
+	<Include filename="original//organisations/organisation_site.xml" />
+	<Include filename="original//organisations/abstract_provider_clinical_system.xml" />
+	<Include filename="original//organisations/professional_user.xml" />
+	<Include filename="original//organisations/specialty.xml" />
+	<Include filename="original//organisations/clinic_type.xml" />
+	<Include filename="original//organisations/service_provider_workgroup.xml" />
+	<Include filename="original//direct_business_services/business_service.xml" />
+	<Include filename="original//organisations/organisation_provider_clinical_systems.xml" />
+	<Include filename="original//organisations/system_compliant_provider_clinical_system.xml" />
+	<Include filename="original//direct_business_services/business_service_supported_request_types.xml" />
+	<Include filename="original//organisations/abstract_organisation_organisation_roles.xml" />
+	<Include filename="original//direct_business_services/directly_bookable_service.xml" />
+	<Include filename="original//organisations/specialty_clinic_types.xml" />
+	<Include filename="original//direct_business_services/business_service_allocated_users.xml" />
+	<Include filename="original//direct_business_services/business_service_clinic_types.xml" />
+	<Include filename="original//directly_bookable/directly_bookable_service_slot_protection_days.xml" />
+	<Include filename="original//organisations/organisation_organisation_sites.xml" />
+	<Include filename="original//directly_bookable/directly_bookable_service_polling_days.xml" />
+	<Include filename="original//direct_business_services/business_service_accepted_request_priorities.xml" />
+	<Include filename="original//organisations/system_non_compliant_provider_clinical_system.xml" />
+	<Include filename="original//direct_business_services/indirectly_bookable_service.xml" />
+</testdata>

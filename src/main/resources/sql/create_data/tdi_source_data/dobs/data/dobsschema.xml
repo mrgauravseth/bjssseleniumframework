@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<dobsschema>
+
+	<ValueGenerator name="ASOG_ID" type="postgresseq" seqname="business_service_seq" />  <!-- abstract organisation -->
+	<ValueGenerator name="OGSI_ID" type="postgresseq" seqname="business_service_seq" />  <!-- organisation_site -->		
+	<ValueGenerator name="APCS_ID" type="postgresseq" seqname="business_service_seq" />  <!-- abstract provider clinical system -->	
+	<ValueGenerator name="PRUS_ID" type="postgresseq" seqname="business_service_seq" /> <!-- professional user -->	
+	<ValueGenerator name="SPEC_ID" type="postgresseq" seqname="business_service_seq" /> <!-- specialty-->	
+	<ValueGenerator name="CLTY_ID" type="postgresseq" seqname="business_service_seq" />    <!-- clinic type -->		
+	<ValueGenerator name="SPWG_ID" type="postgresseq" seqname="business_service_seq" /> <!-- service provider workshop -->
+	<ValueGenerator name="BUSS_ID" type="postgresseq" seqname="business_service_seq" /> <!-- service provider workshop -->
+	
+	
+
+	<TableDef name="abstract_organisation">
+		<ColumnDef name="id" genType="ASOG_ID"/>
+		<ColumnDef name="created_by" default="ers" />
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="last_modified_by"/>
+		<ColumnDef name="last_modified"/>
+		<ColumnDef name="version" default="1" />
+		<ColumnDef name="close_date" />
+		<ColumnDef name="internet_email_address" />
+		<ColumnDef name="main_fax_number"/>
+		<ColumnDef name="main_switchboard_telephone_number" />
+		<ColumnDef name="nacs_organisation_code" />
+		<ColumnDef name="name" />
+		<ColumnDef name="open_date" />
+		<ColumnDef name="country" />
+		<ColumnDef name="postal_organisation_name" />
+		<ColumnDef name="postcode" />
+		<ColumnDef name="web_page" />
+		<ColumnDef name="business_id" />
+        <ColumnDef name="organisation_type" />
+	</TableDef>
+
+	<TableDef name="abstract_organisation_organisation_roles">	
+		<ColumnDef name="abstract_organisation_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>		
+		<ColumnDef name="organisation_roles" />
+	</TableDef>
+	
+	<TableDef name="organisation">
+		<ColumnDef name="id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>
+		<ColumnDef name="parent_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>	
+	</TableDef>
+	
+	<TableDef name="organisation_site">
+		<ColumnDef name="advocacy"/>
+		<ColumnDef name="interpreter"/>
+		<ColumnDef name="transport"/>
+		<ColumnDef name="id" >			
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>	
+	</TableDef>
+	
+	<TableDef name="organisation_organisation_sites">
+		<ColumnDef name="organisation_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>
+		<ColumnDef name="organisation_sites_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>
+	</TableDef>	
+	
+	<TableDef name="abstract_provider_clinical_system">
+		<ColumnDef name="id" genType="APCS_ID"/>
+		<ColumnDef name="created_by" default="ers" />
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="last_modified_by"/>
+		<ColumnDef name="last_modified"/>
+		<ColumnDef name="version" default="1" />
+	</TableDef>
+	
+	<TableDef name="organisation_provider_clinical_systems">
+		<ColumnDef name="organisation_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>
+		<ColumnDef name="provider_clinical_systems_id">
+			<XRefLookup toTable="abstract_provider_clinical_system" toCol="id" byRef="TAG" />
+		</ColumnDef>	
+	</TableDef>	
+	
+	<TableDef name="system_compliant_provider_clinical_system">
+		<ColumnDef name="provider_system_endpoint"/>
+		<ColumnDef name="id">
+			<XRefLookup toTable="abstract_provider_clinical_system" toCol="id" byRef="TAG" />
+		</ColumnDef>		
+	</TableDef>
+	
+	<TableDef name="system_non_compliant_provider_clinical_system">
+		<ColumnDef name="id">
+			<XRefLookup toTable="abstract_provider_clinical_system" toCol="id" byRef="TAG" />
+		</ColumnDef>				
+	</TableDef>
+
+	<TableDef name="professional_user">
+		<ColumnDef name="id" genType="PRUS_ID"/>
+		<ColumnDef name="created_by" default="ers" />
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="last_modified_by"/>
+		<ColumnDef name="last_modified"/>
+		<ColumnDef name="version" default="1"/>
+	</TableDef>	
+	
+	<TableDef name="specialty">
+		<ColumnDef name="id" genType="SPEC_ID"/>
+		<ColumnDef name="created_by" default="ers" />
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="last_modified_by"/>
+		<ColumnDef name="last_modified"/>
+		<ColumnDef name="version" default="1"/>
+		<ColumnDef name="business_id"/>
+		<ColumnDef name="effective_end_date"/>
+		<ColumnDef name="effective_start_date"/>
+		<ColumnDef name="name"/>
+		<ColumnDef name="two_week_wait" default="true" />	
+	</TableDef>
+
+	<TableDef name="clinic_type">
+		<ColumnDef name="id" genType="CLTY_ID"/>
+		<ColumnDef name="created_by" default="ers" />
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />		
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="last_modified_by"/>
+		<ColumnDef name="last_modified"/>
+		<ColumnDef name="version" default="1"/>
+		<ColumnDef name="business_id"/>
+		<ColumnDef name="effective_end_date"/>
+		<ColumnDef name="effective_start_date"/>
+		<ColumnDef name="name"/>
+	</TableDef>	
+	
+	<TableDef name="specialty_clinic_types">
+		<ColumnDef name="specialty_id">
+			<XRefLookup toTable="specialty" toCol="id" byRef="TAG" />
+		</ColumnDef>	
+		<ColumnDef name="clinic_types_id">
+			<XRefLookup toTable="clinic_type" toCol="id" byRef="TAG" />
+		</ColumnDef>	
+	</TableDef>
+
+	<TableDef name="service_provider_workgroup">
+		<ColumnDef name="id" genType="SPWG_ID"/>
+		<ColumnDef name="created_by" default="ers" />
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="last_modified_by"/>
+		<ColumnDef name="last_modified"/>
+		<ColumnDef name="version" default="1"/>
+		<ColumnDef name="name" />
+		<ColumnDef name="organisation_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>	
+	</TableDef>
+	
+	<TableDef name="business_service">
+		<ColumnDef name="id" />
+		<ColumnDef name="created_by" default="ers" />
+		<ColumnDef name="created" default="01-JAN-09 01.00.00.00" />		
+		<ColumnDef name="deleted"/>
+		<ColumnDef name="last_modified_by"/>
+		<ColumnDef name="last_modified"/>
+		<ColumnDef name="version" default="1"/>
+		<ColumnDef name="age_range_treated_from_unit"/>
+		<ColumnDef name="age_range_treated_from_value"/>
+		<ColumnDef name="age_range_treated_to_unit"/>
+		<ColumnDef name="age_range_treated_to_value"/>
+		<ColumnDef name="appointment_type"/>
+		<ColumnDef name="clinical_information_requirement"/>
+		<ColumnDef name="comments" />
+		<ColumnDef name="commissioning_type" />		
+		<ColumnDef name="booking_telephone_number"/>
+		<ColumnDef name="address_line"/>
+		<ColumnDef name="post_code"/>
+		<ColumnDef name="contact_email_address"/>
+		<ColumnDef name="contact_name"/>
+		<ColumnDef name="contact_telephone_number"/>
+		<ColumnDef name="fax_number"/>
+		<ColumnDef name="hours_of_operation"/>
+		<ColumnDef name="text_telephone_number"/>
+		<ColumnDef name="end_date"/>
+		<ColumnDef name="start_date" />
+		<ColumnDef name="transition_date" />		
+		<ColumnDef name="genders_treated"/>
+		<ColumnDef name="instructions"/>
+		<ColumnDef name="name"/>
+		<ColumnDef name="published_status"/>
+		<ColumnDef name="referrer_alert_message"/>
+		<ColumnDef name="administrative_requirements"/>
+		<ColumnDef name="alternative_services"/>
+		<ColumnDef name="booking_details"/>
+		<ColumnDef name="conditions_treated"/>
+		<ColumnDef name="exclusions"/>
+		<ColumnDef name="notes" />
+		<ColumnDef name="procedures_performed" />		
+		<ColumnDef name="suggested_investigations"/>		
+		<ColumnDef name="locating_organisation_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>		
+		<ColumnDef name="providing_organisation_id">
+			<XRefLookup toTable="abstract_organisation" toCol="id" byRef="TAG" />
+		</ColumnDef>				
+		<ColumnDef name="specialty_id">
+			<XRefLookup toTable="specialty" toCol="id" byRef="TAG" />
+		</ColumnDef>				
+		<ColumnDef name="previously_published"/>
+		<ColumnDef name="end_date_version"/>
+		<ColumnDef name="unpublished_count"/>
+		<ColumnDef name="unpublished_date"/>				
+	</TableDef>	
+	
+	<TableDef name="business_service_accepted_request_priorities">
+		<ColumnDef name="business_service_id"/>	
+		<ColumnDef name="accepted_request_priorities" />
+	</TableDef>	
+	
+	
+	<TableDef name="business_service_allocated_users">
+		<ColumnDef name="business_service_id" />
+		<ColumnDef name="allocated_users_id">
+			<XRefLookup toTable="professional_user" toCol="id" byRef="TAG" />
+		</ColumnDef>	
+	</TableDef>		
+
+	
+	<TableDef name="business_service_clinic_types">
+		<ColumnDef name="business_service_id" />
+		<ColumnDef name="clinic_types_id">
+			<XRefLookup toTable="clinic_type" toCol="id" byRef="TAG" />
+		</ColumnDef>		
+	</TableDef>		
+	
+	
+	<TableDef name="business_service_supported_request_types">
+		<ColumnDef name="business_service_id" />
+		<ColumnDef name="supported_request_types"/>
+	</TableDef>		
+
+	
+	<TableDef name="business_service_workgroups">
+		<ColumnDef name="business_service_id" />
+		<ColumnDef name="workgroups_id">
+			<XRefLookup toTable="service_provider_workgroup" toCol="id" byRef="TAG" />
+		</ColumnDef>			
+	</TableDef>		
+			
+	
+	<TableDef name="directly_bookable_service">
+		<ColumnDef name="frequency_type"/>
+		<ColumnDef name="polling_interval"/>
+		<ColumnDef name="polling_range"/>
+		<ColumnDef name="polling_time" />
+		<ColumnDef name="slot_reservation_period"/>
+		<ColumnDef name="exclude_saturday_indicator"/>
+		<ColumnDef name="exclude_sunday_indicator"/>
+		<ColumnDef name="freeze_time"/>
+		<ColumnDef name="id" />	
+		<ColumnDef name="system_compliant_provider_clinical_system_id">
+			<XRefLookup toTable="abstract_provider_clinical_system" toCol="id" byRef="TAG" />
+		</ColumnDef>					
+	</TableDef>		
+
+	
+	<TableDef name="directly_bookable_service_polling_days">
+		<ColumnDef name="directly_bookable_service_id" />
+		<ColumnDef name="polling_days"/>
+	</TableDef>			
+		
+	<TableDef name="directly_bookable_service_slot_protection_days">
+		<ColumnDef name="directly_bookable_service_id" />
+		<ColumnDef name="slot_protection_days"/>
+		<ColumnDef name="request_priority"/>		
+	</TableDef>
+	
+	<TableDef name="indirectly_bookable_service">
+		<ColumnDef name="id" />
+	</TableDef>	
+	
+</dobsschema>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_appointment_slot DDF_tag="APPS113-011" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-011" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-011" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+  
+  <ers_appointment_slot DDF_tag="APPS113-012" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-012" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-012" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+  
+  <ers_appointment_slot DDF_tag="APPS113-013" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_MAXLEN_SERVICE}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-013" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-013" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-014" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_HYPHEN_SERVICE}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-014" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-014" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-015" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_APOS_SERVICE}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-015" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-015" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-016" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SPEC_SERVICE}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-016" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-016" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-081" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-081" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-081" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+  
+  <ers_appointment_slot DDF_tag="APPS113-082" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+   <ers_appointment_slot DDF_tag="APPS113-1-082" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-082" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+ 
+  <ers_appointment_slot DDF_tag="APPS113-091" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-091" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-091" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+  
+  <ers_appointment_slot DDF_tag="APPS113-092" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-092" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-092" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-101" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-101" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-101" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+  
+  <ers_appointment_slot DDF_tag="APPS113-102" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-102" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-102" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+  
+  <ers_appointment_slot DDF_tag="APPS113-111" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-111" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-111" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-112" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-112" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-112" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-121" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-121" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-121" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-122" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-1-122" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+
+  <ers_appointment_slot DDF_tag="APPS113-2-122" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  date="TO_TIMESTAMP('23-JUN-2014 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentbooking_id="null"
+  service_id="DDF_tag:{C_DB_AVAIL_F2F_SERVICE1}"/>
+  
+</TDITestFile0>

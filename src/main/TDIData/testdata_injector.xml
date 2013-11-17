@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<testdata>
+
+	<Include filename="ersschema.xml" />
+	<Include filename="commonData.xml" />
+	<Include filename="testdata111.xml" />
+	<Include filename="testdata113.xml" />
+	<Include filename="testdata419.xml" />
+	<Include filename="testdata114\testdata114.xml" />
+	<Include filename="testdata117\testdata117.xml" />
+	<Include filename="testdata226\testdata226.xml" />
+	
+</testdata>
+    

@@ -1,0 +1,92 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Parallel Browser Test Run" parallel="tests"
+	thread-count="2">
+
+	<test name="firefox-remote1">
+		<parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml" />
+		<parameter name="threadCount" value="1" />
+        <parameter name="setNum" value="1" />
+        <parameter name="totalSets" value="2" />        
+		<classes>
+			<class name="uk.nhs.ers.techtest.TestNGStories" />
+		</classes>
+	</test>
+	
+	<test name="firefox-remote2">
+		<parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml" />
+		<parameter name="threadCount" value="1" />
+		<parameter name="setNum" value="2" />
+ 		<parameter name="totalSets" value="2" />
+		<classes>
+			<class name="uk.nhs.ers.techtest.TestNGStories" />
+		</classes>
+	</test>
+	
+<!-- 	<test name="firefox-remote3"> -->
+<!-- 		<parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml" /> -->
+<!-- 		<parameter name="threadCount" value="5" /> -->
+<!-- 		<parameter name="setNum" value="3" /> -->
+<!--  		<parameter name="totalSets" value="4" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="uk.nhs.ers.techtest.TestNGStories" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="firefox-remote4"> -->
+<!-- 		<parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml" /> -->
+<!-- 		<parameter name="threadCount" value="5" /> -->
+<!-- 		<parameter name="setNum" value="4" /> -->
+<!--  		<parameter name="totalSets" value="4" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="uk.nhs.ers.techtest.TestNGStories" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+	
+<!-- 	<test name="firefox-remote2"> -->
+<!-- 		<parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml" /> -->
+<!-- 		<parameter name="threadCount" value="2" /> -->
+<!-- 		<parameter name="setNum" value="2" /> -->
+<!-- 		<parameter name="totalSets" value="2" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="uk.nhs.ers.techtest.TestNGStories" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="firefox-remote3"> -->
+<!-- 		<parameter name="testContext" value="uk/nhs/ers/config/remote-firefox.xml" /> -->
+<!-- 		<parameter name="threadCount" value="3" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="uk.nhs.ers.techtest.TestNGStories" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="chrome-remote1"> -->
+<!-- 		<parameter name="testContext" value="uk/nhs/ers/config/remote-chrome.xml" /> -->
+<!-- 		<parameter name="threadCount" value="5" /> -->
+<!-- 		<parameter name="setNum" value="1" /> -->
+<!--  		<parameter name="totalSets" value="2" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="uk.nhs.ers.techtest.TestNGStories" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="chrome-remote2"> -->
+<!-- 		<parameter name="testContext" value="uk/nhs/ers/config/remote-chrome.xml" /> -->
+<!-- 		<parameter name="threadCount" value="5" /> -->
+<!-- 		<parameter name="setNum" value="2" /> -->
+<!--  		<parameter name="totalSets" value="2" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="uk.nhs.ers.techtest.TestNGStories" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>	 -->
+
+<!-- 	<test name="chrome-remote">  -->
+<!-- 		<parameter name="testContext" value="uk/nhs/ers/config/remote-chrome.xml" />  -->
+<!-- 		<parameter name="threadCount" value="6" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="uk.nhs.ers.techtest.TestNGStories" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+</suite>

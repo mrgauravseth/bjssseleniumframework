@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 112-001 -->
+	<ers_additional_requirement_request DDF_tag="ADDR112-001" created="LOCALTIMESTAMP" appoint_req_id="DDF_tag:APPR112-001" additionalapprequirementtype="INTERPRETER" createdby="test" version="0"  />
+	<!-- ERS Data Set 112-002 -->
+	<ers_additional_requirement_request DDF_tag="ADDR112-002" created="LOCALTIMESTAMP" appoint_req_id="DDF_tag:APPR112-002" additionalapprequirementtype="TRANSPORT" createdby="test" version="0"  />
+</TDITestFile0>

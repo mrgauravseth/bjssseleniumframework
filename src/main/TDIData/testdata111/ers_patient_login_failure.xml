@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_patient_login_failure DDF_tag="PNTF111-0021" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  failuretime="TO_TIMESTAMP('23-JUN-2013 10:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentrequest_id="DDF_tag:APPR111-002"/>
+
+  <ers_patient_login_failure DDF_tag="PNTF111-0022" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  failuretime="TO_TIMESTAMP('23-JUN-2013 11:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentrequest_id="DDF_tag:APPR111-002"/>
+
+  <ers_patient_login_failure DDF_tag="PNTF111-0023" created="LOCALTIMESTAMP" createdby="test" version="0" 
+  failuretime="TO_TIMESTAMP('23-JUN-2013 12:00:00', 'dd-mon-yyyy HH24:mi:ss')"
+  appointmentrequest_id="DDF_tag:APPR111-002"/>
+
+  </TDITestFile0>

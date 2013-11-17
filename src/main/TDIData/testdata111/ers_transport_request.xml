@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+
+  <ers_transport_request DDF_tag="TRAN111-001"/>
+  <ers_transport_request DDF_tag="TRAN111-002"/>
+  <ers_transport_request DDF_tag="TRAN111-003"/>
+  <ers_transport_request DDF_tag="TRAN111-004"/>
+  <ers_transport_request DDF_tag="TRAN111-005"/>
+  <ers_transport_request DDF_tag="TRAN111-006"/>
+  <ers_transport_request DDF_tag="TRAN111-007"/>
+  
+</TDITestFile0>

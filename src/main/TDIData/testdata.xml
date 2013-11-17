@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<testdata>
+
+	<Include filename="/media/sf_shared/tdi/data/base/ersschema.xml" />
+
+	<Include filename="/media/sf_shared/tdi/data/base/ERS.xml" />
+
+</testdata>

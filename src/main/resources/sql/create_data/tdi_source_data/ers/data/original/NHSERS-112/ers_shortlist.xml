@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 112-001 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE1}" appointment_request_id="DDF_tag:APPR112-001"  />
+	<!-- ERS Data Set 112-002 -->
+	<ers_shortlist service_id="{C_DB_AVAIL_F2F_SERVICE2}" appointment_request_id="DDF_tag:APPR112-002"  />
+</TDITestFile0>

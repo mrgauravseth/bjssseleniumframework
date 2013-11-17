@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDITestFile0>
+	<!-- ERS Data Set 112-001 -->
+	<ers_appointment_booking DDF_tag="APPB112-001" appointmentbookingstatus="BOOKED_INITIAL_REFERRAL" created="LOCALTIMESTAMP" createdby="test" appointmentrequest_id="DDF_tag:APPR112-001" appointmentslot_id="DDF_tag:APPS112-001" version="0"  />
+	<!-- ERS Data Set 112-002 -->
+	<ers_appointment_booking DDF_tag="APPB112-002" appointmentbookingstatus="BOOKED_INITIAL_REFERRAL" created="LOCALTIMESTAMP" createdby="test" appointmentrequest_id="DDF_tag:APPR112-002" appointmentslot_id="DDF_tag:APPS112-002" version="0"  />
+</TDITestFile0>
